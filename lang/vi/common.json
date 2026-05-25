@@ -55,6 +55,10 @@
     "workInProgress": "Chúng tôi đang làm việc chăm chỉ để mang đến các hoạt động toán học vui nhộn. Hãy quay lại sớm nhé!",
     "backHome": "Về Trang chủ"
   },
+  "zoom": {
+    "decrease": "Thu nhỏ",
+    "increase": "Phóng to"
+  },
   "feedback": {
     "correct": "Giỏi lắm!",
     "tryAgain": "Thử lại nhé!",
@@ -102,6 +106,8 @@
     "numbers": "Số",
     "groups": "Nhóm",
     "clickToRemove": "Nhấn để xóa",
+    "listenNarration": "Nghe",
+    "stopNarration": "Dừng",
     "vs": "vs",
     "vsUpper": "VS"
   },

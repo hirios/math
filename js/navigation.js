@@ -169,11 +169,67 @@ function initKeyboardNavigation() {
   });
 }
 
+/**
+ * Initialize global zoom controls
+ */
+function initGlobalZoomControls() {
+  let controls = document.querySelector('.global-zoom-controls');
+
+  if (!controls) {
+    controls = document.createElement('div');
+    controls.className = 'global-zoom-controls';
+    controls.setAttribute('aria-live', 'polite');
+    controls.innerHTML = `
+      <button class="global-zoom-btn" type="button" data-zoom-action="out" data-i18n-title="zoom.decrease">−</button>
+      <button class="global-zoom-btn" type="button" data-zoom-action="in" data-i18n-title="zoom.increase">+</button>
+    `;
+    document.body.appendChild(controls);
+  }
+
+  const zoomButtons = controls.querySelectorAll('[data-zoom-action]');
+  const storageKey = 'meadow-math-global-zoom';
+  const minZoom = 0.8;
+  const maxZoom = 1.4;
+  const zoomStep = 0.1;
+
+  function readSavedZoom() {
+    const saved = Number(localStorage.getItem(storageKey));
+    if (!Number.isFinite(saved)) return 1;
+    return Math.min(maxZoom, Math.max(minZoom, saved));
+  }
+
+  let currentZoom = readSavedZoom();
+
+  function applyZoom() {
+    document.body.style.zoom = String(currentZoom);
+
+    zoomButtons.forEach(button => {
+      const action = button.getAttribute('data-zoom-action');
+      button.disabled = (action === 'out' && currentZoom <= minZoom) ||
+        (action === 'in' && currentZoom >= maxZoom);
+    });
+
+    localStorage.setItem(storageKey, String(currentZoom));
+  }
+
+  zoomButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const direction = button.getAttribute('data-zoom-action') === 'in' ? 1 : -1;
+      currentZoom = Math.round((currentZoom + direction * zoomStep) * 10) / 10;
+      currentZoom = Math.min(maxZoom, Math.max(minZoom, currentZoom));
+      applyZoom();
+    });
+  });
+
+  applyZoom();
+}
+
 // Initialize when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
   initTabs();
   initKeyboardNavigation();
+  initGlobalZoomControls();
 });
 
 // Export functions for use in other scripts
@@ -181,6 +237,7 @@ if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     initNavigation,
     initTabs,
+    initGlobalZoomControls,
     setActiveNavItem,
     smoothScrollTo
   };

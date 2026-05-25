@@ -55,6 +55,10 @@
     "workInProgress": "Estamos trabalhando para trazer atividades matemáticas divertidas. Volte em breve!",
     "backHome": "Voltar ao Início"
   },
+  "zoom": {
+    "decrease": "Diminuir zoom",
+    "increase": "Aumentar zoom"
+  },
   "feedback": {
     "correct": "Muito bem!",
     "tryAgain": "Tente novamente!",
@@ -102,6 +106,8 @@
     "numbers": "Números",
     "groups": "Grupos",
     "clickToRemove": "Clique para remover",
+    "listenNarration": "Ouvir",
+    "stopNarration": "Parar",
     "vs": "vs",
     "vsUpper": "VS"
   },

@@ -55,6 +55,10 @@
     "workInProgress": "We're working hard to bring you fun math activities. Check back soon!",
     "backHome": "Back to Home"
   },
+  "zoom": {
+    "decrease": "Zoom out",
+    "increase": "Zoom in"
+  },
   "feedback": {
     "correct": "Great job!",
     "tryAgain": "Try again!",
@@ -102,6 +106,8 @@
     "numbers": "Numbers",
     "groups": "Groups",
     "clickToRemove": "Click to remove",
+    "listenNarration": "Listen",
+    "stopNarration": "Stop",
     "vs": "vs",
     "vsUpper": "VS"
   },

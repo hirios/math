@@ -2,7 +2,7 @@
 
 /**
  * Play sound effect (if sounds are enabled)
- * @param {string} soundName - Name of sound file (without extension)
+ * @param {string} soundName - Name of sound preset
  */
 function playSound(soundName) {
   // Check if sounds are enabled in settings
@@ -10,16 +10,182 @@ function playSound(soundName) {
   if (!settings.soundEnabled) return;
 
   try {
-    const audio = new Audio(`/assets/sounds/${soundName}.mp3`);
-    audio.volume = 0.3; // Gentle volume for kids
-    audio.play().catch(e => {
-      // Handle autoplay restrictions gracefully
-      console.log('Audio playback prevented:', e);
-    });
+    playGeneratedSound(soundName);
   } catch (e) {
     console.error('Error playing sound:', e);
   }
 }
+
+let meadowAudioContext = null;
+
+function getMeadowAudioContext() {
+  const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContextClass) return null;
+
+  if (!meadowAudioContext) {
+    meadowAudioContext = new AudioContextClass();
+  }
+
+  if (meadowAudioContext.state === 'suspended') {
+    meadowAudioContext.resume().catch(() => {});
+  }
+
+  return meadowAudioContext;
+}
+
+function playTone(context, { frequency, start, duration, type = 'sine', volume = 0.18 }) {
+  const oscillator = context.createOscillator();
+  const gain = context.createGain();
+  const startTime = context.currentTime + start;
+  const endTime = startTime + duration;
+
+  oscillator.type = type;
+  oscillator.frequency.setValueAtTime(frequency, startTime);
+  gain.gain.setValueAtTime(0.001, startTime);
+  gain.gain.exponentialRampToValueAtTime(volume, startTime + 0.015);
+  gain.gain.exponentialRampToValueAtTime(0.001, endTime);
+
+  oscillator.connect(gain);
+  gain.connect(context.destination);
+  oscillator.start(startTime);
+  oscillator.stop(endTime + 0.02);
+}
+
+function playGeneratedSound(soundName) {
+  const context = getMeadowAudioContext();
+  if (!context) return;
+
+  const presets = {
+    tap: [
+      { frequency: 660, start: 0, duration: 0.055, type: 'triangle', volume: 0.12 }
+    ],
+    success: [
+      { frequency: 523.25, start: 0, duration: 0.11, type: 'sine', volume: 0.12 },
+      { frequency: 659.25, start: 0.09, duration: 0.12, type: 'sine', volume: 0.14 },
+      { frequency: 783.99, start: 0.19, duration: 0.18, type: 'sine', volume: 0.16 }
+    ],
+    error: [
+      { frequency: 220, start: 0, duration: 0.14, type: 'triangle', volume: 0.13 },
+      { frequency: 174.61, start: 0.13, duration: 0.18, type: 'triangle', volume: 0.12 }
+    ]
+  };
+
+  (presets[soundName] || presets.tap).forEach(tone => playTone(context, tone));
+}
+
+function getSpeechLanguage() {
+  const lang = window.i18n?.currentLang || document.documentElement.lang || 'en';
+  if (lang.startsWith('pt')) return 'pt-BR';
+  if (lang.startsWith('vi')) return 'vi-VN';
+  return 'en-US';
+}
+
+function getPreferredVoice(lang) {
+  if (!window.speechSynthesis) return null;
+
+  const voices = window.speechSynthesis.getVoices();
+  return voices.find(voice => voice.lang === lang) ||
+    voices.find(voice => voice.lang && voice.lang.toLowerCase().startsWith(lang.slice(0, 2).toLowerCase())) ||
+    null;
+}
+
+function cleanSpeechText(text) {
+  return text
+    .replace(/[\u{1F000}-\u{1FAFF}]/gu, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function speakText(text) {
+  if (!window.speechSynthesis) return false;
+
+  const cleanedText = cleanSpeechText(text);
+  if (!cleanedText) return false;
+
+  window.speechSynthesis.cancel();
+
+  const lang = getSpeechLanguage();
+  const utterance = new SpeechSynthesisUtterance(cleanedText);
+  utterance.lang = lang;
+  utterance.rate = 0.9;
+  utterance.pitch = 1.05;
+
+  const voice = getPreferredVoice(lang);
+  if (voice) {
+    utterance.voice = voice;
+  }
+
+  window.speechSynthesis.speak(utterance);
+  return utterance;
+}
+
+function getActivityNarrationText() {
+  const title = document.querySelector('.activity-title')?.textContent || '';
+  const instruction = document.querySelector('.activity-instruction')?.textContent || '';
+  return [title, instruction].map(cleanSpeechText).filter(Boolean).join('. ');
+}
+
+function updateNarrationButton(button, isSpeaking) {
+  const icon = button.querySelector('.activity-audio-icon');
+  const label = button.querySelector('.activity-audio-label');
+  const key = isSpeaking ? 'activity.stopNarration' : 'activity.listenNarration';
+  const fallback = isSpeaking ? 'Stop' : 'Listen';
+  const text = window.i18n?.t(key);
+
+  if (icon) icon.textContent = isSpeaking ? '■' : '▶';
+  if (label) label.textContent = text && text !== key ? text : fallback;
+  button.classList.toggle('is-speaking', isSpeaking);
+  button.setAttribute('aria-pressed', String(isSpeaking));
+}
+
+function initActivityNarration() {
+  if (!window.speechSynthesis || document.querySelector('.activity-audio-btn')) return;
+
+  const header = document.querySelector('.activity-header');
+  const instruction = document.querySelector('.activity-instruction');
+  if (!header || !instruction) return;
+
+  const controls = document.createElement('div');
+  controls.className = 'activity-audio-controls';
+
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'activity-audio-btn';
+  button.setAttribute('aria-pressed', 'false');
+  button.innerHTML = '<span class="activity-audio-icon" aria-hidden="true">▶</span><span class="activity-audio-label">Listen</span>';
+
+  controls.appendChild(button);
+  instruction.insertAdjacentElement('afterend', controls);
+
+  button.addEventListener('click', () => {
+    if (window.speechSynthesis.speaking) {
+      window.speechSynthesis.cancel();
+      updateNarrationButton(button, false);
+      return;
+    }
+
+    const utterance = speakText(getActivityNarrationText());
+    if (!utterance) return;
+
+    updateNarrationButton(button, true);
+    utterance.onend = () => updateNarrationButton(button, false);
+    utterance.onerror = () => updateNarrationButton(button, false);
+  });
+
+  document.addEventListener('languageChanged', () => {
+    window.speechSynthesis.cancel();
+    updateNarrationButton(button, false);
+  });
+
+  updateNarrationButton(button, false);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    const ready = window.i18n?.ready ? window.i18n.ready() : Promise.resolve();
+    ready.then(initActivityNarration);
+  }, 0);
+});
 
 /**
  * Create sparkle effect at a specific position
@@ -264,6 +430,8 @@ function showSuccessMessage(message, container = document.body) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     playSound,
+    speakText,
+    initActivityNarration,
     createSparkle,
     createFloatingHearts,
     createStarBurst,

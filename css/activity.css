@@ -70,6 +70,50 @@
   margin: 0 auto;
 }
 
+.activity-audio-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-4);
+}
+
+.activity-audio-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: var(--space-2) var(--space-4);
+  border: 2px solid #bfdbfe;
+  border-radius: var(--radius-lg);
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-family: var(--font-secondary);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  cursor: pointer;
+  box-shadow: 0 3px 0 #93c5fd;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.activity-audio-btn:hover {
+  background: #dbeafe;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 0 #93c5fd;
+}
+
+.activity-audio-btn:active,
+.activity-audio-btn.is-speaking {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 #93c5fd;
+}
+
+.activity-audio-icon {
+  width: 1em;
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 1;
+}
+
 /* ========== ACTIVITY AREA ========== */
 
 .activity-area {
