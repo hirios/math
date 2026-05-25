@@ -1,0 +1,176 @@
+{
+  "siteName": "Meadow Math",
+  "language": "Idioma",
+  "explore": "Explorar",
+  "nav": {
+    "home": "Início",
+    "prek": "Pré-K",
+    "kindergarten": "Jardim",
+    "grade1": "1º Ano",
+    "grade2": "2º Ano",
+    "grade3": "3º Ano",
+    "grade4": "4º Ano",
+    "grade5": "5º Ano",
+    "tools": "Ferramentas",
+    "about": "Sobre"
+  },
+  "home": {
+    "title": "Bem-vindo ao Meadow Math",
+    "subtitle": "Um espaço gentil e alegre para explorar a matemática"
+  },
+  "regions": {
+    "prek": {
+      "title": "Pré-K",
+      "desc": "Um lugar aconchegante para começar a explorar números e formas"
+    },
+    "kindergarten": {
+      "title": "Jardim de Infância",
+      "desc": "Desenvolvendo habilidades numéricas através da brincadeira e da descoberta"
+    },
+    "grade1": {
+      "title": "1º Ano",
+      "desc": "Primeiros passos em contagem, adição e padrões"
+    },
+    "grade2": {
+      "title": "2º Ano",
+      "desc": "Somando e subtraindo com confiança"
+    },
+    "grade3": {
+      "title": "3º Ano",
+      "desc": "Entendendo tabuadas e grupos"
+    },
+    "grade4": {
+      "title": "4º Ano",
+      "desc": "Números grandes, frações e formas"
+    },
+    "grade5": {
+      "title": "5º Ano",
+      "desc": "Números maiores, frações e novas ideias"
+    }
+  },
+  "grade": {
+    "pageTitle": "Aventuras Matemáticas",
+    "activities": "Atividades",
+    "comingSoon": "Em breve!",
+    "workInProgress": "Estamos trabalhando para trazer atividades matemáticas divertidas. Volte em breve!",
+    "backHome": "Voltar ao Início"
+  },
+  "feedback": {
+    "correct": "Muito bem!",
+    "tryAgain": "Tente novamente!",
+    "excellent": "Excelente!",
+    "keepGoing": "Continue!",
+    "wellDone": "Parabéns!",
+    "amazing": "Incrível!",
+    "goodEffort": "Bom esforço!"
+  },
+  "buttons": {
+    "start": "Começar!",
+    "next": "Próximo",
+    "reset": "Reiniciar",
+    "back": "Voltar",
+    "roll": "Rolar!",
+    "check": "Verificar!",
+    "playAgain": "Jogar de novo",
+    "addOne": "+ 1 a mais!",
+    "ok": "OK, vamos lá!"
+  },
+  "tabs": {
+    "exercises": "Exercícios",
+    "learnMore": "Saiba mais"
+  },
+  "activity": {
+    "backTo": "← Voltar para",
+    "clickStart": "Clique em Começar para iniciar!",
+    "clickRoll": "Clique em Rolar para jogar os dados!",
+    "clickStartBanner": "⚫ Clique aqui para começar!",
+    "clickRollBanner": "🎲 Clique aqui para jogar os dados!",
+    "complete": "Atividade Concluída!",
+    "correct": "Correto",
+    "wrong": "Errado",
+    "round": "Rodada",
+    "of": "de",
+    "yourLineup": "Sua Fila",
+    "count": "Contagem:",
+    "lineUp": "Alinhar",
+    "toys": "brinquedos!",
+    "blocks": "blocos",
+    "fingers": "dedos",
+    "snacks": "lanches",
+    "stars": "estrelas",
+    "completedRounds": "Você completou todas as rodadas!",
+    "numbers": "Números",
+    "groups": "Grupos",
+    "clickToRemove": "Clique para remover",
+    "vs": "vs",
+    "vsUpper": "VS"
+  },
+  "stats": {
+    "title": "Atividade Concluída!",
+    "correct": "Correto",
+    "wrong": "Errado",
+    "incorrect": "Incorreto",
+    "correctAnswers": "Corretos",
+    "totalTries": "Total de Tentativas",
+    "amazing": "Incrível! Você é uma estrela!",
+    "great": "Muito bem! Continue praticando!",
+    "goodEffort": "Bom esforço! Tente novamente para melhorar!",
+    "wellDone": "Parabéns!",
+    "completedAllRounds": "Você completou todas as {rounds} rodadas! Muito bem!"
+  },
+  "fruits": {
+    "apple": "maçã",
+    "orange": "laranja",
+    "lemon": "limão",
+    "banana": "banana",
+    "strawberry": "morango",
+    "peach": "pêssego",
+    "pear": "pera",
+    "kiwi": "kiwi"
+  },
+  "utilities": {
+    "title": "Utilitários",
+    "tools": {
+      "title": "Ferramentas",
+      "desc": "Materiais matemáticos interativos e ambientes de exploração"
+    },
+    "about": {
+      "title": "Sobre",
+      "desc": "Conheça o Meadow Math e nossa missão"
+    }
+  },
+  "footer": {
+    "about": "Sobre",
+    "privacy": "Privacidade & Termos",
+    "madeWith": "Feito com",
+    "forLearners": "para jovens aprendizes"
+  },
+  "privacy": {
+    "title": "Privacidade & Termos",
+    "intro": "Acreditamos em manter as coisas simples e respeitar a privacidade da sua família.",
+    "noAccounts": {
+      "title": "Nenhuma Conta Necessária",
+      "content": "O Meadow Math não exige que você crie uma conta. Sem cadastro, sem login e sem senhas para lembrar."
+    },
+    "noData": {
+      "title": "Nenhuma Coleta de Dados Pessoais",
+      "content": "Não coletamos, armazenamos ou compartilhamos nenhuma informação pessoal sobre você ou seus filhos. Sem nomes, sem e-mails."
+    },
+    "localStorage": {
+      "title": "Apenas Armazenamento Local",
+      "content": "Se algum progresso ou preferência for salvo, ele é armazenado apenas no armazenamento local do seu navegador. Esses dados nunca saem do seu computador."
+    },
+    "cloudflare": {
+      "title": "Cloudflare Analytics em Todas as Páginas",
+      "content": "Usamos o Cloudflare Web Analytics em todas as páginas para entender o tráfego básico (como quantas pessoas visitam e quais páginas são populares). Esses dados são focados em privacidade, anônimos e relatados de forma agregada. Não os usamos para identificá-lo e não vendemos seus dados."
+    },
+    "disclaimer": {
+      "title": "Aviso",
+      "content": "O Meadow Math é fornecido como um recurso educacional gratuito. Embora nos esforcemos para criar conteúdo preciso e útil, não garantimos resultados de aprendizagem. Esta ferramenta deve complementar, não substituir, um ensino de qualidade. Recomendamos supervisão dos pais para crianças pequenas."
+    },
+    "openSource": {
+      "title": "Código Aberto",
+      "content": "O Meadow Math é um software de código aberto. Você pode visualizar, copiar e modificar o código de acordo com a licença do projeto."
+    }
+  }
+}

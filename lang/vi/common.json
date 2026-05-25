@@ -1,0 +1,176 @@
+{
+  "siteName": "Meadow Math",
+  "language": "Ngôn ngữ",
+  "explore": "Khám phá",
+  "nav": {
+    "home": "Trang chủ",
+    "prek": "Mầm non",
+    "kindergarten": "Mẫu giáo",
+    "grade1": "Lớp 1",
+    "grade2": "Lớp 2",
+    "grade3": "Lớp 3",
+    "grade4": "Lớp 4",
+    "grade5": "Lớp 5",
+    "tools": "Công cụ",
+    "about": "Giới thiệu"
+  },
+  "home": {
+    "title": "Chào mừng đến Meadow Math",
+    "subtitle": "Không gian vui vẻ để khám phá toán học"
+  },
+  "regions": {
+    "prek": {
+      "title": "Mầm non",
+      "desc": "Nơi ấm áp để bắt đầu khám phá số và hình"
+    },
+    "kindergarten": {
+      "title": "Mẫu giáo",
+      "desc": "Phát triển kỹ năng số qua chơi và khám phá"
+    },
+    "grade1": {
+      "title": "Lớp 1",
+      "desc": "Bước đầu đếm số, cộng và tìm quy luật"
+    },
+    "grade2": {
+      "title": "Lớp 2",
+      "desc": "Tự tin cộng và trừ các số"
+    },
+    "grade3": {
+      "title": "Lớp 3",
+      "desc": "Hiểu bảng nhân và nhóm số"
+    },
+    "grade4": {
+      "title": "Lớp 4",
+      "desc": "Số lớn, phân số và hình học"
+    },
+    "grade5": {
+      "title": "Lớp 5",
+      "desc": "Số lớn hơn, phân số và ý tưởng mới"
+    }
+  },
+  "grade": {
+    "pageTitle": "Cuộc phiêu lưu Toán học",
+    "activities": "Hoạt động",
+    "comingSoon": "Sắp ra mắt!",
+    "workInProgress": "Chúng tôi đang làm việc chăm chỉ để mang đến các hoạt động toán học vui nhộn. Hãy quay lại sớm nhé!",
+    "backHome": "Về Trang chủ"
+  },
+  "feedback": {
+    "correct": "Giỏi lắm!",
+    "tryAgain": "Thử lại nhé!",
+    "excellent": "Xuất sắc!",
+    "keepGoing": "Tiếp tục nào!",
+    "wellDone": "Làm tốt lắm!",
+    "amazing": "Tuyệt vời!",
+    "goodEffort": "Cố gắng tốt!"
+  },
+  "buttons": {
+    "start": "Bắt đầu!",
+    "next": "Tiếp theo",
+    "reset": "Đặt lại",
+    "back": "Quay lại",
+    "roll": "Tung!",
+    "check": "Kiểm tra!",
+    "playAgain": "Chơi lại",
+    "addOne": "+ 1 nữa!",
+    "ok": "OK, bắt đầu nào!"
+  },
+  "tabs": {
+    "exercises": "Bài tập",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "activity": {
+    "backTo": "← Quay lại",
+    "clickStart": "Nhấn Bắt đầu để chơi!",
+    "clickRoll": "Nhấn Tung để tung xúc xắc!",
+    "clickStartBanner": "⚫ Nhấn vào đây để bắt đầu!",
+    "clickRollBanner": "🎲 Nhấn vào đây để tung xúc xắc!",
+    "complete": "Hoàn thành!",
+    "correct": "Đúng",
+    "wrong": "Sai",
+    "round": "Lượt",
+    "of": "trên",
+    "yourLineup": "Hàng của bạn",
+    "count": "Đếm:",
+    "lineUp": "Xếp hàng",
+    "toys": "đồ chơi!",
+    "blocks": "khối",
+    "fingers": "ngón tay",
+    "snacks": "đồ ăn",
+    "stars": "ngôi sao",
+    "completedRounds": "Bạn đã hoàn thành tất cả các lượt!",
+    "numbers": "Số",
+    "groups": "Nhóm",
+    "clickToRemove": "Nhấn để xóa",
+    "vs": "vs",
+    "vsUpper": "VS"
+  },
+  "stats": {
+    "title": "Hoàn thành!",
+    "correct": "Đúng",
+    "wrong": "Sai",
+    "incorrect": "Sai",
+    "correctAnswers": "Đúng",
+    "totalTries": "Tổng lần thử",
+    "amazing": "Tuyệt vời! Bạn là ngôi sao!",
+    "great": "Giỏi lắm! Tiếp tục luyện tập nhé!",
+    "goodEffort": "Cố gắng tốt! Thử lại để tiến bộ hơn!",
+    "wellDone": "Làm tốt lắm!",
+    "completedAllRounds": "Bạn đã hoàn thành tất cả {rounds} lượt! Giỏi lắm!"
+  },
+  "fruits": {
+    "apple": "táo",
+    "orange": "cam",
+    "lemon": "chanh",
+    "banana": "chuối",
+    "strawberry": "dâu tây",
+    "peach": "đào",
+    "pear": "lê",
+    "kiwi": "kiwi"
+  },
+  "utilities": {
+    "title": "Tiện ích",
+    "tools": {
+      "title": "Công cụ",
+      "desc": "Đồ dùng học toán tương tác và sân chơi"
+    },
+    "about": {
+      "title": "Giới thiệu",
+      "desc": "Tìm hiểu về Meadow Math và sứ mệnh của chúng tôi"
+    }
+  },
+  "footer": {
+    "about": "Giới thiệu",
+    "privacy": "Quyền riêng tư & Điều khoản",
+    "madeWith": "Được tạo với",
+    "forLearners": "cho các bé yêu học toán"
+  },
+  "privacy": {
+    "title": "Quyền riêng tư & Điều khoản",
+    "intro": "Chúng tôi tin vào việc giữ mọi thứ đơn giản và tôn trọng quyền riêng tư của gia đình bạn.",
+    "noAccounts": {
+      "title": "Không cần tạo tài khoản",
+      "content": "Meadow Math không yêu cầu bạn tạo tài khoản. Không đăng ký, không đăng nhập, không có mật khẩu cần nhớ."
+    },
+    "noData": {
+      "title": "Không thu thập dữ liệu cá nhân",
+      "content": "Chúng tôi không thu thập, lưu trữ hoặc chia sẻ bất kỳ thông tin cá nhân nào về bạn hoặc con bạn. Không tên, không email."
+    },
+    "localStorage": {
+      "title": "Chỉ lưu trên thiết bị (Local Storage)",
+      "content": "Nếu có lưu tiến độ hoặc tuỳ chọn, dữ liệu đó chỉ được lưu trong bộ nhớ cục bộ (local storage) của trình duyệt trên thiết bị của bạn. Dữ liệu này không rời khỏi máy tính của bạn."
+    },
+    "cloudflare": {
+      "title": "Cloudflare Analytics trên mọi trang",
+      "content": "Chúng tôi sử dụng Cloudflare Web Analytics trên tất cả các trang để hiểu lưu lượng truy cập cơ bản (ví dụ: có bao nhiêu người ghé thăm và trang nào được xem nhiều). Dữ liệu này tập trung vào quyền riêng tư, ẩn danh và được báo cáo ở dạng tổng hợp. Chúng tôi không sử dụng dữ liệu này để nhận dạng bạn và không bán dữ liệu của bạn."
+    },
+    "disclaimer": {
+      "title": "Tuyên bố miễn trừ trách nhiệm",
+      "content": "Meadow Math được cung cấp như một tài nguyên giáo dục miễn phí. Dù chúng tôi cố gắng tạo nội dung chính xác và hữu ích, chúng tôi không đảm bảo về kết quả học tập. Công cụ này nhằm bổ trợ, không thay thế việc dạy học chất lượng. Chúng tôi khuyến nghị có sự giám sát của phụ huynh đối với trẻ nhỏ."
+    },
+    "openSource": {
+      "title": "Mã nguồn mở",
+      "content": "Meadow Math là phần mềm mã nguồn mở. Bạn có thể xem, sao chép và chỉnh sửa mã nguồn theo giấy phép của dự án."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Atividades do Jardim de Infância",
+  "description": "Desenvolvendo habilidades numéricas através da brincadeira e da descoberta",
+  "levels": {
+    "level1": {
+      "title": "Nível 1",
+      "description": "Números 1-10"
+    },
+    "level2": {
+      "title": "Nível 2",
+      "description": "Adição simples"
+    },
+    "level3": {
+      "title": "Nível 3",
+      "description": "Formas e padrões"
+    },
+    "level4": {
+      "title": "Nível 4",
+      "description": "Comparando números"
+    }
+  },
+  "activities": {
+    "countingGarden": {
+      "title": "Jardim da Contagem",
+      "description": "Conte flores no jardim",
+      "instruction": "Quantas flores há?"
+    },
+    "numberBonds": {
+      "title": "Ligações Numéricas",
+      "description": "Aprenda pares de números que formam 10",
+      "instruction": "Quais dois números formam 10?"
+    },
+    "shapeSort": {
+      "title": "Classificação de Formas",
+      "description": "Classifique formas por tipo",
+      "instruction": "Coloque as formas nos grupos certos"
+    },
+    "additionStory": {
+      "title": "Histórias de Adição",
+      "description": "Resolva problemas simples de adição",
+      "instruction": "Quantos ao todo?"
+    }
+  }
+}

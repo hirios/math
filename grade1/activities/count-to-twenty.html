@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tap the stars to count from 1 to 20. Free interactive Grade 1 math practice on Meadow Math.">
+    <meta property="og:title" content="Count to Twenty | Grade 1 Math Activity | Meadow Math">
+  <meta property="og:description" content="Tap the stars to count from 1 to 20. Free interactive Grade 1 math practice on Meadow Math.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://math.alsatian.co/grade1/activities/count-to-twenty.html">
+  <meta property="og:image" content="https://math.alsatian.co/images/og/og-grade1.png">
+  <meta property="og:site_name" content="Meadow Math">
+<title>Count to Twenty | Grade 1 Math Activity | Meadow Math</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="../../css/reset.css">
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/global.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/sidebar.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="activity.css">
+</head>
+<body>
+  <!-- Hamburger Menu (Mobile Only) -->
+  <button class="hamburger" aria-label="Toggle navigation menu">
+    <div class="hamburger-icon">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+    </div>
+  </button>
+
+  <!-- Sidebar Backdrop (Mobile Only) -->
+  <div class="sidebar-backdrop"></div>
+
+  <!-- Application Container -->
+  <div class="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <a href="../../index.html" class="sidebar-logo">
+        <span class="sidebar-logo-text" data-i18n="siteName">Meadow Math</span>
+      </a>
+
+      <nav class="sidebar-nav" aria-label="Main navigation">
+        <a href="../../index.html" class="nav-item">
+          <span class="nav-item-icon">🏠</span>
+          <span class="nav-item-text" data-i18n="nav.home">Home</span>
+        </a>
+        <a href="../../prek/index.html" class="nav-item">
+          <span class="nav-item-icon">🪺</span>
+          <span class="nav-item-text" data-i18n="nav.prek">Pre-K</span>
+        </a>
+        <a href="../../kinder/index.html" class="nav-item">
+          <span class="nav-item-icon">🌱</span>
+          <span class="nav-item-text" data-i18n="nav.kindergarten">Kinder</span>
+        </a>
+        <a href="../index.html" class="nav-item active">
+          <span class="nav-item-icon">📐</span>
+          <span class="nav-item-text" data-i18n="nav.grade1">Grade 1</span>
+        </a>
+        <a href="../../grade2/index.html" class="nav-item">
+          <span class="nav-item-icon">➕</span>
+          <span class="nav-item-text" data-i18n="nav.grade2">Grade 2</span>
+        </a>
+        <a href="../../grade3/index.html" class="nav-item">
+          <span class="nav-item-icon">➖</span>
+          <span class="nav-item-text" data-i18n="nav.grade3">Grade 3</span>
+        </a>
+        <a href="../../grade4/index.html" class="nav-item">
+          <span class="nav-item-icon">✖️</span>
+          <span class="nav-item-text" data-i18n="nav.grade4">Grade 4</span>
+        </a>
+        <a href="../../grade5/index.html" class="nav-item">
+          <span class="nav-item-icon">➗</span>
+          <span class="nav-item-text" data-i18n="nav.grade5">Grade 5</span>
+        </a>
+
+        <div class="nav-divider"></div>
+
+        <a href="../../tools/index.html" class="nav-item">
+          <span class="nav-item-icon">🧰</span>
+          <span class="nav-item-text" data-i18n="nav.tools">Tools</span>
+        </a>
+        <a href="../../about/index.html" class="nav-item">
+          <span class="nav-item-icon">ℹ️</span>
+          <span class="nav-item-text" data-i18n="nav.about">About</span>
+        </a>
+      </nav>
+
+      <div class="language-switcher">
+        <span class="language-label" data-i18n="language">Language</span>
+        <div class="language-buttons">
+          <button class="lang-btn active" data-lang="en" aria-label="English">🇺🇸</button>
+          <button class="lang-btn" data-lang="vi" aria-label="Tiếng Việt">🇻🇳</button>
+          <button class="lang-btn" data-lang="pt" aria-label="Português">🇧🇷</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <div class="activity-wrapper">
+        <!-- Activity Header -->
+        <header class="activity-header">
+          <a href="../index.html" class="back-link"><span data-i18n="activity.backTo">← Back to</span> <span data-i18n="nav.grade1">Grade 1</span></a>
+          <h1 class="activity-title">
+            <span class="activity-title-icon">🔢</span>
+            <span data-i18n="section.activities.count-to-twenty.title">Count to Twenty</span>
+          </h1>
+          <p class="activity-instruction" data-i18n="section.activities.count-to-twenty.description">Tap the stars to count from 1 to 20!</p>
+        </header>
+
+        <!-- Activity Area -->
+        <div class="activity-area">
+          <!-- Progress -->
+          <div class="progress-indicator" id="progress">
+            <!-- Will be populated by JS -->
+          </div>
+
+          <!-- Stars Display -->
+          <div class="counting-area" id="stars-area">
+            <!-- Stars will be generated by JS -->
+          </div>
+
+          <!-- Counter -->
+          <div class="counter-display">
+            <div class="counter-number" id="counter">0</div>
+            <div class="counter-label" data-i18n="activity.stars">stars</div>
+          </div>
+
+          <!-- Feedback Message -->
+          <div class="feedback-message" id="feedback"></div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="activity-actions">
+          <button class="btn-activity btn-secondary" id="btn-reset" data-i18n="buttons.reset">Try Again</button>
+        </div>
+      </div>
+
+      <!-- Stats Overlay -->
+      <div class="stats-overlay" id="stats-overlay">
+        <div class="stats-modal">
+          <div class="stats-icon">🌟</div>
+          <h2 class="stats-title" data-i18n="stats.wellDone">Well Done!</h2>
+          <p class="stats-message" id="stats-message">You completed all the rounds!</p>
+          <div class="stats-actions">
+            <button class="btn-activity btn-primary" id="btn-play-again" data-i18n="buttons.playAgain">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="../../js/utils.js"></script>
+  <script src="../../js/storage.js"></script>
+  <script src="../../js/animations.js"></script>
+  <script src="../../js/i18n.js"></script>
+  <script src="../../js/navigation.js"></script>
+  <script>
+    // Count to Twenty Activity
+    const CountToTwenty = {
+      // Game state
+      targetNumber: 20,
+      currentCount: 0,
+      round: 1,
+      maxRounds: 3,
+      isComplete: false,
+      autoAdvanceDelay: 1500,
+      arrangements: [
+        // Different visual arrangements for the 20 stars
+        'grid',      // Round 1: Simple grid
+        'groups',    // Round 2: Groups (2 rows of 10)
+        'scattered'  // Round 3: More scattered layout
+      ],
+
+      // DOM elements
+      starsArea: null,
+      counter: null,
+      feedback: null,
+      progress: null,
+      btnReset: null,
+      statsOverlay: null,
+      statsMessage: null,
+      btnPlayAgain: null,
+
+      /**
+       * Initialize the activity
+       */
+      init() {
+        // Get DOM elements
+        this.starsArea = document.getElementById('stars-area');
+        this.counter = document.getElementById('counter');
+        this.feedback = document.getElementById('feedback');
+        this.progress = document.getElementById('progress');
+        this.btnReset = document.getElementById('btn-reset');
+        this.statsOverlay = document.getElementById('stats-overlay');
+        this.statsMessage = document.getElementById('stats-message');
+        this.btnPlayAgain = document.getElementById('btn-play-again');
+
+        // Set up event listeners
+        this.btnReset.addEventListener('click', () => this.reset());
+        this.btnPlayAgain.addEventListener('click', () => this.restartActivity());
+        this.statsOverlay.addEventListener('click', (e) => { 
+          if (e.target === this.statsOverlay) this.restartActivity(); 
+        });
+
+        // Listen for language changes
+        document.addEventListener('languageChanged', () => {
+          this.updateTranslations();
+        });
+
+        // Start first round
+        this.startRound();
+        this.renderProgress();
+      },
+
+      /**
+       * Update translations (for dynamic content)
+       */
+      updateTranslations() {
+        if (this.isComplete && this.round <= this.maxRounds) {
+          this.feedback.textContent = i18n.t('feedback.correct');
+        }
+      },
+
+      /**
+       * Start a new round
+       */
+      startRound() {
+        this.currentCount = 0;
+        this.isComplete = false;
+
+        // Update UI
+        this.counter.textContent = '0';
+        this.feedback.classList.remove('show');
+
+        // Generate stars with arrangement
+        this.renderStars();
+        this.renderProgress();
+      },
+
+      /**
+       * Render stars for counting
+       */
+      renderStars() {
+        // Clear area
+        this.starsArea.innerHTML = '';
+
+        // Get arrangement for current round
+        const arrangement = this.arrangements[(this.round - 1) % this.arrangements.length];
+
+        // Apply arrangement class
+        this.starsArea.className = 'counting-area';
+        this.starsArea.classList.add(`arrangement-${arrangement}`);
+
+        // Create star elements
+        for (let i = 0; i < this.targetNumber; i++) {
+          const star = document.createElement('div');
+          star.className = 'count-object star';
+          star.textContent = '⭐';
+          star.dataset.index = i;
+          star.dataset.counted = 'false';
+          star.setAttribute('tabindex', '0');
+          star.setAttribute('role', 'button');
+          star.setAttribute('aria-label', `Star ${i + 1}`);
+
+          star.addEventListener('click', () => this.countStar(star));
+          star.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.countStar(star);
+            }
+          });
+
+          this.starsArea.appendChild(star);
+        }
+      },
+
+      /**
+       * Count a star
+       */
+      countStar(element) {
+        if (this.isComplete) return;
+        if (element.dataset.counted === 'true') return;
+
+        // Mark as counted
+        element.dataset.counted = 'true';
+        element.classList.add('counted');
+        this.currentCount++;
+
+        // Update counter with animation
+        this.counter.textContent = this.currentCount;
+        this.counter.classList.add('pop');
+        setTimeout(() => this.counter.classList.remove('pop'), 300);
+
+        // Play sound
+        if (typeof playSound === 'function') {
+          playSound('tap');
+        }
+
+        // Check if complete
+        if (this.currentCount === this.targetNumber) {
+          this.completeRound();
+        }
+      },
+
+      /**
+       * Complete the current round
+       */
+      completeRound() {
+        this.isComplete = true;
+
+        // Show feedback
+        this.feedback.textContent = i18n.t('feedback.correct');
+        this.feedback.classList.add('show');
+
+        // Create celebration effect
+        if (typeof celebrate === 'function') {
+          celebrate(this.starsArea);
+        }
+
+        // Mark progress
+        this.renderProgress();
+
+        // Auto-advance after delay
+        setTimeout(() => {
+          if (this.round < this.maxRounds) {
+            this.nextRound();
+          } else {
+            this.showStats();
+          }
+        }, this.autoAdvanceDelay);
+      },
+
+      /**
+       * Show completion stats
+       */
+      showStats() {
+        this.statsMessage.textContent = i18n.t('stats.completedAllRounds').replace('{rounds}', this.maxRounds);
+        this.statsOverlay.classList.add('show');
+      },
+
+      /**
+       * Restart the entire activity
+       */
+      restartActivity() {
+        this.round = 1;
+        this.statsOverlay.classList.remove('show');
+        this.startRound();
+      },
+
+      /**
+       * Go to next round
+       */
+      nextRound() {
+        this.round++;
+        this.startRound();
+      },
+
+      /**
+       * Reset current round
+       */
+      reset() {
+        this.currentCount = 0;
+        this.isComplete = false;
+        this.counter.textContent = '0';
+        this.feedback.classList.remove('show');
+        this.renderStars();
+      },
+
+      /**
+       * Render progress indicator
+       */
+      renderProgress() {
+        let html = '';
+        for (let i = 1; i <= this.maxRounds; i++) {
+          let className = 'progress-dot';
+          if (i < this.round || (i === this.round && this.isComplete)) {
+            className += ' completed';
+          } else if (i === this.round) {
+            className += ' current';
+          }
+          html += `<div class="${className}"></div>`;
+        }
+        this.progress.innerHTML = html;
+      }
+    };
+
+    // Initialize when DOM is ready
+    document.addEventListener('DOMContentLoaded', async () => {
+      await i18n.ready();
+      CountToTwenty.init();
+    });
+  </script>
+  <style>
+    /* Arrangement-specific styles */
+    .arrangement-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: var(--space-3);
+    }
+
+    .arrangement-groups {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-6);
+      justify-content: center;
+    }
+
+    .arrangement-groups .star:nth-child(10n+1) {
+      margin-left: var(--space-8);
+    }
+
+    .arrangement-scattered {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-4);
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .arrangement-scattered .star:nth-child(3n) {
+      margin-top: var(--space-2);
+    }
+
+    .arrangement-scattered .star:nth-child(5n) {
+      margin-top: calc(-1 * var(--space-2));
+    }
+
+    /* Star-specific styling */
+    .star {
+      font-size: 40px;
+    }
+  </style>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a210a35ec7c04feabcf2a3fe1cb19bc4"}'></script><!-- End Cloudflare Web Analytics --></body>
+</html>

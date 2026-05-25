@@ -1,0 +1,485 @@
+{
+  "title": "Atividades do Pré-K",
+  "description": "Um lugar aconchegante para começar a explorar números e formas",
+  "tabs": {
+    "activities": "Atividades",
+    "learnMore": "Saiba mais"
+  },
+  "learnMoreCards": {
+    "bigIdea": {
+      "title": "Grande Ideia"
+    },
+    "whatToNotice": {
+      "title": "O que Observar"
+    },
+    "tryAtHome": {
+      "title": "Experimente em Casa"
+    },
+    "optionalVideos": {
+      "title": "Vídeos Opcionais",
+      "intro": "Pesquise no YouTube por:"
+    }
+  },
+  "levels": {
+    "level1": {
+      "title": "Consciência Numérica & Contagem",
+      "goal": "As crianças entendem que os números têm nomes e representam 'quantos'.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Este nível é sobre aprender que os números têm nomes e significam \"quantos\". Contar é uma habilidade de tocar e falar: toque cada objeto uma vez, diga um número uma vez, depois pare e observe o total."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Seu filho toca os itens um por um (sem pular, sem contar duas vezes).",
+            "Após contar, consegue responder 'Quantos há?' sem recontar.",
+            "Reconhece alguns algarismos (0–5) na vida diária (placas, livros, botões).",
+            "Entende zero como 'nenhum' (uma cesta vazia ainda é uma quantidade real)."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Jogo A (ideia central): \"Toque & Conte\"",
+              "description": "Coloque 5–10 objetos pequenos em fila (botões, uvas, blocos). Peça ao seu filho que toque cada um enquanto conta em voz alta. No final, pergunte: 'Quantos há?' Depois misture e conte de novo."
+            },
+            {
+              "name": "Jogo B (versão cotidiana): \"Caça aos Números\"",
+              "description": "Escolha um número alvo (como o 3). Caminhe pela casa e encontre-o em livros, relógios, controles remotos ou rótulos. Cada vez que encontrá-lo, conte 3 passos ou 3 palmas juntos."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks One to Five",
+            "Numberblocks Zero",
+            "Numberblocks Ten",
+            "counting objects one to one correspondence for preschool"
+          ]
+        }
+      }
+    },
+    "level2": {
+      "title": "Reconhecimento Visual & Quantidade",
+      "goal": "As crianças conseguem ver 'quantos' sem contar um por um.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Reconhecimento visual significa ver 'quantos' de relance (especialmente 1–3), sem contar. Isso cresce a partir de padrões (pontos de dados, cartões de pontos, caixas de ovos) e olhadas rápidas e brincalhonas."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Seu filho consegue dizer '2!' ou '3!' rapidamente ao ver um grupo pequeno.",
+            "Consegue associar um padrão de pontos a uma palavra numérica (como faces de dados).",
+            "Entende que a quantidade permanece a mesma quando os itens se movem.",
+            "Usa palavras matemáticas naturalmente: mais, igual, menos."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Jogo A (ideia central): \"Olhadela Rápida\"",
+              "description": "Mostre 1–3 objetos por 1 segundo (cubra com um copo ou a mão). Pergunte: 'Quantos você viu?' Revele e conte juntos para verificar."
+            },
+            {
+              "name": "Jogo B (segunda representação): \"Mesmo Número, Nova Forma\"",
+              "description": "Coloque 3 moedas em linha. Pergunte 'Quantas?' Depois reorganize em triângulo. Pergunte 'Quantas agora?' Deixe seu filho provar contando (mesmo número, arranjo diferente)."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks What's My Number",
+            "Numberblocks Stampolines",
+            "subitizing for preschool dot patterns",
+            "dice dot patterns for kids"
+          ]
+        }
+      }
+    },
+    "level3": {
+      "title": "Relações Numéricas",
+      "goal": "As crianças percebem que os números são compostos de partes menores.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Os números são compostos de partes menores. No Pré-K, não precisamos de adição formal — apenas 'divisões' brincalhonas como: 3 pode ser 2 e 1, ou 1 e 2. Essa sensação parte-todo se torna a base para a aritmética futura."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Seu filho consegue dividir um grupo pequeno em duas pilhas de mais de uma maneira.",
+            "Consegue mostrar um número com duas mãos (como 4 como 2 e 2, ou 3 e 1).",
+            "Consegue raciocinar sobre uma parte escondida ('Alguns estão sob o copo...').",
+            "Começa a usar linguagem como 'partes' e 'juntos'."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Jogo A (ideia central): \"Esconde & Acha\"",
+              "description": "Coloque 5 objetos pequenos na mesa. Cubra alguns com um copo. Mostre o que sobrou e pergunte: 'Quantos estão escondidos?' Revele e conte para verificar."
+            },
+            {
+              "name": "Jogo B (segunda representação): \"Divisões com as Duas Mãos\"",
+              "description": "Diga um número de 1–5. Seu filho mostra com as duas mãos de qualquer maneira (para 5: 5+0, 4+1, 3+2...). Troquem de papel e copiem as divisões um do outro."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks The Whole of Me",
+            "Numberblocks Hide and Seek",
+            "Numberblocks Fruit Salad",
+            "part part whole for preschool"
+          ]
+        }
+      }
+    },
+    "level4": {
+      "title": "Comparação & Mudança",
+      "goal": "As crianças entendem mais, menos, igual, adicionar um, tirar um.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Este nível desenvolve a sensação de mais / menos / igual, e como um conjunto muda quando você adiciona um ou tira um. O objetivo é uma linguagem matemática confiante e notar mudanças, não velocidade."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Seu filho consegue dizer qual grupo tem mais (às vezes sem contar).",
+            "Se os grupos estão próximos, compara por pareamento ('um para você, um para mim').",
+            "Entende 'um a mais' e 'um a menos' como uma pequena mudança.",
+            "Consegue igualar dois grupos adicionando ou removendo itens."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Jogo A (ideia central): \"Torre de Um Mais / Um Menos\"",
+              "description": "Construa uma torre pequena (3–6 blocos). Pergunte: 'Qual é um a mais?' Adicione um bloco e conte. Depois: 'Qual é um a menos?' Remova um bloco e conte."
+            },
+            {
+              "name": "Jogo B (versão cotidiana): \"Deixe Igual\"",
+              "description": "Coloque lanches em duas tigelas (uma tem mais). Peça ao seu filho para igualá-las movendo um lanche de cada vez. Conte as duas tigelas para comemorar quando ficarem iguais."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks Another One",
+            "Numberblocks Holes",
+            "Numberblocks Blockzilla",
+            "more and fewer for preschool"
+          ]
+        }
+      }
+    }
+  },
+  "activities": {
+    "finger-counting": {
+      "title": "Músicas de Contagem com Dedos",
+      "description": "Conte os dedos para cima e para baixo com rimas divertidas"
+    },
+    "snack-counting": {
+      "title": "Contagem de Lanches",
+      "description": "Conte lanches gostosos antes de comê-los",
+      "yummy": "Delicioso! Você contou {n} lanches!",
+      "complete": "Você contou lanches em todas as {n} rodadas! Muito bem!"
+    },
+    "toy-lineup": {
+      "title": "Fila de Brinquedos",
+      "description": "Alinhe 1-5 brinquedos e conte juntos"
+    },
+    "number-hunt": {
+      "title": "Caça aos Números",
+      "description": "Encontre números escondidos por toda parte",
+      "findNumber": "Encontre o número:",
+      "found": "encontrado",
+      "findInstruction": "Encontre todos os {n}s!",
+      "success": "🎉 Ótimo! Você encontrou todos os {n}s!",
+      "complete": "Você completou todas as {n} caças ao número! Muito bem!"
+    },
+    "roll-and-count": {
+      "title": "Role & Conte",
+      "description": "Role um dado e coloque aquela quantidade de blocos",
+      "howMany": "Quantos pontos estão nos dados?",
+      "rollInstruction": "Role os dados para ver quantos blocos adicionar!",
+      "tapToAdd": "Toque aqui para adicionar blocos",
+      "tapToAddNow": "Toque para adicionar blocos!",
+      "rolled": "Você rolou {n}! Toque para adicionar {n} blocos.",
+      "tooMany": "Ops! São muitos. Tente de novo!",
+      "perfect": "🎉 Perfeito! Você adicionou {n} blocos!",
+      "complete": "Você completou todas as {n} rodadas! Ótima contagem!"
+    },
+    "zero-basket": {
+      "title": "Cesta do Zero",
+      "description": "Aprenda sobre o zero com uma cesta vazia",
+      "empty": "Vazia!",
+      "howMany": "Quantas {fruit}s há na cesta?",
+      "howManyEmpty": "A cesta está vazia! Quantos itens há?",
+      "zeroCorrect": "🎉 Sim! Zero significa que não há nada!",
+      "zeroWrong": "A cesta está vazia — isso é zero!",
+      "correct": "🎉 Correto! Há {n}!",
+      "wrong": "Quase! Há {n} na cesta.",
+      "complete": "Você aprendeu sobre o zero e a contagem!"
+    },
+    "jump-and-count": {
+      "title": "Pule & Conte",
+      "description": "Pule enquanto conta em voz alta",
+      "jumpTo": "Pule até:",
+      "jumps": "pulos",
+      "tapToJump": "🦘 Toque aqui para me fazer pular!",
+      "jumpToN": "Pule {n} vezes!",
+      "success": "🎉 Ótimo! Você pulou {n} vezes!",
+      "complete": "Você completou todas as {n} rodadas de pulo! Ótima contagem!"
+    },
+    "bath-toy-count": {
+      "title": "Contagem de Brinquedos de Banho",
+      "description": "Conte brinquedos entrando e saindo",
+      "outside": "Fora",
+      "noToys": "Nenhum",
+      "howManyIn": "Quantos brinquedos estão na banheira?",
+      "howManyTotal": "Quantos brinquedos há no total?",
+      "correct": "🎉 Splash! Correto — {n} brinquedos!",
+      "wrong": "Quase! Há {n} brinquedos.",
+      "complete": "Ótima contagem na hora do banho! Você contou {n} rodadas!"
+    },
+    "flash-dot-cards": {
+      "title": "Cartões de Pontos Relâmpago",
+      "description": "Rápido! Quantos pontos você viu?",
+      "lookAtDots": "Observe os pontos...",
+      "howMany": "Quantos pontos você viu?",
+      "correctMsg": "Sim! Havia {n} pontos!",
+      "wrongMsg": "Quase! Havia {n} pontos."
+    },
+    "dice-play": {
+      "title": "Brincando com Dados",
+      "description": "Diga o número sem contar os pontos",
+      "howMany": "Quantos pontos você vê?",
+      "correct": "🎲 Correto! Você rolou um {n}!",
+      "showsN": "Os dados mostram {n} pontos."
+    },
+    "egg-carton-dots": {
+      "title": "Pontos na Caixa de Ovos",
+      "description": "Reconheça padrões de pontos em caixas de ovos!",
+      "howMany": "Quantos pontos você vê?",
+      "correct": "🥚 Ótimo! Há {n} pontos!",
+      "wrong": "Quase! Há {n} pontos."
+    },
+    "snack-guess": {
+      "title": "Adivinhe & Verifique o Lanche",
+      "description": "Adivinhe quantos, depois conte para verificar!",
+      "lookQuick": "Olhe rápido!",
+      "howManyGuess": "Quantos lanches havia?",
+      "nowCheck": "Agora vamos contar para verificar!",
+      "reveal": "👀 Conte para verificar!",
+      "correct": "🎉 Ótimo palpite! Há {n} lanches!",
+      "wrong": "Perto! Há {n} lanches."
+    },
+    "cup-reveal": {
+      "title": "Jogo do Copo Revelação",
+      "description": "Espie sob o copo — quantos há?",
+      "peek": "👆 Toque para espiar!",
+      "peekInstruction": "O que está sob o copo?",
+      "lookQuick": "Olhe rápido!",
+      "howMany": "Quantos havia sob o copo?",
+      "correct": "🎉 Correto! Há {n}!",
+      "wrong": "Quase! Há {n}."
+    },
+    "clap-and-guess": {
+      "title": "Aplauda & Adivinhe",
+      "description": "Ouça as palmas e adivinhe o número!",
+      "listen": "Ouça com atenção...",
+      "howMany": "Quantas palmas você ouviu?",
+      "correct": "👏 Ótimo! Houve {n} palmas!",
+      "wrong": "Quase! Houve {n} palmas."
+    },
+    "button-toss": {
+      "title": "Jogo dos Botões",
+      "description": "Jogue os botões e diga a quantidade!",
+      "toss": "🔘 Jogue os botões!",
+      "tossing": "Veja os botões pousarem!",
+      "howMany": "Quantos botões pousaram?",
+      "correct": "🔘 Ótimo! Há {n} botões!",
+      "wrong": "Quase! Há {n} botões."
+    },
+    "same-or-different": {
+      "title": "Igual ou Diferente?",
+      "description": "Compare dois grupos — eles são iguais?",
+      "groupA": "Grupo A",
+      "groupB": "Grupo B",
+      "same": "Igual",
+      "different": "Diferente",
+      "question": "Os dois grupos têm o mesmo número?",
+      "correctSame": "🎉 Correto! Ambos têm {n}!",
+      "correctDiff": "🎉 Correto! {a} não é igual a {b}!",
+      "wrongSame": "Olhe de novo! Ambos têm {n}.",
+      "wrongDiff": "Olhe de novo! {a} e {b} são diferentes."
+    },
+    "split-the-toys": {
+      "title": "Divida os Brinquedos",
+      "description": "Divida brinquedos em duas pilhas de maneiras diferentes",
+      "start": "🧸 Clique aqui para começar!",
+      "total": "Total:",
+      "toys": "brinquedos",
+      "makeSplit": "Faça {left} e {right}!",
+      "pileA": "Pilha A",
+      "pileB": "Pilha B",
+      "clickHint": "👆 Clique em Adicionar para adicionar um brinquedo, ou clique na pilha para devolver um!",
+      "correct": "🎉 Perfeito! {left} + {right} = {total}",
+      "wrong": "Quase! São {left} + {right}, não {targetLeft} + {targetRight}"
+    },
+    "playdough-break": {
+      "title": "Quebre a Massinha",
+      "description": "Role uma bolinha, quebre em partes",
+      "start": "🟤 Clique aqui para começar!",
+      "breakBall": "A bolinha se quebra em dois pedaços!",
+      "whichSplit": "De que jeito a bolinha se partiu?",
+      "correct": "🎉 Sim! {left} + {right} = {total}",
+      "wrong": "Olhe de novo! A bolinha se partiu em {left} e {right}"
+    },
+    "hand-splits": {
+      "title": "Divisões com as Mãos",
+      "description": "Mostre números usando as duas mãos",
+      "start": "✋ Clique aqui para começar!",
+      "showNumber": "Mostre {n} com as suas duas mãos!",
+      "leftHand": "Mão Esquerda",
+      "rightHand": "Mão Direita",
+      "check": "Verificar!",
+      "correct": "🎉 Ótimo! {left} + {right} = {total}",
+      "wrong": "São {left} + {right} = {sum}, mas precisamos de {total}!"
+    },
+    "snack-sharing": {
+      "title": "Compartilhando Lanches",
+      "description": "Compartilhe lanches entre dois pratos",
+      "start": "🍇 Clique aqui para começar!",
+      "makeSplit": "Coloque {left} e {right} nos pratos!",
+      "bowl": "Tigela de Lanches",
+      "friend1": "Amigo 1",
+      "friend2": "Amigo 2",
+      "clickHint": "👆 Clique em Adicionar para adicionar um lanche, ou clique no prato para devolver um!",
+      "correct": "🎉 Delicioso! {left} + {right} = {total}",
+      "wrong": "Quase! São {left} + {right}, tente de novo!"
+    },
+    "box-and-lid": {
+      "title": "Jogo da Caixa e Tampa",
+      "description": "Esconda alguns objetos, mostre o resto",
+      "start": "📦 Clique aqui para começar!",
+      "totalIn": "Total na caixa:",
+      "canSee": "Você pode ver {visible}...",
+      "howManyHidden": "Quantos estão escondidos sob a tampa?",
+      "correct": "🎉 Sim! {visible} visíveis + {hidden} escondidos = {total}",
+      "wrong": "Quase! {visible} + {hidden} = {total}"
+    },
+    "build-and-break": {
+      "title": "Construa & Quebre Torres",
+      "description": "Empilhe blocos, depois divida-os",
+      "start": "🏗️ Clique aqui para começar!",
+      "buildTower": "Construa uma torre com {n} blocos!",
+      "addBlock": "Adicionar Bloco",
+      "towerComplete": "Torre completa! Agora vamos dividi-la em partes!",
+      "splitInto": "Divida em {left} e {right}",
+      "clickHint": "👆 Clique em Adicionar para adicionar um bloco, ou clique na torre para devolver um!",
+      "correct": "🎉 Sim! {left} + {right} = {total}",
+      "wrong": "Olhe de novo! A torre se dividiu em {left} e {right}"
+    },
+    "two-color-counters": {
+      "title": "Fichas de Duas Cores",
+      "description": "Mesmo número, grupos de cores diferentes",
+      "start": "🔴 Clique aqui para começar!",
+      "shake": "Agite as fichas!",
+      "howManyRed": "Quantas fichas vermelhas?",
+      "howManyYellow": "Quantas fichas amarelas?",
+      "red": "vermelhas",
+      "yellow": "amarelas",
+      "correct": "🎉 Sim! {red} vermelhas + {yellow} amarelas = {total}",
+      "wrong": "Há {answer} fichas {color}!"
+    },
+    "story-mats": {
+      "title": "Tapetes de História",
+      "description": "Conte histórias com partes: lago e terra",
+      "start": "🎭 Clique aqui para começar!",
+      "correct": "🎉 Sim! {left} + {right} = {total}",
+      "wrong": "A resposta é {answer}!"
+    },
+    "who-has-more": {
+      "title": "Quem Tem Mais?",
+      "description": "Compare pilhas e descubra quem tem mais"
+    },
+    "feed-the-monster": {
+      "title": "Alimente o Monstro",
+      "description": "O monstro quer mais ou menos blocos",
+      "monsterWants": "O monstro quer",
+      "blocks": "blocos",
+      "more": "MAIS",
+      "fewer": "MENOS",
+      "addBlock": "Adicionar Bloco",
+      "removeBlock": "Remover Bloco",
+      "checkAnswer": "Verificar!",
+      "correct": "🎉 Nhami! O monstro está feliz com {n} blocos!",
+      "wrongMore": "O monstro queria MAIS! Adicione blocos!",
+      "wrongFewer": "O monstro queria MENOS! Remova blocos!"
+    },
+    "take-one-away": {
+      "title": "Tire Um",
+      "description": "Remova um e veja o que sobra",
+      "items": "itens",
+      "takeOneAway": "Tiramos UM...",
+      "howManyLeft": "Quantos sobram?",
+      "correct": "🎉 Correto! {before} - 1 = {after}",
+      "wrong": "Quase! {before} tirar 1 é {after}"
+    },
+    "add-one-game": {
+      "title": "Jogo de Adicionar Um",
+      "description": "Adicione um bloco à torre",
+      "addOneMore": "Adicionamos MAIS UM bloco...",
+      "howManyNow": "Quantos blocos há agora?",
+      "correct": "🎉 Correto! {before} + 1 = {after}",
+      "wrong": "Quase! {before} mais 1 é {after}"
+    },
+    "one-more-cookie": {
+      "title": "Mais Um Biscoito",
+      "description": "Se você ganhar mais um biscoito, quantos você terá?"
+    },
+    "balance-plates": {
+      "title": "Pratos em Equilíbrio",
+      "description": "Adicione ou remova itens para equilibrar",
+      "plateA": "Prato A",
+      "plateB": "Prato B",
+      "makeEqual": "Iguale os pratos!",
+      "add": "Adicionar",
+      "remove": "Remover",
+      "correct": "🎉 Equilibrado! Ambos têm {n}!",
+      "wrongNotEqual": "Ainda não está igual! Tente de novo!"
+    },
+    "toy-shop": {
+      "title": "Loja de Brinquedos",
+      "description": "Compre e venda brinquedos — mais ou menos?",
+      "yourToys": "Seus Brinquedos",
+      "shop": "Loja",
+      "buy": "Comprar",
+      "sell": "Vender",
+      "howManyAfterBuy": "Se você comprar {n} a mais, quantos terá?",
+      "howManyAfterSell": "Se você vender {n}, quantos terá?",
+      "correct": "🎉 Correto! Você tem {n} brinquedos agora!",
+      "wrong": "Quase! Você tem {answer} brinquedos."
+    },
+    "musical-counting": {
+      "title": "Contagem Musical",
+      "description": "Adicione e remova do círculo",
+      "dancers": "dançarinos",
+      "join": "entram",
+      "leave": "saem",
+      "howManyDancing": "Quantos amigos estão dançando agora?",
+      "correct": "🎉 Correto! Há {n} dançarinos!",
+      "wrong": "Quase! Há {n} dançarinos."
+    },
+    "cleanup-math": {
+      "title": "Matemática da Arrumação",
+      "description": "Guardamos mais ou menos brinquedos?",
+      "before": "Antes",
+      "after": "Depois",
+      "more": "Mais",
+      "fewer": "Menos",
+      "same": "Igual",
+      "correctMore": "🎉 Correto! Temos MENOS brinquedos agora!",
+      "correctFewer": "🎉 Correto! Temos MAIS brinquedos agora!",
+      "correctSame": "🎉 Correto! Temos o MESMO número!"
+    }
+  }
+}

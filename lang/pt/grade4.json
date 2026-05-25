@@ -1,0 +1,1142 @@
+{
+  "title": "Atividades do 4º Ano",
+  "description": "Valor posicional, operações, frações, decimais e geometria",
+  "levels": {
+    "level1": {
+      "title": "Valor Posicional, Arredondamento e Algoritmos de Soma/Subtração",
+      "goal": "Representar, comparar e arredondar números até 1.000.000 e somar/subtrair números de múltiplos dígitos com significado.",
+      "learnMore": {
+        "g4-l1-big-idea": {
+          "title": "Grande ideia",
+          "content": "Números de múltiplos dígitos são construídos a partir de valores posicionais. Quando as crianças conseguem *ver* um número como centenas de milhar, dezenas de milhar, milhares, centenas, dezenas e unidades, comparar, arredondar e somar/subtrair tornam-se muito mais calmos e confiáveis."
+        },
+        "g4-l1-notice": {
+          "title": "O que observar",
+          "content": "* Compara olhando primeiro para a esquerda (maior valor posicional).\n* Usa zeros como \"posições vazias\", não como \"nada a ignorar\".\n* Arredonda pensando \"qual múltiplo é mais próximo?\"\n* Verifica uma resposta exata com uma estimativa."
+        },
+        "g4-l1-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A: \"Construir um Número\"** Escreva os dígitos 0-9 em cartões. Desenhe um quadro de valor posicional com centenas de milhar, dezenas de milhar, milhares, centenas, dezenas e unidades. Sorteie seis cartões para construir o maior número, o menor número e um número próximo de 500.000.\n* **Jogo B: \"Estimar e Verificar\"** Escolha dois preços ou contagens da vida real (compras, passos, visualizações). Arredonde cada um, some/subtraia os números arredondados e compare com o total exato."
+        },
+        "g4-l1-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href=\"https://www.youtube.com/results?search_query=place+value+to+one+million+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">valor posicional até um milhão (4º ano)</a>\n* <a href=\"https://www.youtube.com/results?search_query=rounding+multi+digit+numbers+to+any+place\" target=\"_blank\" rel=\"noopener noreferrer\">arredondamento de números de múltiplos dígitos para qualquer posição</a>\n* <a href=\"https://www.youtube.com/results?search_query=standard+algorithm+addition+subtraction+with+regrouping+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">adição e subtração com reagrupamento (4º ano)</a>\n\n**Prática extra:**\n* <a href=\"https://www.khanacademy.org/math/cc-fourth-grade-math\" target=\"_blank\" rel=\"noopener noreferrer\">Khan Academy: 4º ano</a>"
+        }
+      }
+    },
+    "level2": {
+      "title": "Fatores, Múltiplos e Multiplicação/Divisão de Múltiplos Dígitos",
+      "goal": "Usar estrutura (fatores/múltiplos) e modelos para multiplicar e dividir números maiores, depois conectar a métodos eficientes.",
+      "learnMore": {
+        "g4-l2-big-idea": {
+          "title": "Grande ideia",
+          "content": "Multiplicação e divisão são sobre *grupos* e *matrizes*. O modelo de área e os produtos parciais mostram por que os algoritmos funcionam, para que \"carregar\" e \"baixar\" não pareçam mágica."
+        },
+        "g4-l2-notice": {
+          "title": "O que observar",
+          "content": "* Consegue encontrar pares de fatores fazendo retângulos.\n* Usa pensamento distributivo (20 x 14 mais 3 x 14).\n* Na divisão, verifica multiplicando o quociente de volta.\n* Trata os restos com base na história (sobras ou \"preciso de mais uma caixa\")."
+        },
+        "g4-l2-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A: \"Detetive de Retângulos\"** Escolha um número (24, 30, 36). Encontre todos os retângulos que você pode construir com objetos pequenos ou grades desenhadas. Cada retângulo é um par de fatores.\n* **Jogo B: \"Pacotes de Compras\"** Finja que você compra 128 adesivos em pacotes de 6. Quantos pacotes completos? Quantos sobraram? Você compraria um pacote extra?"
+        },
+        "g4-l2-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href=\"https://www.youtube.com/results?search_query=area+model+two+digit+by+two+digit+multiplication\" target=\"_blank\" rel=\"noopener noreferrer\">modelo de área para 2 dígitos x 2 dígitos</a>\n* <a href=\"https://www.youtube.com/results?search_query=partial+quotients+division+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">divisão por quocientes parciais (4º ano)</a>\n* <a href=\"https://www.youtube.com/results?search_query=factors+and+multiples+for+kids+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">fatores e múltiplos (4º ano)</a>"
+        }
+      }
+    },
+    "level3": {
+      "title": "Frações e Números Mistos",
+      "goal": "Entender frações como números, encontrar frações equivalentes, compará-las e somar/subtrair com denominadores iguais.",
+      "learnMore": {
+        "g4-l3-big-idea": {
+          "title": "Grande ideia",
+          "content": "Frações são números com uma *localização* (reta numérica) e um *tamanho*. Frações equivalentes são simplesmente nomes diferentes para o mesmo tamanho. Quando os denominadores coincidem, somar e subtrair é combinar ou remover partes iguais."
+        },
+        "g4-l3-notice": {
+          "title": "O que observar",
+          "content": "* Coloca frações corretamente entre 0 e 1 (ou além de 1).\n* Sabe que multiplicar o numerador e denominador pelo mesmo número mantém o valor igual.\n* Usa referências (1/2, 1) em vez de adivinhar.\n* Com denominadores iguais, soma/subtrai os numeradores mantendo o denominador."
+        },
+        "g4-l3-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A: \"Corrida de Tiras de Fração\"** Desenhe uma tira para 1 inteiro. Dobre-a (ou marque) em 2, 3, 4, 6, 8 partes iguais. Encontre pares de tamanhos iguais (1/2 = 2/4 = 4/8).\n* **Jogo B: \"Dobrar a Receita\"** Escolha um passo simples de receita: \"Use 2/3 de xícara.\" Pergunte: \"Quanto é 2 x 2/3?\" Use uma figura de xícara medidora ou desenhe a fração."
+        },
+        "g4-l3-videos": {
+          "title": "Vídeos opcionais",
+          "content": "Pesquise no YouTube:\n* <a href=\"https://www.youtube.com/results?search_query=equivalent+fractions+using+number+lines+and+models\" target=\"_blank\" rel=\"noopener noreferrer\">frações equivalentes com modelos</a>\n* <a href=\"https://www.youtube.com/results?search_query=add+and+subtract+fractions+with+like+denominators+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">somar/subtrair frações com denominadores iguais</a>\n* <a href=\"https://www.youtube.com/results?search_query=mixed+numbers+and+improper+fractions+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">números mistos e frações impróprias</a>"
+        }
+      }
+    },
+    "level4": {
+      "title": "Decimais, Medidas e Dados",
+      "goal": "Conectar frações a decimais (décimos/centésimos), converter unidades dentro de um sistema e resolver problemas de medida/dados.",
+      "learnMore": {
+        "g4-l4-big-idea": {
+          "title": "Grande ideia",
+          "content": "Decimais são outra forma de nomear frações com denominadores 10 e 100. Problemas de medida ficam mais fáceis quando as crianças controlam as *unidades* e usam conversões como \"multiplicar ou dividir por um fator conhecido\"."
+        },
+        "g4-l4-notice": {
+          "title": "O que observar",
+          "content": "* Lê 0,4 como \"quatro décimos\", não \"zero vírgula quatro\".\n* Compara decimais pelos décimos primeiro, depois centésimos.\n* Escreve unidades com as respostas (cm, m, g, kg).\n* Distingue área (unidades quadradas) de perímetro (unidades)."
+        },
+        "g4-l4-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A: \"Arte na Grade de Cem\"** Pinte 0,36, 0,5, 0,08 em grades de cem (10x10). Escreva cada um como fração sobre 100 e sobre 10 quando possível.\n* **Jogo B: \"Medir e Converter\"** Meça a borda de uma mesa em centímetros. Converta para metros e centímetros. Depois compare."
+        },
+        "g4-l4-videos": {
+          "title": "Vídeos opcionais",
+          "content": "Pesquise no YouTube:\n* <a href=\"https://www.youtube.com/results?search_query=tenths+and+hundredths+decimals+for+kids\" target=\"_blank\" rel=\"noopener noreferrer\">decimais décimos e centésimos</a>\n* <a href=\"https://www.youtube.com/results?search_query=convert+units+grade+4+measurement\" target=\"_blank\" rel=\"noopener noreferrer\">conversão de unidades (4º ano)</a>\n* <a href=\"https://www.youtube.com/results?search_query=area+and+perimeter+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">área e perímetro (4º ano)</a>"
+        }
+      }
+    },
+    "level5": {
+      "title": "Ângulos e Propriedades das Formas",
+      "goal": "Medir e desenhar ângulos, entender retas e simetria e classificar formas por propriedades.",
+      "learnMore": {
+        "g4-l5-big-idea": {
+          "title": "Grande ideia",
+          "content": "A geometria é sobre *relações*: como as retas se encontram, como os ângulos medem \"giro\" e como as formas podem ser classificadas por propriedades. Quando os alunos conseguem nomear propriedades, eles podem explicar *por que* uma forma pertence a uma categoria."
+        },
+        "g4-l5-notice": {
+          "title": "O que observar",
+          "content": "* Reconhece ângulos retos mesmo quando rotacionados.\n* Mede ângulos alinhando primeiro a linha de base.\n* Usa \"paralelas\" como \"nunca se encontram\" e \"perpendiculares\" como \"formam ângulos retos\".\n* Classifica um quadrado como um retângulo especial (e um losango especial)."
+        },
+        "g4-l5-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A: \"Caça aos Ângulos\"** Encontre 5 ângulos em sua casa (canto de livro, dobradiça de porta, mesa). Nomeie cada um como agudo/reto/obtuso.\n* **Jogo B: \"Dobrar para Simetria\"** Recorte formas simples de papel. Dobre para testar linhas de simetria. Desenhe as linhas de dobra."
+        },
+        "g4-l5-videos": {
+          "title": "Vídeos opcionais",
+          "content": "Pesquise no YouTube:\n* <a href=\"https://www.youtube.com/results?search_query=measuring+angles+with+a+protractor+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">medir ângulos com um transferidor</a>\n* <a href=\"https://www.youtube.com/results?search_query=parallel+and+perpendicular+lines+for+kids\" target=\"_blank\" rel=\"noopener noreferrer\">retas paralelas e perpendiculares</a>\n* <a href=\"https://www.youtube.com/results?search_query=classifying+quadrilaterals+grade+4\" target=\"_blank\" rel=\"noopener noreferrer\">classificar quadriláteros</a>"
+        }
+      }
+    }
+  },
+  "activities": {
+    "place-value-to-million": {
+      "title": "Telescópio de Valor Posicional até 1.000.000",
+      "description": "Construa números grandes usando um quadro de valor posicional.",
+      "instruction": "Construa o número mostrado usando o quadro de valor posicional!",
+      "prompt": "Construa {number}",
+      "buildNumber": "Construa este número:",
+      "hundredThousands": "Centenas de Milhar",
+      "tenThousands": "Dezenas de Milhar",
+      "thousands": "Milhares",
+      "hundreds": "Centenas",
+      "tens": "Dezenas",
+      "ones": "Unidades",
+      "perfect": "Incrível trabalho com valor posicional!",
+      "great": "Ótimo trabalho construindo números grandes!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "expanded-form-million": {
+      "title": "Combinar Forma Expandida até Milhão",
+      "description": "Combine um número com sua forma expandida.",
+      "instruction": "Combine cada número com sua forma expandida!",
+      "selectPair": "Selecione um número e depois selecione sua forma expandida!",
+      "numbers": "Números",
+      "expandedForms": "Formas Expandidas",
+      "matchesFound": "Combinações encontradas:",
+      "perfect": "Habilidades de combinação perfeitas!",
+      "great": "Ótimo trabalho combinando formas expandidas!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "compare-order-big": {
+      "title": "Comparar e Ordenar Números Grandes",
+      "description": "Compare e ordene números grandes.",
+      "instruction": "Compare os números usando >, < ou = e depois ordene-os!",
+      "partA": "Parte A: Comparar",
+      "partB": "Parte B: Ordenar",
+      "whichSymbol": "Qual símbolo torna isso verdadeiro?",
+      "orderPrompt": "Coloque estes números em ordem do menor para o maior!",
+      "least": "Menor",
+      "greatest": "Maior",
+      "slot": "Posição",
+      "empty": "vazio",
+      "clickToRemove": "clique para remover",
+      "perfect": "Habilidades de comparação incríveis!",
+      "great": "Ótimo trabalho comparando e ordenando números!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "round-any-place": {
+      "title": "Arredondar para Qualquer Posição",
+      "description": "Arredonde um número para a dezena, centena, milhar, dezena de milhar ou centena de milhar mais próxima.",
+      "instruction": "Arredonde o número para a posição mostrada!",
+      "roundPrompt": "Arredonde",
+      "toNearest": "para o(a) mais próximo(a)",
+      "hint": "Qual múltiplo é mais próximo?",
+      "ten": "dezena",
+      "hundred": "centena",
+      "thousand": "milhar",
+      "tenThousand": "dezena de milhar",
+      "hundredThousand": "centena de milhar",
+      "roundsTo": "é arredondado para",
+      "perfect": "Habilidades de arredondamento incríveis!",
+      "great": "Ótimas habilidades de arredondamento!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "add-sub-multi-digit": {
+      "title": "Somar e Subtrair Múltiplos Dígitos",
+      "description": "Some e subtraia números grandes com reagrupamento.",
+      "instruction": "Resolva o problema passo a passo!",
+      "whatIsAnswer": "Qual é a resposta?",
+      "addition": "Adição",
+      "subtraction": "Subtração",
+      "showHint": "Mostrar dica",
+      "hideHint": "Esconder dica",
+      "onesLabel": "U",
+      "tensLabel": "D",
+      "hundredsLabel": "C",
+      "thousandsLabel": "M",
+      "ten thousandsLabel": "DM",
+      "hundred thousandsLabel": "CM",
+      "writeCarry": "Escreva {digit}, carregue {carry}",
+      "writeDigit": "Escreva {digit}",
+      "borrowNote": "Pegue emprestado da próxima posição",
+      "carryOver": "Carregar",
+      "perfect": "Habilidades de cálculo incríveis!",
+      "great": "Ótimo trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "estimate-sum-diff": {
+      "title": "Estimar Primeiro",
+      "description": "Estime arredondando, depois resolva exatamente.",
+      "instruction": "Estime arredondando, depois resolva exatamente!",
+      "step1": "Passo 1: Estime primeiro!",
+      "step2": "Passo 2: Encontre a resposta exata!",
+      "step3": "Passo 3: A resposta exata está próxima da sua estimativa?",
+      "whatEstimate": "Qual é a sua estimativa?",
+      "estimateLabel": "Estimativa:",
+      "whatExact": "Qual é a resposta exata?",
+      "closeToEstimate": "A resposta exata está próxima da estimativa?",
+      "roundToNearest": "Arredonde para o(a) mais próximo(a):",
+      "yes": "Sim, está próximo!",
+      "no": "Não, não está próximo",
+      "incorrectEstimate": "A estimativa é {answer}",
+      "incorrectExact": "A resposta exata é {answer}",
+      "yesClose": "Sim! {estimate} está próximo de {exact} (diferença: {diff})",
+      "noNotClose": "Isso mesmo! {estimate} e {exact} estão {diff} de distância.",
+      "actuallyClose": "Na verdade, {estimate} está próximo de {exact} (apenas {diff} de diferença)!",
+      "actuallyNotClose": "Na verdade, {estimate} e {exact} estão {diff} de distância - isso é uma diferença maior.",
+      "perfect": "Habilidades de estimativa incríveis!",
+      "great": "Ótimo trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "number-line-zoom": {
+      "title": "Zoom na Reta Numérica",
+      "description": "Coloque um número em uma reta numérica ampliada.",
+      "instruction": "Toque onde o número pertence na reta numérica!",
+      "placeNumber": "Coloque este número:",
+      "checkAnswer": "Verificar Minha Resposta",
+      "correctMsg": "Ótimo posicionamento!",
+      "incorrectMsg": "O ponto correto é {target}",
+      "perfect": "Habilidades incríveis na reta numérica!",
+      "great": "Ótima estimativa!",
+      "keepPracticing": "Continue praticando!",
+      "sliderLabel": "Reta numérica ampliada"
+    },
+    "add-sub-word-problems": {
+      "title": "Histórias de Soma/Subtração em Dois Passos",
+      "description": "Resolva histórias curtas com números grandes.",
+      "instruction": "Leia a história e resolva!",
+      "step1": "Passo 1: Escolha a primeira operação",
+      "step2": "Passo 2: Escolha a segunda operação",
+      "step3": "Passo 3: Aproximadamente quanto?",
+      "step4": "Passo 4: Qual é a resposta final?",
+      "whatOperation1": "Que operação usamos primeiro?",
+      "whatOperation2": "Que operação usamos a seguir?",
+      "aboutHowMuch": "Aproximadamente quanto?",
+      "roundToNearest": "Arredonde para o(a) mais próximo(a):",
+      "whatAnswer": "Qual é a resposta final?",
+      "stepLabel1": "Passo 1:",
+      "stepLabel2": "Passo 2:",
+      "operationChoicesLabel": "Opções de operação",
+      "estimateChoicesLabel": "Opções de estimativa",
+      "answerChoicesLabel": "Opções de resposta",
+      "estimateChoiceLabel": "Estimativa {value}",
+      "answerChoiceLabel": "Selecionar {value}",
+      "loadingStory": "Carregando história...",
+      "someone": "Alguém",
+      "pronouns": {
+        "they": "Eles",
+        "theyLower": "eles",
+        "he": "Ele",
+        "heLower": "ele",
+        "she": "Ela",
+        "sheLower": "ela"
+      },
+      "stories": {
+        "balloons": {
+          "template": "{name} tem {a} balões. {pronoun} compra mais {b} e depois dá {c} para alguém.",
+          "question": "Quantos balões {name} tem agora?"
+        },
+        "library": {
+          "template": "Uma biblioteca tem {a} livros. Ela compra {b} livros novos e depois doa {c} livros antigos.",
+          "question": "Quantos livros a biblioteca tem agora?"
+        },
+        "fieldTrip": {
+          "template": "{name} tem {a} ingressos. {pronoun} vende {b} ingressos e depois vende mais {c}.",
+          "question": "Quantos ingressos sobraram?"
+        },
+        "stickers": {
+          "template": "{name} coleciona {a} adesivos. {pronoun} troca {b} adesivos e depois ganha {c} novos.",
+          "question": "Quantos adesivos {name} tem agora?"
+        },
+        "busStops": {
+          "template": "Um ônibus tem {a} passageiros. Na primeira parada, {b} pessoas saem. Na segunda parada, {c} pessoas entram.",
+          "question": "Quantos passageiros estão no ônibus agora?"
+        },
+        "savings": {
+          "template": "{name} economiza R${a}. {pronoun} gasta R${b} em um projeto e depois ganha R${c} fazendo tarefas.",
+          "question": "Quanto dinheiro {name} tem agora?"
+        },
+        "birds": {
+          "template": "Há {a} pássaros em um parque. {b} pássaros voam, depois mais {c} pássaros chegam.",
+          "question": "Quantos pássaros estão no parque agora?"
+        },
+        "candies": {
+          "template": "{name} tem {a} balas. {pronoun} recebe mais {b} de um amigo e depois come {c} balas.",
+          "question": "Quantas balas {name} tem agora?"
+        }
+      },
+      "incorrectOp1": "A primeira operação é {op}",
+      "incorrectOp2": "A segunda operação é {op}",
+      "estimateCorrect": "Boa estimativa!",
+      "incorrectEstimate": "Uma boa estimativa é {answer}",
+      "incorrectAnswer": "A resposta é {answer}",
+      "addition": "adição (+)",
+      "subtraction": "subtração (-)",
+      "perfect": "Resolução de problemas incrível!",
+      "great": "Ótimo raciocínio!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "factor-pairs": {
+      "title": "Jardim dos Pares de Fatores",
+      "description": "Cultive retângulos para encontrar pares de fatores.",
+      "instruction": "Encontre todos os pares de fatores construindo retângulos!",
+      "targetNumber": "Número alvo",
+      "buildRectangle": "Construa um retângulo",
+      "rows": "Fileiras",
+      "columns": "Colunas",
+      "hint": "Fileiras × Colunas = Total",
+      "checkPair": "Verificar Par",
+      "gardenPlot": "Canteiro do jardim",
+      "pairsFound": "Pares encontrados",
+      "foundPair": "{rows} × {cols} é um par de fatores.",
+      "notMatch": "Isso dá {product}, não {target}.",
+      "alreadyFound": "Você já encontrou {rows} × {cols}. Tente um novo par!",
+      "allFound": "Todos os pares encontrados para {target}!",
+      "perfect": "Trabalho perfeito com fatores!",
+      "great": "Ótima caça aos fatores!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "prime-composite": {
+      "title": "Classificar Primo ou Composto",
+      "description": "Classifique números em primos ou compostos.",
+      "instruction": "Classifique cada número em primo ou composto!",
+      "hint": "Tente um retângulo: se puder fazer um retângulo não-1×N → composto.",
+      "primeLabel": "Primo",
+      "compositeLabel": "Composto",
+      "numbersLabel": "Números para classificar",
+      "numberLabel": "Número {number}. Pressione 1 para Primo, 2 para Composto.",
+      "clickToRemove": "Clique para remover",
+      "sortAll": "Classifique todos os números primeiro!",
+      "correct": "Ótima classificação!",
+      "tryAgain": "Quase. Tente de novo!",
+      "perfect": "Superestrela na classificação de primos!",
+      "great": "Ótima classificação primo/composto!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "area-model-multiply": {
+      "title": "Multiplicar com Modelo de Área",
+      "description": "Multiplique usando um retângulo dividido em dezenas e unidades.",
+      "instruction": "Preencha o modelo de área para encontrar o produto!",
+      "problemLabel": "Multiplicar",
+      "breakdownLabel": "Decompor",
+      "modelLabel": "Modelo de área",
+      "totalLabel": "Produto total",
+      "partialLabel": "Produto parcial para {a} × {b}",
+      "fillAll": "Preencha todas as caixas primeiro!",
+      "correct": "Ótimo modelo de área!",
+      "tryAgain": "Quase. Tente de novo!",
+      "perfect": "Mestre no modelo de área!",
+      "great": "Ótimo trabalho de multiplicação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "partial-products": {
+      "title": "Construtor de Produtos Parciais",
+      "description": "Construa produtos parciais e some-os.",
+      "instruction": "Decomponha e multiplique, depois some!",
+      "problemLabel": "Multiplicar",
+      "breakdownLabel": "Decompor",
+      "partialsLabel": "Produtos parciais",
+      "sumLabel": "Some os produtos parciais",
+      "totalLabel": "Produto total",
+      "partialLabel": "Produto parcial para {a} × {b}",
+      "fillAll": "Preencha todas as caixas primeiro!",
+      "correct": "Ótimos produtos parciais!",
+      "tryAgain": "Quase. Tente de novo!",
+      "perfect": "Profissional em produtos parciais!",
+      "great": "Ótimo trabalho de multiplicação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "multiply-2x2": {
+      "title": "Multiplicação de Múltiplos Dígitos",
+      "description": "Pratique multiplicação de 2 dígitos por 2 dígitos.",
+      "instruction": "Multiplique os números!",
+      "problemLabel": "Multiplicar",
+      "scaffoldTitle": "Visão de produtos parciais",
+      "scaffoldChip": "Use as partes",
+      "algorithmLabel": "Algoritmo padrão",
+      "onesRowLabel": "Fileira das unidades (× {digit})",
+      "finalLabel": "Produto final",
+      "onesRowPrompt": "Encontre a fileira das unidades para × {digit}.",
+      "finalPrompt": "Encontre o produto final.",
+      "answerLabel": "Sua resposta",
+      "answerAria": "Resposta para {step}",
+      "enterAnswer": "Digite uma resposta primeiro!",
+      "correct": "Ótima multiplicação!",
+      "tryAgain": "Quase. Tente de novo!",
+      "perfect": "Mestre em multiplicação!",
+      "great": "Ótimo trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "divide-place-value": {
+      "title": "Dividir com Valor Posicional",
+      "description": "Divida um número grande em grupos iguais.",
+      "instruction": "Divida pegando partes em cada valor posicional!",
+      "problemLabel": "Dividir",
+      "chunkTitle": "Partes de valor posicional",
+      "chunkHint": "Encontre quantos grupos há em cada parte.",
+      "divisorChip": "Dividir por {divisor}",
+      "hundredsLabel": "Parte das centenas",
+      "tensLabel": "Parte das dezenas",
+      "onesLabel": "Parte das unidades",
+      "chunkEquation": "{chunk} ÷ {divisor} =",
+      "chunkInputLabel": "Grupos para {chunk}",
+      "totalLabel": "Quociente total",
+      "remainderLabel": "Resto",
+      "remainderNote": "Use 0 se não houver.",
+      "leftoverLabel": "Blocos restantes",
+      "leftoverNone": "Sem sobras",
+      "fillAll": "Preencha todas as caixas primeiro!",
+      "correct": "Ótima divisão!",
+      "tryAgain": "Quase. Tente de novo!",
+      "perfect": "Campeão em divisão!",
+      "great": "Ótima divisão!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "division-remainders": {
+      "title": "Histórias de Resto",
+      "description": "Decida o que o resto significa em uma história.",
+      "instruction": "Leia a história e decida o que fazer com o resto!",
+      "loadingStory": "Carregando história...",
+      "divisionTitle": "Resolva a divisão:",
+      "divisionAriaLabel": "Equação de divisão",
+      "remainderShort": "R",
+      "decisionTitle": "O que o resto nos diz?",
+      "choicesAriaLabel": "Opções de resto",
+      "choices": {
+        "leftover": "Resto sobrou",
+        "extraGroup": "Precisa de mais um grupo",
+        "roundDown": "Arredondar para grupos completos"
+      },
+      "explain": {
+        "leftover": "O resto mostra itens que sobraram. São {remainder} restantes.",
+        "extraGroup": "Você precisa de mais um grupo porque {remainder} ainda restam.",
+        "roundDown": "Conte apenas grupos completos. {remainder} não cabem."
+      },
+      "perfect": "Especialista em restos!",
+      "great": "Ótimo raciocínio com restos!",
+      "keepPracticing": "Continue praticando!",
+      "stories": {
+        "cupcakes": {
+          "template": "{total} cupcakes são embalados em caixas de {group}.",
+          "question": "Quantos cupcakes sobram?"
+        },
+        "stickers": {
+          "template": "{total} adesivos são embalados em pacotes de {group}.",
+          "question": "Quantos adesivos sobram?"
+        },
+        "apples": {
+          "template": "{total} maçãs vão em cestas de {group}.",
+          "question": "Quantas maçãs sobram?"
+        },
+        "buses": {
+          "template": "{total} alunos vão a um passeio. Cada ônibus comporta {group} alunos.",
+          "question": "Quantos ônibus são necessários?"
+        },
+        "tables": {
+          "template": "{total} convidados sentam em mesas com {group} lugares cada.",
+          "question": "Quantas mesas são necessárias?"
+        },
+        "gift-bags": {
+          "template": "{total} lembranças vão em sacos de {group}.",
+          "question": "Quantos sacos são necessários?"
+        },
+        "teams": {
+          "template": "{total} jogadores formam times de {group}.",
+          "question": "Quantos times completos podem ser formados?"
+        },
+        "shelves": {
+          "template": "{total} livros vão em prateleiras que comportam {group} livros cada.",
+          "question": "Quantas prateleiras completas podem ser preenchidas?"
+        }
+      }
+    },
+    "multi-step-md": {
+      "title": "Problemas de Multiplicação/Divisão em Múltiplos Passos",
+      "description": "Resolva problemas de história de 1-2 passos com multiplicação e divisão.",
+      "instruction": "Leia com atenção e resolva passo a passo!",
+      "step1": "Passo 1: Escolha a primeira operação",
+      "step2": "Passo 2: Escolha a segunda operação",
+      "step3": "Passo 3: Qual é a resposta final?",
+      "whatOperation1": "Que operação usamos primeiro?",
+      "whatOperation2": "Que operação usamos a seguir?",
+      "whatAnswer": "Qual é a resposta final?",
+      "stepLabel1": "Passo 1:",
+      "stepLabel2": "Passo 2:",
+      "loadingStory": "Carregando história...",
+      "operationChoicesLabel": "Opções de operação",
+      "answerChoicesLabel": "Opções de resposta",
+      "answerChoiceLabel": "Selecionar {value}",
+      "barModelTitle": "Modelo de barra",
+      "barGroupsOf": "{groups} grupos de {each}",
+      "barDivideLabel": "Dividir em {groups} grupos",
+      "barTotalLabel": "Total {total}",
+      "multiplication": "multiplicação (×)",
+      "division": "divisão (÷)",
+      "incorrectOp1": "A primeira operação é {op}",
+      "incorrectOp2": "A segunda operação é {op}",
+      "incorrectAnswer": "A resposta é {answer}",
+      "perfect": "Resolução de problemas incrível!",
+      "great": "Ótimo raciocínio!",
+      "keepPracticing": "Continue praticando!",
+      "stories": {
+        "gardenPots": {
+          "template": "{name} cultiva {a} bandejas com {b} flores cada. As flores são divididas igualmente entre {c} vizinhos.",
+          "question": "Quantas flores cada vizinho recebe?"
+        },
+        "classArtwork": {
+          "template": "Uma turma tem {a} desenhos para um corredor. Eles colocam {b} desenhos em cada parede. Há {c} corredores idênticos.",
+          "question": "Quantas exposições de parede eles fazem ao todo?"
+        },
+        "sportsBottles": {
+          "template": "{name} treina {a} times com {b} jogadores cada. Cada jogador recebe {c} garrafinhas de água.",
+          "question": "Quantas garrafinhas de água são necessárias?"
+        },
+        "pizzaSlices": {
+          "template": "Uma pizzaria assa {a} bandejas com {b} fatias cada. As fatias são divididas em {c} caixas.",
+          "question": "Quantas fatias vão em cada caixa?"
+        },
+        "museumTickets": {
+          "template": "Um museu imprime {a} ingressos para um dia de evento. Eles empacotam {b} ingressos por pacote. Há {c} dias de evento.",
+          "question": "Quantos pacotes há ao todo?"
+        },
+        "bookFair": {
+          "template": "A feira de livros monta {a} prateleiras com {b} livros em cada. Os livros são divididos entre {c} turmas.",
+          "question": "Quantos livros cada turma recebe?"
+        },
+        "gardenFences": {
+          "template": "Um jardineiro constrói {a} fileiras com {b} postes de cerca cada. Ele constrói {c} jardins assim.",
+          "question": "Quantos postes de cerca são necessários?"
+        },
+        "marathonMedals": {
+          "template": "Uma corrida tem {a} medalhas para um dia. Eles colocam {b} medalhas em cada caixa. Há {c} dias de corrida.",
+          "question": "Quantas caixas de medalhas são necessárias ao todo?"
+        }
+      }
+    },
+    "fraction-number-line": {
+      "title": "Caminhada na Reta Numérica de Frações",
+      "description": "Coloque frações em retas numéricas (0-1 e 0-2).",
+      "instruction": "Toque onde a fração pertence!",
+      "placeFraction": "Coloque esta fração:",
+      "checkAnswer": "Verificar Minha Resposta",
+      "correctMsg": "Posicionamento perfeito!",
+      "incorrectMsg": "O ponto correto é {fraction}",
+      "perfect": "Posicionamento de fração incrível!",
+      "great": "Ótimo trabalho na reta numérica!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!",
+      "sliderLabel": "Reta numérica de 0 a {max}"
+    },
+    "equivalent-fractions": {
+      "title": "Construtor de Frações Equivalentes",
+      "description": "Construa frações equivalentes com tiras.",
+      "instruction": "Construa uma fração igual à mostrada!",
+      "targetLabel": "Fração alvo",
+      "buildLabel": "Construa uma fração equivalente",
+      "shadedLabel": "Partes sombreadas",
+      "hint": "Use + e − para sombrear partes.",
+      "addPartLabel": "Adicionar uma parte sombreada",
+      "removePartLabel": "Remover uma parte sombreada",
+      "correctMsg": "Fração equivalente construída!",
+      "incorrectMsg": "Quase. A fração equivalente é {numerator}/{denominator}.",
+      "perfect": "Construção de fração fantástica!",
+      "great": "Ótimo trabalho com equivalência!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "compare-fractions": {
+      "title": "Comparar Frações",
+      "description": "Escolha >, < ou = com ajuda visual.",
+      "instruction": "Qual símbolo torna a comparação verdadeira?",
+      "showHint": "Mostrar barras de fração",
+      "hideHint": "Esconder barras de fração",
+      "correct": "Correto!",
+      "wrong": "A resposta é {symbol}",
+      "perfect": "Habilidades de comparação incríveis!",
+      "great": "Ótimo trabalho com frações!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "add-like-fractions": {
+      "title": "Somar Frações com Denominadores Iguais",
+      "description": "Some frações com o mesmo denominador.",
+      "instruction": "Some as frações!",
+      "prompt": "Escolha a soma.",
+      "firstFraction": "Primeira fração",
+      "secondFraction": "Segunda fração",
+      "sumFraction": "Soma",
+      "answerChoicesLabel": "Opções de resposta",
+      "choiceLabel": "Fração {numerator} sobre {denominator}",
+      "correct": "Correto!",
+      "incorrect": "A soma é {numerator}/{denominator}.",
+      "perfect": "Adição de frações perfeita!",
+      "great": "Ótima adição!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "subtract-like-fractions": {
+      "title": "Subtrair Frações com Denominadores Iguais",
+      "description": "Subtraia frações com o mesmo denominador.",
+      "instruction": "Subtraia as frações!",
+      "prompt": "Escolha a diferença.",
+      "firstFraction": "Fração inicial",
+      "secondFraction": "Subtrair",
+      "differenceFraction": "Diferença",
+      "answerChoicesLabel": "Opções de resposta",
+      "choiceLabel": "Fração {numerator} sobre {denominator}",
+      "correct": "Correto!",
+      "incorrect": "A diferença é {numerator}/{denominator}.",
+      "perfect": "Subtração de frações perfeita!",
+      "great": "Ótima subtração!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!",
+      "progressLabel": "Progresso",
+      "progressItemLabel": "Questão {current} de {total}: {status}",
+      "progressStatusCompleted": "concluída",
+      "progressStatusCurrent": "atual",
+      "progressStatusPending": "próxima"
+    },
+    "mixed-numbers": {
+      "title": "Ponte dos Números Mistos",
+      "description": "Faça e use números mistos e frações impróprias.",
+      "instruction": "Converta entre números mistos e frações impróprias!",
+      "promptConvertMixed": "Converta para um número misto.",
+      "promptConvertImproper": "Converta para uma fração imprópria.",
+      "promptAdd": "Some os números mistos.",
+      "promptSubtract": "Subtraia os números mistos.",
+      "givenLabel": "Dado",
+      "resultLabel": "Sua resposta",
+      "mixedLabel": "Número misto",
+      "improperLabel": "Fração imprópria",
+      "equationLabel": "Equação",
+      "answerChoicesLabel": "Opções de resposta",
+      "choiceMixedLabel": "Número misto {whole} e {numerator} sobre {denominator}",
+      "choiceImproperLabel": "Fração {numerator} sobre {denominator}",
+      "correct": "Correto!",
+      "incorrectMixed": "O número misto é {whole} {numerator}/{denominator}.",
+      "incorrectImproper": "A fração imprópria é {numerator}/{denominator}.",
+      "perfect": "Trabalho perfeito com números mistos!",
+      "great": "Ótimas conversões!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "fraction-times-whole": {
+      "title": "Fração x Número Inteiro",
+      "description": "Multiplique uma fração por um número inteiro como adição repetida.",
+      "instruction": "Multiplique a fração pelo número inteiro!",
+      "prompt": "Quanto é {whole} × {numerator}/{denominator}?",
+      "equationLabel": "Equação",
+      "groupsLabel": "Grupos de adição repetida",
+      "answerChoicesLabel": "Opções de resposta",
+      "choiceLabel": "Fração {numerator} sobre {denominator}",
+      "correct": "Correto!",
+      "incorrect": "O produto é {numerator}/{denominator}.",
+      "perfect": "Multiplicação perfeita!",
+      "great": "Ótima adição repetida!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!",
+      "progressLabel": "Progresso",
+      "progressItemLabel": "Questão {current} de {total}: {status}",
+      "progressStatusCompleted": "concluída",
+      "progressStatusCurrent": "atual",
+      "progressStatusPending": "próxima"
+    },
+    "fraction-word-problems": {
+      "title": "Problemas de História com Frações",
+      "description": "Resolva histórias com frações (receitas, medidas, compartilhamento).",
+      "instruction": "Leia a história e resolva com frações!",
+      "prompt": "Escolha a fração que resolve a história.",
+      "equationLabel": "Equação",
+      "answerChoicesLabel": "Opções de resposta",
+      "choiceLabel": "Fração {numerator} sobre {denominator}",
+      "loadingStory": "Carregando história...",
+      "correct": "Correto!",
+      "incorrect": "A resposta é {numerator}/{denominator}.",
+      "perfect": "Histórias de frações perfeitas!",
+      "great": "Ótimo raciocínio com frações!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!",
+      "stories": {
+        "recipe": {
+          "template": "Você usa {a} xícara de farinha. Você adiciona mais {b} xícara.",
+          "question": "Quanta farinha foi usada?"
+        },
+        "garden": {
+          "template": "{a} do jardim está plantado. Você planta mais {b}.",
+          "question": "Que fração está plantada agora?"
+        },
+        "pizza": {
+          "template": "Você come {a} de uma pizza. Você come mais {b}.",
+          "question": "Quanta pizza você comeu?"
+        },
+        "paint": {
+          "template": "Uma parede está {a} pintada. Você pinta mais {b}.",
+          "question": "Que fração está pintada agora?"
+        },
+        "ribbon": {
+          "template": "Um laço tem {a} metro de comprimento. Você corta {b} metro.",
+          "question": "Quanto de laço sobrou?"
+        },
+        "trail": {
+          "template": "Você caminha {a} milha de ida e {b} milha de volta.",
+          "question": "Qual distância do início?"
+        },
+        "sand": {
+          "template": "Um balde está {a} cheio de areia. Você usa {b} da areia.",
+          "question": "Quanta areia sobrou?"
+        },
+        "water": {
+          "template": "Uma jarra está {a} cheia. Você serve {b}.",
+          "question": "Quão cheia está agora?"
+        }
+      }
+    },
+    "decimals-place-value": {
+      "title": "Aquário dos Décimos e Centésimos",
+      "description": "Construa decimais usando uma grade 10x10.",
+      "instruction": "Pinte a grade para mostrar o decimal!",
+      "prompt": "Pinte a grade para mostrar:",
+      "fractionLabel": "Fração:",
+      "hint": "Cada coluna é 0,1. Cada quadrado é 0,01.",
+      "columnHint": "Toque em um rótulo de topo para pintar uma coluna inteira (décimos).",
+      "shadedLabel": "Pintado:",
+      "squareUnit": "quadrado",
+      "squareUnits": "quadrados",
+      "columnGroupLabel": "Colunas de décimos",
+      "columnLabel": "Alternar coluna {column}",
+      "cellLabel": "Quadrado da grade linha {row}, coluna {column}",
+      "gridLabel": "Grade de centésimos",
+      "checkAnswer": "Verificar Minha Resposta",
+      "correct": "Ótimo! Você fez {decimal}.",
+      "incorrect": "O alvo era {decimal} ({fraction}).",
+      "perfect": "Pintura de decimal perfeita!",
+      "great": "Ótimo senso decimal!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "compare-decimals": {
+      "title": "Comparar Decimais",
+      "description": "Escolha >, < ou = para decimais até centésimos.",
+      "instruction": "Compare os decimais!",
+      "prompt": "Qual símbolo torna a comparação verdadeira?",
+      "hint": "Compare décimos primeiro, depois centésimos.",
+      "onesLabel": "Unidades",
+      "tenthsLabel": "Décimos",
+      "hundredthsLabel": "Centésimos",
+      "lessThanLabel": "Menor que",
+      "equalLabel": "Igual a",
+      "greaterThanLabel": "Maior que",
+      "correct": "Correto!",
+      "wrong": "A resposta é {symbol}.",
+      "perfect": "Comparações de decimais perfeitas!",
+      "great": "Ótima comparação!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "fraction-decimal-match": {
+      "title": "Combinar Fração com Decimal",
+      "description": "Combine frações de décimos/centésimos com decimais.",
+      "instruction": "Combine cada fração com seu decimal!",
+      "selectPair": "Selecione uma fração e depois selecione seu decimal.",
+      "fractionsLabel": "Frações",
+      "decimalsLabel": "Decimais",
+      "matchesFound": "Combinações encontradas:",
+      "fractionCardLabel": "Fração {numerator} sobre {denominator}",
+      "decimalCardLabel": "Decimal {decimal}",
+      "perfect": "Combinação perfeita!",
+      "great": "Ótimas combinações fração-decimal!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "unit-conversion": {
+      "title": "Trilha de Conversão de Unidades",
+      "description": "Converta unidades (como metros para centímetros, kg para g).",
+      "instruction": "Converta para a nova unidade!",
+      "prompt": "Converta {value} {fromUnit} para {toUnit}.",
+      "mapTitle": "Mapa de Conversão",
+      "mapHint": "Use o mapa para verificar o fator de conversão.",
+      "trailTitle": "Trilha de Conversão",
+      "stepMultiply": "× {factor}",
+      "stepDivide": "÷ {factor}",
+      "choicesLabel": "Opções de resposta",
+      "choiceLabel": "{value} {unit}",
+      "mapEquation": "1 {fromUnit} = {factor} {toUnit}",
+      "correct": "Ótimo! {value} {fromUnit} = {answer} {toUnit}.",
+      "wrong": "A resposta correta é {answer} {toUnit}.",
+      "perfect": "Conversões perfeitas!",
+      "great": "Ótimas habilidades de conversão!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!",
+      "units": {
+        "mm": "mm",
+        "cm": "cm",
+        "m": "m",
+        "km": "km",
+        "in": "pol",
+        "ft": "pé",
+        "yd": "jarda",
+        "g": "g",
+        "kg": "kg",
+        "mL": "mL",
+        "L": "L"
+      }
+    },
+    "area-perimeter": {
+      "title": "Construtor de Área e Perímetro",
+      "description": "Construa retângulos e encontre área e perímetro.",
+      "instruction": "Construa um retângulo e depois escolha a área ou o perímetro.",
+      "questionArea": "Qual é a área deste retângulo?",
+      "questionPerimeter": "Qual é o perímetro deste retângulo?",
+      "areaHint": "Área = comprimento × largura",
+      "perimeterHint": "Perímetro = 2 × (comprimento + largura)",
+      "widthLabel": "Largura",
+      "heightLabel": "Altura",
+      "gridLabel": "Grade do retângulo",
+      "widthTag": "Largura: {value} unidades",
+      "heightTag": "Altura: {value} unidades",
+      "unitLabel": "unidades",
+      "squareUnitLabel": "unidades quadradas",
+      "choiceGroupLabel": "Opções de resposta",
+      "choiceLabel": "{value} {unit}",
+      "gridAria": "Grade do retângulo {width} por {height}",
+      "correctArea": "Correto! A área é {value} unidades quadradas.",
+      "correctPerimeter": "Correto! O perímetro é {value} unidades.",
+      "wrongArea": "A área é {value} unidades quadradas.",
+      "wrongPerimeter": "O perímetro é {value} unidades.",
+      "controls": {
+        "increaseWidth": "Aumentar largura",
+        "decreaseWidth": "Diminuir largura",
+        "increaseHeight": "Aumentar altura",
+        "decreaseHeight": "Diminuir altura"
+      },
+      "perfect": "Construção perfeita!",
+      "great": "Ótima medição!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "missing-side": {
+      "title": "Encontrar o Lado Faltante",
+      "description": "Encontre um comprimento de lado faltante a partir da área ou perímetro.",
+      "instruction": "Use o que você sabe para encontrar o lado faltante!",
+      "promptArea": "Área = {area} {squareUnits}. Um lado tem {known} {units}. Qual é o comprimento do lado faltante?",
+      "promptPerimeter": "Perímetro = {perimeter} {units}. Um lado tem {known} {units}. Qual é o comprimento do lado faltante?",
+      "areaHint": "Área = comprimento × largura",
+      "perimeterHint": "Perímetro = 2 × (comprimento + largura)",
+      "shapeTitle": "Retângulo Misterioso",
+      "shapeHint": "Lados opostos são iguais.",
+      "shapeAria": "Retângulo com um lado faltante e um lado conhecido de {known} {units}",
+      "unitsLabel": "unidades",
+      "squareUnitsLabel": "unidades quadradas",
+      "choicesLabel": "Opções de resposta",
+      "choiceLabel": "{value} {units}",
+      "correct": "Correto! O lado faltante é {value} {units}.",
+      "wrong": "O lado faltante é {value} {units}.",
+      "perfect": "Perfeito em encontrar lados!",
+      "great": "Ótimo raciocínio!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "line-plot-fractions": {
+      "title": "Gráfico de Pontos com Frações",
+      "description": "Faça e leia um gráfico de pontos com unidades de 1/2 e 1/4.",
+      "instruction": "Construa o gráfico de pontos e responda as perguntas!",
+      "dataTitle": "Estas são as medidas:",
+      "plotHint": "Cada marcação é 1/4.",
+      "buildInstruction": "Clique no gráfico de pontos para adicionar pontos!",
+      "checkPlot": "Verificar Gráfico de Pontos",
+      "plotCorrect": "✓ Ótimo gráfico de pontos! Agora responda as perguntas!",
+      "plotWrong": "Verifique os dados e tente de novo!",
+      "dotLabel": "Adicionar ponto em {value}",
+      "questionHowMany": "Quantos estão em {value}?",
+      "questionMost": "Qual valor tem mais pontos?",
+      "questionLeast": "Qual valor tem menos pontos?",
+      "questionTotal": "Quantos pontos há ao total?",
+      "correct": "✓ Correto! A resposta é {answer}.",
+      "wrong": "A resposta é {answer}.",
+      "perfect": "Habilidades incríveis com gráficos de pontos!",
+      "great": "Ótimo trabalho com gráficos de pontos!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!",
+      "themes": {
+        "ribbonLengths": "Comprimentos de Laços",
+        "frogJumps": "Saltos de Sapo",
+        "gardenPaths": "Caminhos do Jardim",
+        "paintCups": "Xícaras de Tinta"
+      },
+      "units": {
+        "in": "pol",
+        "ft": "pé",
+        "cups": "xícaras"
+      }
+    },
+    "measurement-word-problems": {
+      "title": "Problemas de História de Medidas",
+      "description": "Resolva histórias de medidas em múltiplos passos.",
+      "instruction": "Leia a história e resolva!",
+      "step1": "Passo 1: Resolva a primeira parte",
+      "step2": "Passo 2: Resolva a questão",
+      "step1Result": "Resultado do Passo 1:",
+      "loadingStory": "Carregando história...",
+      "hintTitle": "Dica útil",
+      "prompts": {
+        "convert": "Converta {value} {fromUnit} para {toUnit}.",
+        "total": "Encontre o total em {unit}.",
+        "left": "Quanto sobrou em {unit}?",
+        "perimeter": "Encontre o perímetro em {unit}.",
+        "area": "Encontre a área em {unit}.",
+        "uncovered": "Quanta área não está coberta em {unit}?",
+        "multiply": "Encontre o comprimento total em {unit}."
+      },
+      "hints": {
+        "convert": "Use 1 {fromUnit} = {factor} {toUnit}.",
+        "perimeterConvert": "Perímetro = 2 × (comprimento + largura). Depois use 1 {fromUnit} = {factor} {toUnit}.",
+        "areaSubtract": "Área = comprimento × largura. Depois subtraia a parte coberta.",
+        "multiplyConvert": "Total = grupos × comprimento. Depois use 1 {fromUnit} = {factor} {toUnit}."
+      },
+      "choiceLabel": "Selecionar {value} {unit}",
+      "stepChoicesLabel": "Opções do Passo {step}",
+      "wrongAnswer": "O valor correto é {value} {unit}.",
+      "perfect": "Medição fantástica!",
+      "great": "Ótimo raciocínio com medidas!",
+      "keepPracticing": "Continue praticando!",
+      "stories": {
+        "ribbon": {
+          "template": "Um laço tem {a} {unit1} de comprimento. Você adiciona {b} {unit2}.",
+          "question": "Qual é o comprimento total em {unit2}?"
+        },
+        "aquarium": {
+          "template": "Um aquário comporta {a} {unit1}. Você retira {b} {unit2}.",
+          "question": "Quanta água sobrou em {unit2}?"
+        },
+        "backpack": {
+          "template": "Uma mochila pesa {a} {unit1}. Você adiciona {b} {unit2} de livros.",
+          "question": "Qual é a massa total em {unit2}?"
+        },
+        "garden": {
+          "template": "Um jardim tem {a} {unit1} por {b} {unit1}.",
+          "question": "Qual é o perímetro em {unit2}?"
+        },
+        "blanket": {
+          "template": "Uma manta de piquenique tem {a} {unit1} por {b} {unit1}. Um tapete cobre {c} {unit2}.",
+          "question": "Quanta área não está coberta em {unit2}?"
+        },
+        "board": {
+          "template": "Uma tábua tem {a} {unit1} de comprimento. Você corta {b} {unit2}.",
+          "question": "Qual é o comprimento da tábua agora em {unit2}?"
+        },
+        "runner": {
+          "template": "Um corredor trota {a} {unit1} e depois mais {b} {unit2}.",
+          "question": "Qual é a distância em {unit2}?"
+        },
+        "ribbonGroup": {
+          "template": "{a} laços têm cada um {b} {unit1} de comprimento.",
+          "question": "Qual é o comprimento total em {unit2}?"
+        }
+      },
+      "units": {
+        "in": "pol",
+        "ft": "pé",
+        "cm": "cm",
+        "m": "m",
+        "g": "g",
+        "kg": "kg",
+        "mL": "mL",
+        "L": "L",
+        "squareMeters": "metros quadrados"
+      }
+    },
+    "points-lines-rays": {
+      "title": "Explorador de Pontos, Retas e Raios",
+      "description": "Identifique pontos, retas, segmentos e raios.",
+      "instruction": "Nomeie o que você vê!",
+      "prompt": "O que é isso?",
+      "types": {
+        "point": "Ponto",
+        "line": "Reta",
+        "segment": "Segmento de Reta",
+        "ray": "Semirreta"
+      },
+      "hintPoint": "Um único local no espaço.",
+      "hintLine": "Vai para sempre nas duas direções.",
+      "hintSegment": "Tem dois pontos extremos.",
+      "hintRay": "Tem um ponto extremo e vai para sempre em uma direção.",
+      "correct": "Correto! Isso é um(a) {type}.",
+      "wrong": "Isso é um(a) {type}.",
+      "perfect": "Explorador de geometria perfeito!",
+      "great": "Ótimas habilidades de geometria!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "angle-types": {
+      "title": "Zoológico dos Tipos de Ângulo",
+      "description": "Classifique ângulos em agudo, reto ou obtuso.",
+      "instruction": "Classifique cada ângulo por tipo!",
+      "prompt": "Que tipo de ângulo é este?",
+      "hint": "Olhe quão aberto é o ângulo!",
+      "types": {
+        "acute": "Agudo",
+        "right": "Reto",
+        "obtuse": "Obtuso"
+      },
+      "acuteDesc": "Menos de 90°",
+      "rightDesc": "Exatamente 90°",
+      "obtuseDesc": "Mais de 90°",
+      "correct": "Correto! Este é um ângulo {type}.",
+      "wrong": "Este é um ângulo {type} ({degrees}°).",
+      "perfect": "Classificação de ângulos perfeita!",
+      "great": "Ótima classificação de ângulos!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "measure-angles": {
+      "title": "Medir Ângulos",
+      "description": "Meça ângulos com uma ferramenta de transferidor.",
+      "instruction": "Alinhe o transferidor e meça!",
+      "prompt": "Qual é a medida deste ângulo?",
+      "hint": "Leia o ângulo onde o raio cruza a escala do transferidor.",
+      "correct": "Correto! O ângulo é {angle}°.",
+      "wrong": "O ângulo é {angle}°.",
+      "perfect": "Medição perfeita!",
+      "great": "Ótimas habilidades de medição!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "draw-angles": {
+      "title": "Desenhar um Ângulo",
+      "description": "Faça um ângulo de um tamanho dado.",
+      "instruction": "Arraste para criar o ângulo mostrado!",
+      "drawAngle": "Desenhe um ângulo de:",
+      "yourAngle": "Seu ângulo:",
+      "dragToAdjust": "Arraste para ajustar o ângulo:",
+      "correct": "Ótimo trabalho! Você desenhou {drawn}° (o alvo era {target}°).",
+      "wrong": "O alvo era {target}°. Você desenhou {drawn}°.",
+      "perfect": "Desenho de ângulo perfeito!",
+      "great": "Ótimo desenho de ângulo!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "parallel-perpendicular": {
+      "title": "Ruas Paralelas e Perpendiculares",
+      "description": "Encontre retas paralelas e perpendiculares em um mapa da cidade.",
+      "instruction": "Encontre as ruas paralelas e perpendiculares!",
+      "findParallel": "Toque em duas ruas PARALELAS!",
+      "findPerpendicular": "Toque em duas ruas PERPENDICULARES!",
+      "selectTwo": "Selecione duas ruas",
+      "selected": "Selecionado: Rua {name} - agora escolha outra!",
+      "parallelHint": "Paralelas: Nunca se encontram",
+      "perpendicularHint": "Perpendiculares: Se encontram em 90°",
+      "parallel": "paralelas",
+      "perpendicular": "perpendiculares",
+      "correctParallel": "Correto! Rua {name1} e Rua {name2} são paralelas.",
+      "correctPerpendicular": "Correto! Rua {name1} e Rua {name2} são perpendiculares.",
+      "wrong": "Rua {name1} e Rua {name2} são {actual}, não {expected}.",
+      "perfect": "Navegação perfeita pelas ruas!",
+      "great": "Ótima navegação pelas ruas!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "classify-quads": {
+      "title": "Classificar Quadriláteros",
+      "description": "Classifique quadrados, retângulos, losangos, trapézios e pipas.",
+      "instruction": "Classifique os quadriláteros por suas propriedades!",
+      "whatShape": "Que tipo de quadrilátero é este?",
+      "types": {
+        "square": "Quadrado",
+        "rectangle": "Retângulo",
+        "rhombus": "Losango",
+        "trapezoid": "Trapézio",
+        "parallelogram": "Paralelogramo"
+      },
+      "hintSquare": "4 lados iguais, 4 ângulos retos",
+      "hintRectangle": "2 pares de lados iguais, 4 ângulos retos",
+      "hintRhombus": "4 lados iguais, ângulos opostos iguais",
+      "hintTrapezoid": "Exatamente 1 par de lados paralelos",
+      "hintParallelogram": "2 pares de lados paralelos",
+      "correct": "Correto! Este é um {shape}.",
+      "wrong": "Este é um {shape}.",
+      "perfect": "Classificação de formas perfeita!",
+      "great": "Ótima classificação de formas!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "symmetry-lines": {
+      "title": "Espelho de Simetria",
+      "description": "Desenhe uma linha de simetria (se existir).",
+      "instruction": "Desenhe a(s) linha(s) de simetria!",
+      "prompt": "Esta forma tem uma linha de simetria?",
+      "hint": "Uma linha de simetria divide uma forma em duas metades iguais.",
+      "types": {
+        "vertical": "Vertical",
+        "horizontal": "Horizontal",
+        "both": "Ambas",
+        "none": "Nenhuma"
+      },
+      "correct": "Correto! Esta forma tem simetria {type}.",
+      "wrong": "Esta forma tem simetria {type}.",
+      "perfect": "Habilidades de simetria perfeitas!",
+      "great": "Ótimas habilidades de simetria!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "shape-attributes-g4": {
+      "title": "Desafio de Construir uma Forma",
+      "description": "Escolha uma forma que corresponda às pistas.",
+      "instruction": "Leia as pistas e escolha a forma certa!",
+      "mysteryShape": "Pistas da Forma Misteriosa:",
+      "whichShape": "Que forma sou eu?",
+      "shapes": {
+        "square": "Quadrado",
+        "rectangle": "Retângulo",
+        "rhombus": "Losango",
+        "trapezoid": "Trapézio",
+        "parallelogram": "Paralelogramo",
+        "equilateral-triangle": "Triângulo Equilátero",
+        "right-triangle": "Triângulo Retângulo",
+        "pentagon": "Pentágono",
+        "hexagon": "Hexágono",
+        "circle": "Círculo"
+      },
+      "correct": "Correto! Era um {shape}!",
+      "wrong": "A resposta era {shape}.",
+      "perfect": "Detetive de formas perfeito!",
+      "great": "Ótimo trabalho como detetive de formas!",
+      "good": "Bom trabalho!",
+      "keepPracticing": "Continue praticando!"
+    }
+  }
+}

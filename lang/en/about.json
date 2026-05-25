@@ -1,0 +1,94 @@
+{
+  "title": "About Meadow Math",
+  "description": "The story behind this family-made math site",
+  "tabs": {
+    "about": "About",
+    "privacy": "Privacy & Terms"
+  },
+  "about": {
+    "eyebrow": "A small family project",
+    "title": "What is Meadow Math?",
+    "intro": "Meadow Math is a free, gentle space where children can explore math from Pre-K through Grade 5 through hands-on activities and simple tools.",
+    "intro2": "It was made to feel calm, clear, and inviting. The goal is not to rush children through practice, but to give them room to try things, notice patterns, and build understanding at their own pace.",
+    "origin": {
+      "title": "How Meadow Math Began",
+      "content1": "Meadow Math started at home. My son was watching my wife teach our younger daughter through counting, drawing, and playful little math moments, and math felt more like something to explore than something to perform.",
+      "quote": "\"Can we make a math game website for kids?\"",
+      "content2": "That question became this project. I set up the overall structure, my wife came up with ideas and content for the activities, and our son used AI tools like GitHub Copilot to build most of them himself."
+    },
+    "philosophy": {
+      "title": "What We Care About",
+      "principles": {
+        "handson": {
+          "title": "Hands-on Learning",
+          "content": "Children understand math more deeply when they can move pieces around, test ideas, and see what changes."
+        },
+        "calm": {
+          "title": "Calm, Not Pushy",
+          "content": "No timers, no streaks, and no pressure to perform. Just enough structure to help children focus without making math feel tense."
+        },
+        "joyful": {
+          "title": "Joyful Discovery",
+          "content": "Good math moments often start with curiosity. We want activities to feel like invitations, not assignments."
+        }
+      }
+    },
+    "project": {
+      "title": "What This Project Is",
+      "content1": "Meadow Math isn't a startup or a business. It's just a family project we made because we wanted something simple and free for our kids to practice math with.",
+      "content2": "It's open source and growing slowly on purpose. We're not trying to turn it into anything big \u2014 just adding more activities when we can and sharing them for free."
+    },
+    "team": {
+      "title": "Who Built This?",
+      "content1": "It's our family. My wife spends a lot of time learning how to teach our kids (ages 4 and 10) and came up with the ideas and content. I built the overall framework. And our 10-year-old used AI tools to implement most of the activities.",
+      "content2": "We started it for our own kids, and decided to share it in case other families find it useful too.",
+      "profileIntro": "You can find me on ",
+      "linkedinLink": "LinkedIn",
+      "profileMiddle": " or ",
+      "githubLink": "GitHub"
+    },
+    "contribute": {
+      "title": "How to Contribute",
+      "content": "Meadow Math is open source and still growing gently. If you'd like to help, here are a few good ways:",
+      "items": {
+        "issues": "Opening an issue if you spot a bug or have an idea",
+        "code": "Contributing code or activity improvements",
+        "translate": "Helping translate the site into more languages",
+        "spread": "Sharing it with families, teachers, or homeschool communities who might find it useful"
+      },
+      "github": "View the project on GitHub"
+    }
+  },
+  "privacy": {
+    "title": "Privacy & Terms",
+    "intro": "We believe in keeping things simple and respecting your family's privacy.",
+    "noAccounts": {
+      "title": "No Accounts Required",
+      "content": "Meadow Math doesn't require you to create an account. There's no sign-up, no login, and no passwords to remember."
+    },
+    "noData": {
+      "title": "No Personal Data Collection",
+      "content": "We don't collect, store, or share any personal information about you or your children. No names, no emails, and no personal profiles."
+    },
+    "localStorage": {
+      "title": "Local Storage Only",
+      "content": "If any progress or preferences are saved, they're stored only in your browser's local storage on your device. This data never leaves your computer."
+    },
+    "analytics": {
+      "title": "Minimal Analytics",
+      "content": "We may use basic, privacy-respecting analytics (like Cloudflare Web Analytics) to understand how many people visit the site. This data is anonymous and aggregated."
+    },
+    "cloudflare": {
+      "title": "Cloudflare Analytics on Every Page",
+      "content": "We use Cloudflare Web Analytics across all pages to understand basic traffic (like how many people visit and which pages are popular). This data is privacy-focused, anonymous, and reported in aggregated form. We do not use this to identify you, and we do not sell your data."
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "content": "Meadow Math is provided as a free educational resource. While we strive to create accurate and helpful content, we make no guarantees about learning outcomes. This tool is meant to supplement, not replace, quality instruction. We recommend parental supervision for young children."
+    },
+    "openSource": {
+      "title": "Open Source",
+      "content": "Meadow Math is open source software. You can view, copy, and modify the code according to the project's license."
+    }
+  }
+}

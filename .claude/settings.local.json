@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\alanr\\\\Desktop\\\\meadowmath-main\\\\meadowmath-main\" -Recurse -Force)",
+      "Bash(Select-Object -First 50)",
+      "Bash(Format-List FullName)"
+    ]
+  }
+}

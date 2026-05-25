@@ -1,0 +1,420 @@
+{
+  "region": "prek",
+  "title": "Pre-K Activities",
+  "description": "A cozy place to begin exploring numbers and shapes",
+  "levels": [
+    {
+      "id": "level-1",
+      "number": 1,
+      "title": "Number Awareness & Counting",
+      "icon": "🟢",
+      "goal": "Children understand that numbers have names and represent 'how many.'",
+      "skills": [
+        "Recognize numerals 0–5 (exposure to 6–10)",
+        "Count objects one-to-one",
+        "Understand 'none' vs 'some'",
+        "Say numbers in order"
+      ],
+      "activities": [
+        {
+          "id": "finger-counting",
+          "title": "Finger Counting Songs",
+          "description": "Count fingers up and down with fun rhymes",
+          "icon": "👋",
+          "path": "activities/finger-counting.html",
+          "type": "interactive"
+        },
+        {
+          "id": "snack-counting",
+          "title": "Snack Counting",
+          "description": "Count yummy snacks before eating them",
+          "icon": "🍇",
+          "path": "activities/snack-counting.html",
+          "type": "interactive"
+        },
+        {
+          "id": "toy-lineup",
+          "title": "Toy Line-Up",
+          "description": "Line up 1-5 toys and count together",
+          "icon": "🧸",
+          "path": "activities/toy-lineup.html",
+          "type": "interactive"
+        },
+        {
+          "id": "number-hunt",
+          "title": "Number Hunt",
+          "description": "Find numbers hidden all around",
+          "icon": "🔍",
+          "path": "activities/number-hunt.html",
+          "type": "interactive"
+        },
+        {
+          "id": "roll-and-count",
+          "title": "Roll & Count",
+          "description": "Roll a die and place that many blocks",
+          "icon": "🎲",
+          "path": "activities/roll-and-count.html",
+          "type": "interactive"
+        },
+        {
+          "id": "zero-basket",
+          "title": "Zero Basket",
+          "description": "Learn about zero with an empty basket",
+          "icon": "🧺",
+          "path": "activities/zero-basket.html",
+          "type": "interactive"
+        },
+        {
+          "id": "jump-and-count",
+          "title": "Jump & Count",
+          "description": "Jump while counting aloud",
+          "icon": "🦘",
+          "path": "activities/jump-and-count.html",
+          "type": "interactive"
+        },
+        {
+          "id": "bath-toy-count",
+          "title": "Bath Toy Count",
+          "description": "Count toys going in and out",
+          "icon": "🛁",
+          "path": "activities/bath-toy-count.html",
+          "type": "interactive"
+        }
+      ],
+      "learnMore": {
+        "type": "cards",
+        "cards": [
+          {
+            "id": "big-idea",
+            "icon": "💡",
+            "title": "Big Idea"
+          },
+          {
+            "id": "what-to-notice",
+            "icon": "👀",
+            "title": "What to Notice"
+          },
+          {
+            "id": "try-at-home",
+            "icon": "🏡",
+            "title": "Try at Home"
+          },
+          {
+            "id": "optional-videos",
+            "icon": "📺",
+            "title": "Optional Videos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "level-2",
+      "number": 2,
+      "title": "Subitizing & Quantity",
+      "icon": "🟡",
+      "goal": "Children can see 'how many' without counting one-by-one (especially 1–3).",
+      "skills": [
+        "Instantly recognize small quantities",
+        "Understand quantity stays the same when rearranged",
+        "Use words: more, same, fewer"
+      ],
+      "activities": [
+        {
+          "id": "flash-dot-cards",
+          "title": "Flash Dot Cards",
+          "description": "Quick! How many dots did you see?",
+          "icon": "⚫",
+          "path": "activities/flash-dot-cards.html",
+          "type": "interactive"
+        },
+        {
+          "id": "dice-play",
+          "title": "Dice Play",
+          "description": "Say the number without counting dots",
+          "icon": "🎲",
+          "path": "activities/dice-play.html",
+          "type": "interactive"
+        },
+        {
+          "id": "egg-carton-dots",
+          "title": "Egg Carton Dots",
+          "description": "Spot dot patterns in egg cartons",
+          "icon": "🥚",
+          "path": "activities/egg-carton-dots.html",
+          "type": "interactive"
+        },
+        {
+          "id": "snack-guess",
+          "title": "Snack Guess & Check",
+          "description": "Guess how many, then count to check",
+          "icon": "🍪",
+          "path": "activities/snack-guess.html",
+          "type": "interactive"
+        },
+        {
+          "id": "cup-reveal",
+          "title": "Cup Reveal Game",
+          "description": "Peek under the cup - how many?",
+          "icon": "🥤",
+          "path": "activities/cup-reveal.html",
+          "type": "interactive"
+        },
+        {
+          "id": "clap-and-guess",
+          "title": "Clap & Guess",
+          "description": "Listen to claps and guess the number",
+          "icon": "👏",
+          "path": "activities/clap-and-guess.html",
+          "type": "interactive"
+        },
+        {
+          "id": "button-toss",
+          "title": "Button Toss",
+          "description": "Toss buttons and name the quantity",
+          "icon": "🔘",
+          "path": "activities/button-toss.html",
+          "type": "interactive"
+        },
+        {
+          "id": "same-or-different",
+          "title": "Same or Different?",
+          "description": "Compare two groups - are they the same?",
+          "icon": "⚖️",
+          "path": "activities/same-or-different.html",
+          "type": "interactive"
+        }
+      ],
+      "learnMore": {
+        "type": "cards",
+        "cards": [
+          {
+            "id": "big-idea",
+            "icon": "💡",
+            "title": "Big Idea"
+          },
+          {
+            "id": "what-to-notice",
+            "icon": "👀",
+            "title": "What to Notice"
+          },
+          {
+            "id": "try-at-home",
+            "icon": "🏡",
+            "title": "Try at Home"
+          },
+          {
+            "id": "optional-videos",
+            "icon": "📺",
+            "title": "Optional Videos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "level-3",
+      "number": 3,
+      "title": "Number Relationships",
+      "icon": "🔵",
+      "goal": "Children see that numbers are made of smaller parts, without doing addition.",
+      "skills": [
+        "See 3 as '2 and 1'",
+        "Break small groups apart physically",
+        "Understand part / whole language"
+      ],
+      "activities": [
+        {
+          "id": "split-the-toys",
+          "title": "Split the Toys",
+          "description": "Split toys into two piles different ways",
+          "icon": "🧸",
+          "path": "activities/split-the-toys.html",
+          "type": "interactive"
+        },
+        {
+          "id": "playdough-break",
+          "title": "Playdough Break",
+          "description": "Roll one ball, break it into parts",
+          "icon": "🟤",
+          "path": "activities/playdough-break.html",
+          "type": "interactive"
+        },
+        {
+          "id": "hand-splits",
+          "title": "Hand Splits",
+          "description": "Show numbers using two hands",
+          "icon": "🙌",
+          "path": "activities/hand-splits.html",
+          "type": "interactive"
+        },
+        {
+          "id": "snack-sharing",
+          "title": "Snack Sharing",
+          "description": "Share snacks between two plates",
+          "icon": "🍇",
+          "path": "activities/snack-sharing.html",
+          "type": "interactive"
+        },
+        {
+          "id": "box-and-lid",
+          "title": "Box & Lid Game",
+          "description": "Hide some objects, show the rest",
+          "icon": "📦",
+          "path": "activities/box-and-lid.html",
+          "type": "interactive"
+        },
+        {
+          "id": "build-and-break",
+          "title": "Build & Break Towers",
+          "description": "Stack blocks, then split them up",
+          "icon": "🏗️",
+          "path": "activities/build-and-break.html",
+          "type": "interactive"
+        },
+        {
+          "id": "two-color-counters",
+          "title": "Two-Color Counters",
+          "description": "Same number, different color groups",
+          "icon": "🔴",
+          "path": "activities/two-color-counters.html",
+          "type": "interactive"
+        },
+        {
+          "id": "story-mats",
+          "title": "Story Mats",
+          "description": "Tell stories with parts: pond and land",
+          "icon": "🦆",
+          "path": "activities/story-mats.html",
+          "type": "interactive"
+        }
+      ],
+      "learnMore": {
+        "type": "cards",
+        "cards": [
+          {
+            "id": "big-idea",
+            "icon": "💡",
+            "title": "Big Idea"
+          },
+          {
+            "id": "what-to-notice",
+            "icon": "👀",
+            "title": "What to Notice"
+          },
+          {
+            "id": "try-at-home",
+            "icon": "🏡",
+            "title": "Try at Home"
+          },
+          {
+            "id": "optional-videos",
+            "icon": "📺",
+            "title": "Optional Videos"
+          }
+        ]
+      }
+    },
+    {
+      "id": "level-4",
+      "number": 4,
+      "title": "Comparing & Change",
+      "icon": "🟣",
+      "goal": "Children understand more, less, same, add one, take one through play.",
+      "skills": [
+        "Compare quantities",
+        "Understand change when adding/removing one",
+        "Use math language in context"
+      ],
+      "activities": [
+        {
+          "id": "who-has-more",
+          "title": "Who Has More?",
+          "description": "Compare piles and find who has more",
+          "icon": "🤔",
+          "path": "activities/who-has-more.html",
+          "type": "interactive"
+        },
+        {
+          "id": "feed-the-monster",
+          "title": "Feed the Monster",
+          "description": "Monster wants more or fewer blocks",
+          "icon": "👾",
+          "path": "activities/feed-the-monster.html",
+          "type": "interactive"
+        },
+        {
+          "id": "take-one-away",
+          "title": "Take One Away",
+          "description": "Remove one and see what's left",
+          "icon": "➖",
+          "path": "activities/take-one-away.html",
+          "type": "interactive"
+        },
+        {
+          "id": "add-one-game",
+          "title": "Add One Game",
+          "description": "Add one block to the tower",
+          "icon": "➕",
+          "path": "activities/add-one-game.html",
+          "type": "interactive"
+        },
+        {
+          "id": "balance-plates",
+          "title": "Balance Plates",
+          "description": "Add or remove items to balance",
+          "icon": "⚖️",
+          "path": "activities/balance-plates.html",
+          "type": "interactive"
+        },
+        {
+          "id": "toy-shop",
+          "title": "Toy Shop Role Play",
+          "description": "Buy and sell toys - more or less?",
+          "icon": "🏪",
+          "path": "activities/toy-shop.html",
+          "type": "interactive"
+        },
+        {
+          "id": "musical-counting",
+          "title": "Musical Counting",
+          "description": "Add and remove from the circle",
+          "icon": "🎵",
+          "path": "activities/musical-counting.html",
+          "type": "interactive"
+        },
+        {
+          "id": "cleanup-math",
+          "title": "Clean-Up Math",
+          "description": "Did we put away more or fewer toys?",
+          "icon": "🧹",
+          "path": "activities/cleanup-math.html",
+          "type": "interactive"
+        }
+      ],
+      "learnMore": {
+        "type": "cards",
+        "cards": [
+          {
+            "id": "big-idea",
+            "icon": "💡",
+            "title": "Big Idea"
+          },
+          {
+            "id": "what-to-notice",
+            "icon": "👀",
+            "title": "What to Notice"
+          },
+          {
+            "id": "try-at-home",
+            "icon": "🏡",
+            "title": "Try at Home"
+          },
+          {
+            "id": "optional-videos",
+            "icon": "📺",
+            "title": "Optional Videos"
+          }
+        ]
+      }
+    }
+  ]
+}

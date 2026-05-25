@@ -1,0 +1,218 @@
+{
+  "title": "Ferramentas e Ambientes Matemáticos",
+  "description": "Materiais interativos para aprendizagem prática",
+  "modes": {
+    "explore": "Explorar",
+    "challenges": "Desafios"
+  },
+  "common": {
+    "reset": "Reiniciar",
+    "completed": "Concluído",
+    "tryAgain": "Tente Novamente",
+    "nextChallenge": "Próximo Desafio",
+    "challengeComplete": "Desafio Concluído!",
+    "allChallengesComplete": "Todos os Desafios Concluídos!",
+    "greatJob": "Muito bem!"
+  },
+  "tools": {
+    "numberLine": {
+      "title": "Explorador da Reta Numérica",
+      "description": "Explore números, saltos e distâncias na reta numérica",
+      "range": "Intervalo",
+      "position": "Posição",
+      "hop": "Salto",
+      "distance": "Distância",
+      "challenges": {
+        "place13": {
+          "prompt": "Coloque o ponto no 13"
+        },
+        "jump5": {
+          "prompt": "Comece no 6. Salte +5. Onde você está?"
+        },
+        "compare": {
+          "prompt": "Qual está mais longe do 0: -7 ou 5?"
+        },
+        "missing": {
+          "prompt": "Encontre o número faltante entre 14 e 16"
+        },
+        "makeHops": {
+          "prompt": "Faça 20 usando saltos: +10, +5, +5"
+        },
+        "place17": {
+          "prompt": "Comece no 7 e salte +10"
+        }
+      }
+    },
+    "fractionBars": {
+      "title": "Barras de Fração",
+      "description": "Construa, compare e explore frações visualmente",
+      "denominator": "Denominador",
+      "numerator": "Numerador",
+      "whole": "Inteiro",
+      "equivalent": "Equivalente",
+      "compare": "Comparar",
+      "trayFull": "A bandeja está cheia!",
+      "clickToAdd": "Clique em uma fração para adicionar peças",
+      "challenges": {
+        "build1": {
+          "prompt": "Construa 1 usando peças de 1/4"
+        },
+        "compare": {
+          "prompt": "Qual é maior: 2/6 ou 1/3?"
+        },
+        "makeHalf": {
+          "prompt": "Faça algo igual a 1/2"
+        },
+        "fill8": {
+          "prompt": "Preencha: __/8 para fazer 1"
+        },
+        "add": {
+          "prompt": "Some: 1/4 + 2/4"
+        },
+        "equivalent": {
+          "prompt": "Encontre um equivalente a 3/6"
+        }
+      }
+    },
+    "base10Blocks": {
+      "title": "Blocos de Base 10",
+      "description": "Construa números com unidades, dezenas e centenas",
+      "ones": "Unidades",
+      "tens": "Dezenas",
+      "hundreds": "Centenas",
+      "trade": "Trocar",
+      "total": "Total",
+      "challenges": {
+        "build47": {
+          "prompt": "Construa o 47"
+        },
+        "make30": {
+          "prompt": "Mostre 3 maneiras diferentes de fazer 30"
+        },
+        "add": {
+          "prompt": "Some 28 + 15 usando blocos"
+        },
+        "subtract": {
+          "prompt": "Subtraia 52 - 18 usando trocas"
+        },
+        "compare": {
+          "prompt": "Qual é maior: 406 ou 460?"
+        },
+        "build123": {
+          "prompt": "Construa o 123"
+        }
+      }
+    },
+    "arrayBuilder": {
+      "title": "Construtor de Matrizes",
+      "description": "Construa matrizes para explorar multiplicação e área",
+      "rows": "Linhas",
+      "columns": "Colunas",
+      "area": "Área",
+      "factors": "Fatores",
+      "challenges": {
+        "build3x6": {
+          "prompt": "Construa uma matriz para 3 x 6"
+        },
+        "factors24": {
+          "prompt": "Encontre dois pares de fatores para 24"
+        },
+        "compare": {
+          "prompt": "Qual é maior: 4 x 7 ou 5 x 5?"
+        },
+        "area18": {
+          "prompt": "Faça área 18 de duas maneiras diferentes"
+        },
+        "build4x5": {
+          "prompt": "Construa uma matriz para 4 x 5"
+        },
+        "factors12": {
+          "prompt": "Encontre todos os pares de fatores para 12"
+        }
+      }
+    },
+    "clock": {
+      "title": "Relógio Interativo",
+      "description": "Aprenda a dizer as horas e explore saltos de tempo",
+      "hour": "Hora",
+      "minute": "Minuto",
+      "digital": "Digital",
+      "analog": "Analógico",
+      "challenges": {
+        "set3": {
+          "prompt": "Ajuste o relógio para 3:00"
+        },
+        "set730": {
+          "prompt": "Ajuste o relógio para 7:30"
+        },
+        "jump30": {
+          "prompt": "Comece às 2:15. Avance +30 minutos."
+        },
+        "elapsed": {
+          "prompt": "Quantos minutos de 1:10 até 1:40?"
+        },
+        "set945": {
+          "prompt": "Ajuste o relógio para 9:45"
+        },
+        "jump1h": {
+          "prompt": "Comece às 4:00. Avance +1 hora."
+        }
+      }
+    },
+    "geoboard": {
+      "title": "Geoplano",
+      "description": "Crie formas com pinos e elásticos",
+      "gridSize": "Tamanho da Grade",
+      "perimeter": "Perímetro",
+      "area": "Área",
+      "challenges": {
+        "triangle": {
+          "prompt": "Faça um triângulo"
+        },
+        "rectangle12": {
+          "prompt": "Faça um retângulo com perímetro 12"
+        },
+        "square": {
+          "prompt": "Faça um quadrado"
+        },
+        "symmetry": {
+          "prompt": "Faça uma forma com 1 eixo de simetria"
+        },
+        "pentagon": {
+          "prompt": "Faça um pentágono (5 lados)"
+        },
+        "samePerimeter": {
+          "prompt": "Faça duas formas diferentes com o mesmo perímetro"
+        }
+      }
+    },
+    "coordinatePlane": {
+      "title": "Plano Cartesiano",
+      "description": "Marque pontos e desenhe na grade de coordenadas",
+      "xAxis": "Eixo X",
+      "yAxis": "Eixo Y",
+      "point": "Ponto",
+      "segment": "Segmento",
+      "challenges": {
+        "plot32": {
+          "prompt": "Marque o ponto (3, 2)"
+        },
+        "plotLine": {
+          "prompt": "Marque A(1, 4) e B(4, 4). Desenhe o segmento AB."
+        },
+        "plot05": {
+          "prompt": "Marque o ponto (0, 5)"
+        },
+        "plotSquare": {
+          "prompt": "Marque pontos para fazer um quadrado"
+        },
+        "reflect": {
+          "prompt": "Reflita (2, 3) em relação ao eixo y"
+        },
+        "distance": {
+          "prompt": "Encontre a distância entre (1, 1) e (4, 1)"
+        }
+      }
+    }
+  }
+}

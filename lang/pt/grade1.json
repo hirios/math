@@ -1,0 +1,777 @@
+{
+  "title": "Atividades do 1º Ano",
+  "description": "Primeiros passos em contagem, adição e padrões",
+  "levels": {
+    "level1": {
+      "title": "Números até 120 e Valor Posicional",
+      "goal": "Entender números até 120, reconhecer valor posicional e comparar números de dois dígitos.",
+      "learnMore": {
+        "g1-l1-big-idea": {
+          "title": "Grande ideia",
+          "content": "Os números dizem \"quantos\" e também têm estrutura. No 1º Ano, as crianças aprendem que **números de dois dígitos são dezenas e unidades** (como 47 = 4 dezenas e 7 unidades). Isso torna muito mais fácil contar até 120, comparar e encontrar padrões."
+        },
+        "g1-l1-notice": {
+          "title": "O que observar",
+          "content": "* Conta para frente a partir de qualquer número (não apenas do 1).\n* Consegue dizer um número como \"__ dezenas e __ unidades\".\n* Compara usando as dezenas primeiro (82 > 79 porque 8 dezenas > 7 dezenas).\n* Conta de 10 em 10 e percebe o padrão (10, 20, 30…).\n* Encontra padrões no quadro de 120 (mesmo dígito das unidades em uma coluna)."
+        },
+        "g1-l1-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A (objetos, ideia central): \"Pacotes de Dezenas\"**\n  Pegue 30–60 objetos pequenos (feijões/moedas/canudos). Faça pacotes de 10 (em copos ou com elásticos). Pergunte:\n  \"Quantas **dezenas**? Quantas **unidades**? Que número é esse?\"\n* **Jogo B (segunda representação): \"Salto +10 / +1\"**\n  Desenhe uma reta numérica de 0–120. Escolha um início (como 34). Cada um chama \"+10\" ou \"+1\" e move uma peça. Pergunte: \"Onde chegamos? O que mudou?\""
+        },
+        "g1-l1-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href='https://www.youtube.com/results?search_query=tens+and+ones+base+ten+blocks+for+kids' target='_blank' rel='noopener noreferrer'>tens and ones base ten blocks for kids</a>\n* <a href='https://www.youtube.com/results?search_query=120+chart+patterns+for+kids' target='_blank' rel='noopener noreferrer'>120 chart patterns for kids</a>\n* <a href='https://www.youtube.com/results?search_query=counting+to+120+starting+from+any+number' target='_blank' rel='noopener noreferrer'>counting to 120 starting from any number</a>\n* <a href='https://www.youtube.com/results?search_query=greater+than+less+than+for+kids' target='_blank' rel='noopener noreferrer'>greater than less than for kids</a>"
+        }
+      }
+    },
+    "level2": {
+      "title": "Adição até 20",
+      "goal": "Desenvolver fluência com fatos de adição até 20 usando múltiplas estratégias.",
+      "learnMore": {
+        "g1-l2-big-idea": {
+          "title": "Grande ideia",
+          "content": "Adição significa \"juntar\" ou \"quantos ao todo\". O objetivo não são apenas as respostas — é construir algumas estratégias (contar a partir do maior, completar o 10, dobros) para que as somas até 20 se tornem naturais."
+        },
+        "g1-l2-notice": {
+          "title": "O que observar",
+          "content": "* Começa a contar a partir do número maior (conta a partir).\n* Usa **completar o 10** (8 + 5 → 10 + 3).\n* Reconhece dobros rapidamente (6 + 6, 7 + 7).\n* Consegue mostrar o raciocínio com objetos, um desenho rápido ou uma reta numérica.\n* Problemas de história: consegue explicar o que \"ao todo / juntos\" significa."
+        },
+        "g1-l2-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A (ideia central): \"Completar o 10 Primeiro\"**\n  Desenhe um quadro de 10 (2 fileiras de 5). Mostre 7 pontos, depois adicione 5 pontos. Pergunte:\n  \"Quantos para completar o 10? Quantos sobram? Então 7 + 5 = 10 + __.\"\n* **Jogo B (segunda representação): \"Saltos na Reta Numérica\"**\n  Desenhe de 0–20. Para 8 + 6: comece no 8, salte +6. Depois tente dois saltos (+2, +4) e perceba que o total é o mesmo."
+        },
+        "g1-l2-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href='https://www.youtube.com/results?search_query=make+ten+strategy+for+kids' target='_blank' rel='noopener noreferrer'>make ten strategy for kids</a>\n* <a href='https://www.youtube.com/results?search_query=number+line+addition+grade+1' target='_blank' rel='noopener noreferrer'>number line addition grade 1</a>\n* <a href='https://www.youtube.com/results?search_query=doubles+facts+addition+for+kids' target='_blank' rel='noopener noreferrer'>doubles facts addition for kids</a>\n* <a href='https://www.youtube.com/results?search_query=addition+within+20+strategies+for+kids' target='_blank' rel='noopener noreferrer'>addition within 20 strategies for kids</a>"
+        }
+      }
+    },
+    "level3": {
+      "title": "Subtração até 20",
+      "goal": "Desenvolver fluência com fatos de subtração até 20 e entender a relação entre adição e subtração.",
+      "learnMore": {
+        "g1-l3-big-idea": {
+          "title": "Grande ideia",
+          "content": "Subtração pode significar \"tirar\" **ou** \"encontrar a diferença\". Ela também se conecta à adição: se 8 + 5 = 13, então 13 − 8 = 5. Essas conexões constroem confiança e senso numérico."
+        },
+        "g1-l3-notice": {
+          "title": "O que observar",
+          "content": "* Consegue encenar com objetos (começa, tira, o que sobrou).\n* Consegue saltar para trás na reta numérica.\n* Entende \"quantos a mais?\" como comparação/diferença.\n* Usa adição para verificar subtração (resposta + parte = total).\n* Fica confortável com problemas de \"parte faltando\" (5 + __ = 8)."
+        },
+        "g1-l3-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A (ideia central): \"Tirar do Lanche\"**\n  Coloque 12 petiscos em um prato. Tire 4. Pergunte \"Quantos sobraram?\" Troque os papéis.\n* **Jogo B (segunda representação): \"Comparar em Pares\"**\n  Faça dois grupos (9 vs 6). Alinhe-os em pares. Conte os que sobram. Diga:\n  \"9 é __ a mais que 6.\""
+        },
+        "g1-l3-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href='https://www.youtube.com/results?search_query=subtraction+within+20+using+number+line' target='_blank' rel='noopener noreferrer'>subtraction within 20 using a number line</a>\n* <a href='https://www.youtube.com/results?search_query=fact+families+addition+and+subtraction+for+kids' target='_blank' rel='noopener noreferrer'>fact families addition and subtraction for kids</a>\n* <a href='https://www.youtube.com/results?search_query=how+many+more+subtraction+for+kids' target='_blank' rel='noopener noreferrer'>how many more subtraction for kids</a>\n* <a href='https://www.youtube.com/results?search_query=think+addition+to+solve+subtraction+for+kids' target='_blank' rel='noopener noreferrer'>think addition to solve subtraction for kids</a>"
+        }
+      }
+    },
+    "level4": {
+      "title": "Problemas de História e Sinal de Igual",
+      "goal": "Resolver problemas de história envolvendo adição e subtração e entender o significado do sinal de igual.",
+      "learnMore": {
+        "g1-l4-big-idea": {
+          "title": "Grande ideia",
+          "content": "Problemas de história trazem a matemática à vida. O sinal de igual significa **\"o mesmo que\"**, não \"a resposta vem a seguir\". As crianças aprendem a representar histórias com desenhos e equações, às vezes com um número misterioso."
+        },
+        "g1-l4-notice": {
+          "title": "O que observar",
+          "content": "* Recontar a história: o que aconteceu primeiro, o que mudou, o que é perguntado.\n* Desenha uma figura simples antes de calcular (círculos/caixas/marcações).\n* Entende equações como □ + 3 = 9 ou 10 = 6 + 4.\n* Escolhe + ou − com base na situação (não apenas caçando palavras-chave)."
+        },
+        "g1-l4-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A (ideia central): \"Desenhar a História\"**\n  Diga: \"Eu tinha 6 adesivos. Ganhei mais 3.\"\n  A criança desenha 6 círculos, depois 3 círculos, depois escreve: `6 + 3 = __`.\n* **Jogo B (segunda representação / cotidiano): \"Balança de Equação\"**\n  Coloque 5 moedas no total, mostre 2 moedas, esconda o resto embaixo de um copo:\n  \"2 + □ = 5. Quantas estão escondidas?\""
+        },
+        "g1-l4-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href='https://www.youtube.com/results?search_query=equal+sign+means+the+same+as+for+kids' target='_blank' rel='noopener noreferrer'>equal sign means the same as for kids</a>\n* <a href='https://www.youtube.com/results?search_query=grade+1+word+problems+draw+a+picture' target='_blank' rel='noopener noreferrer'>grade 1 word problems draw a picture</a>\n* <a href='https://www.youtube.com/results?search_query=missing+number+equations+for+kids' target='_blank' rel='noopener noreferrer'>missing number equations for kids</a>\n* <a href='https://www.youtube.com/results?search_query=more+and+fewer+comparison+word+problems+for+kids' target='_blank' rel='noopener noreferrer'>more and fewer comparison word problems for kids</a>"
+        }
+      }
+    },
+    "level5": {
+      "title": "Medidas, Tempo e Formas",
+      "goal": "Medir comprimento, dizer as horas, ler dados e identificar formas e seus atributos.",
+      "learnMore": {
+        "g1-l5-big-idea": {
+          "title": "Grande ideia",
+          "content": "Este nível é \"matemática que você pode tocar\". As crianças comparam e medem comprimento, dizem as horas, leem gráficos simples e descrevem formas. Essas habilidades crescem melhor com pequenas práticas diárias na vida real."
+        },
+        "g1-l5-notice": {
+          "title": "O que observar",
+          "content": "* Mede alinhando as extremidades e contando unidades **sem espaços/sobreposições**.\n* Para o tempo, verifica primeiro o ponteiro das horas, depois o dos minutos.\n* Lê gráficos: consegue responder \"mais/menos/quantos a mais\".\n* Nomeia formas e descreve lados/cantos.\n* Para metades/quartos, verifica se as partes são realmente iguais."
+        },
+        "g1-l5-home": {
+          "title": "Tente em casa",
+          "content": "* **Jogo A (ideia central): \"Medir com Clipes de Papel\"**\n  Meça 2–3 objetos (lápis, colher, livro) usando clipes de papel. Pergunte:\n  \"Quantos clipes de comprimento? Qual é mais longo?\"\n* **Jogo B (cotidiano): \"Verificar o Relógio\"**\n  Duas vezes hoje, pergunte: \"Que horas são?\"\n  Primeiro: só a hora. Segundo: hora + meia hora se aplicável. Bônus: \"Que hora será daqui a 1 hora?\""
+        },
+        "g1-l5-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube:**\n* <a href='https://www.youtube.com/results?search_query=measuring+with+nonstandard+units+for+kids' target='_blank' rel='noopener noreferrer'>measuring with nonstandard units for kids</a>\n* <a href='https://www.youtube.com/results?search_query=telling+time+to+the+hour+and+half+hour+for+kids' target='_blank' rel='noopener noreferrer'>telling time to the hour and half hour for kids</a>\n* <a href='https://www.youtube.com/results?search_query=how+to+read+a+bar+graph+for+kids' target='_blank' rel='noopener noreferrer'>how to read a bar graph for kids</a>\n* <a href='https://www.youtube.com/results?search_query=2d+shapes+sides+and+corners+for+kids' target='_blank' rel='noopener noreferrer'>2d shapes sides and corners for kids</a>\n* <a href='https://www.youtube.com/results?search_query=halves+and+fourths+equal+shares+for+kids' target='_blank' rel='noopener noreferrer'>halves and fourths equal shares for kids</a>"
+        }
+      }
+    }
+  },
+  "activities": {
+    "count-to-twenty": {
+      "title": "Contar até Vinte",
+      "description": "Toque as estrelas para contar de 1 a 20!"
+    },
+    "number-order": {
+      "title": "Ordem dos Números",
+      "description": "Escolha a lista que está na ordem correta!",
+      "instruction": "Escolha a lista que vai do menor para o maior.",
+      "prompt": "Qual lista está em ordem do menor para o maior?",
+      "question": "Rodada {round} de {total}"
+    },
+    "tens-ones-blocks": {
+      "title": "Blocos de Dezenas e Unidades",
+      "description": "Quantas dezenas? Quantas unidades?",
+      "howMany": "Quantas dezenas e unidades?",
+      "tens": "Dezenas",
+      "ones": "Unidades",
+      "tensWord": "dezenas",
+      "onesWord": "unidades",
+      "and": "e"
+    },
+    "number-match": {
+      "title": "Combinar Números",
+      "description": "Combine o número com a quantidade certa!",
+      "instruction": "Toque um número, depois toque o grupo correspondente!",
+      "selectNumberFirst": "Selecione um número primeiro!"
+    },
+    "greater-or-less": {
+      "title": "Maior ou Menor",
+      "description": "Qual número é maior? Qual é menor?",
+      "instruction": "Escolha o símbolo correto!",
+      "lessThan": "Menor que",
+      "equalTo": "Igual a",
+      "greaterThan": "Maior que",
+      "leftIsLess": "(o da esquerda é menor)",
+      "leftIsGreater": "(o da esquerda é maior)",
+      "areEqual": "(são iguais)"
+    },
+    "count-by-tens": {
+      "title": "Contar de 10 em 10",
+      "description": "Conte de 10 em 10 para chegar ao objetivo!",
+      "instruction": "Preencha os números que faltam!",
+      "wellDone": "Você contou de dezena em dezena perfeitamente!",
+      "checkPattern": "Olhe o padrão - cada número aumenta 10!"
+    },
+    "missing-number-sequence": {
+      "title": "Número Faltante",
+      "description": "Encontre o número que está escondido!",
+      "instruction": "Que número está faltando?",
+      "pattern": "Padrão:",
+      "patternHint": "+1",
+      "wellDone": "Você encontrou!",
+      "correctIs": "O número correto é {n}."
+    },
+    "hundred-chart": {
+      "title": "Caça ao Quadro de 120",
+      "description": "Encontre números no quadro de 120!",
+      "findNumber": "Encontre o número {n}!",
+      "findTens": "Encontre todos os números com {n} dezenas!",
+      "findOnes": "Encontre todos os números com {n} unidades!",
+      "findRange": "Encontre todos os números entre {start} e {end}!",
+      "findPattern": "Encontre todos os números na sequência dos {n}!",
+      "findMultiple": "Encontre estes números: {nums}!",
+      "findColumn": "Encontre todos os números na mesma coluna que {n}!",
+      "wellDone": "Você encontrou todos!"
+    },
+    "add-with-pictures": {
+      "title": "Adicionar com Figuras",
+      "description": "Conte os objetos para encontrar a soma!",
+      "instruction": "Conte todos os objetos!",
+      "howMany": "{a} + {b} = ?",
+      "countAll": "Conte todos para encontrar a soma!",
+      "correct": "Correto! {a} + {b} = {sum}",
+      "tryAgain": "Quase! Conte de novo: {a} + {b} = {sum}"
+    },
+    "number-line-addition": {
+      "title": "Salto na Reta Numérica",
+      "description": "Salte pela reta numérica para adicionar!",
+      "instruction": "Veja o sapo saltar e encontre a resposta!",
+      "watchJump": "Veja o Salto!",
+      "correct": "Correto! {a} + {b} = {sum}",
+      "tryAgain": "Quase! {a} + {b} = {sum}"
+    },
+    "make-ten": {
+      "title": "Completar o Dez",
+      "description": "Encontre pares de números que formam 10!",
+      "instruction": "Escolha o número que falta para completar o 10!",
+      "findPair": "Encontre o número que forma 10 com {n}!",
+      "practiceInstruction": "Encontre quaisquer dois números que formam 10!",
+      "phaseLearn": "Fase de Aprendizagem",
+      "phasePractice": "Fase de Prática",
+      "pairsFound": "pares encontrados",
+      "correct": "Perfeito! {a} + {b} = 10",
+      "tryAgain": "Quase! Isso dá {sum}, não 10!",
+      "complete": "Incrível! Você encontrou todos os pares que formam 10! Corretos: {correct}, Incorretos: {incorrect}"
+    },
+    "addition-facts": {
+      "title": "Flash de Fatos de Adição",
+      "description": "Rápido! Qual é a soma?",
+      "correct": "Rápido! {a} + {b} = {sum}",
+      "wrong": "Quase! {a} + {b} = {sum}",
+      "perfect": "Perfeito! Você acertou todos! 🎉",
+      "great": "Ótimo trabalho! Você é muito rápido com os fatos de adição!",
+      "good": "Bom trabalho! Continue praticando para ficar ainda mais rápido!",
+      "keepPracticing": "Continue praticando! Você ficará mais rápido com mais prática!"
+    },
+    "doubles-addition": {
+      "title": "Dobros Divertidos",
+      "description": "Dobre a diversão! Adicione o mesmo número duas vezes!",
+      "question": "Qual é o dobro de {n}?",
+      "correct": "✓ Correto! {n} + {n} = {answer}",
+      "wrong": "Quase! {n} + {n} = {answer}",
+      "perfect": "Perfeito! Você sabe todos os seus dobros!",
+      "great": "Ótimo trabalho! Você está indo muito bem com os dobros!",
+      "good": "Bom trabalho! Continue praticando seus dobros!",
+      "keepPracticing": "Continue praticando! Os dobros ficam mais fáceis com a prática!"
+    },
+    "dice-addition": {
+      "title": "Adição com Dados",
+      "description": "Role dois dados e some os pontos!",
+      "clickToRoll": "Clique aqui para rolar os dados!",
+      "whatIsSum": "Qual é a soma?",
+      "correct": "✓ Correto! {a} + {b} = {sum}",
+      "wrong": "Quase! {a} + {b} = {sum}",
+      "perfect": "Perfeito! Você é incrível na adição com dados!",
+      "great": "Ótimo trabalho! Você é muito bom na adição com dados!",
+      "good": "Bom trabalho! Continue praticando a adição com dados!",
+      "keepPracticing": "Continue praticando! A adição com dados fica mais fácil!"
+    },
+    "add-three-numbers": {
+      "title": "Somar Três Números",
+      "description": "Some três números juntos!",
+      "hint": "Procure pares que formam 10!",
+      "correct": "Correto! {a} + {b} + {c} = {sum}",
+      "wrong": "Quase! {a} + {b} + {c} = {sum}",
+      "perfect": "Perfeito! Você é incrível somando três números!",
+      "great": "Ótimo trabalho! Você é muito bom somando três números!",
+      "good": "Bom trabalho! Continue praticando a soma de três números!",
+      "keepPracticing": "Continue praticando! Somar três números fica mais fácil!"
+    },
+    "addition-stories": {
+      "title": "Histórias de Adição",
+      "description": "Leia a história e some!",
+      "stories": {
+        "crayons": "Sam tem {a} lápis de cor. A mamãe dá mais {b} para ele. Quantos lápis de cor Sam tem agora?",
+        "birds": "Emma vê {a} pássaros em uma árvore. Depois {b} pássaros a mais pousam. Quantos pássaros há ao todo?",
+        "toyCars": "Jake tem {a} carrinhos. Seu amigo dá mais {b} carrinhos para ele. Quantos carrinhos Jake tem ao todo?",
+        "apples": "Há {a} maçãs em uma cesta. O papai coloca mais {b} maçãs. Quantas maçãs há na cesta agora?",
+        "books": "Lily lê {a} livros na segunda-feira. Ela lê {b} livros na terça-feira. Quantos livros Lily leu ao todo?",
+        "flowers": "Há {a} flores no jardim. A mamãe planta mais {b}. Quantas flores há agora?",
+        "stickers": "Ben tem {a} adesivos. Sua irmã dá mais {b} adesivos para ele. Quantos adesivos Ben tem agora?",
+        "cookies": "Há {a} biscoitos em um prato. O papai assa mais {b} biscoitos. Quantos biscoitos há ao todo?"
+      },
+      "correct": "Correto! {a} + {b} = {sum}",
+      "wrong": "Quase! {a} + {b} = {sum}",
+      "perfect": "Perfeito! Você é incrível resolvendo histórias de adição!",
+      "great": "Ótimo trabalho! Você é muito bom em problemas de história!",
+      "good": "Bom trabalho! Continue praticando histórias de adição!",
+      "keepPracticing": "Continue praticando! Problemas de história ficam mais fáceis!"
+    },
+    "take-away-visual": {
+      "title": "Tirar Objetos",
+      "description": "Veja alguns objetos desaparecerem!",
+      "clickToStart": "🎈 Clique aqui para ver os objetos desaparecerem!",
+      "correct": "Correto! {minuend} − {subtrahend} = {answer}",
+      "wrong": "Quase! {minuend} − {subtrahend} = {answer}",
+      "perfect": "Perfeito! Você é uma estrela da subtração!",
+      "great": "Ótimo trabalho! Você é muito bom em subtração!",
+      "good": "Bom trabalho! Continue praticando subtração!",
+      "keepPracticing": "Continue praticando! A subtração fica mais fácil!"
+    },
+    "subtraction-facts": {
+      "title": "Flash de Fatos de Subtração",
+      "description": "Rápido! Quanto sobra?",
+      "correct": "Rápido! {a} − {b} = {diff}",
+      "wrong": "Quase! {a} − {b} = {diff}",
+      "perfect": "Perfeito! Você acertou todos! 🎉",
+      "great": "Ótimo trabalho! Você é muito rápido com os fatos de subtração!",
+      "good": "Bom trabalho! Continue praticando para ficar ainda mais rápido!",
+      "keepPracticing": "Continue praticando! Você ficará mais rápido com mais prática!"
+    },
+    "number-line-subtraction": {
+      "title": "Contagem Regressiva na Reta Numérica",
+      "description": "Salte para trás na reta numérica!",
+      "instruction": "Veja a tartaruga saltar para trás e encontre a resposta!",
+      "watchJump": "Veja o Salto!",
+      "correct": "Correto! {a} − {b} = {diff}",
+      "tryAgain": "Quase! {a} − {b} = {diff}"
+    },
+    "related-facts": {
+      "title": "Fatos Relacionados",
+      "description": "Adição e subtração são amigas!",
+      "givenFact": "Fato dado:",
+      "findRelated": "Encontre o fato relacionado:",
+      "correct": "Correto! A resposta é {answer}!",
+      "wrong": "Quase! A resposta é {answer}.",
+      "perfect": "Perfeito! Você entende as famílias de fatos completamente! 🎉",
+      "great": "Ótimo trabalho! Você realmente entende como adição e subtração se relacionam!",
+      "good": "Bom trabalho! Continue praticando famílias de fatos!",
+      "keepPracticing": "Continue praticando! As famílias de fatos ficarão mais fáceis com mais prática!"
+    },
+    "missing-part": {
+      "title": "Parte Faltante",
+      "description": "Encontre o número que falta!",
+      "hint": "Que número torna isso verdadeiro?",
+      "visualHint": "{num1} blocos + ? blocos a mais = {total} no total",
+      "correct": "Correto! {num1} + {answer} = {total}",
+      "wrong": "Quase! {num1} + {answer} = {total}",
+      "perfect": "Perfeito! Você encontrou todas as partes que faltavam! 🎉",
+      "great": "Ótimo trabalho! Você é muito bom em encontrar números faltantes!",
+      "good": "Bom trabalho! Continue praticando para ficar ainda melhor!",
+      "keepPracticing": "Continue praticando! Encontrar partes faltantes ficará mais fácil!"
+    },
+    "subtract-from-ten": {
+      "title": "Subtrair do Dez",
+      "description": "Tire do 10!",
+      "frameLabel": "Comece com 10, tire {n}",
+      "correct": "🎯 Correto! 10 − {n} = {answer}",
+      "wrong": "Quase! 10 − {n} = {answer}",
+      "perfect": "🌟 Perfeito! Você sabe todos os seus laços do 10!",
+      "great": "Excelente! Você está dominando a subtração do 10!",
+      "good": "Bom trabalho! Continue praticando esses fatos importantes!",
+      "keepPracticing": "Continue praticando! Esses fatos se tornarão automáticos!"
+    },
+    "how-many-more": {
+      "title": "Quantos a Mais?",
+      "description": "Compare e encontre a diferença!",
+      "howManyMore": "Quantos {items} a mais o Grupo A tem?",
+      "correct": "Correto! O Grupo A tem {difference} a mais que o Grupo B.",
+      "wrong": "Quase! A diferença é {difference}. ({groupA} - {groupB} = {difference})",
+      "perfect": "Perfeito! Você é um especialista em comparação!",
+      "great": "Ótimo trabalho! Você entende diferenças!",
+      "good": "Bom trabalho! Continue praticando comparações!",
+      "keepPracticing": "Continue praticando! Comparar fica mais fácil!"
+    },
+    "think-addition": {
+      "title": "Pensar em Adição",
+      "description": "Use a adição para ajudar a subtrair!",
+      "subtractionProblem": "Problema de subtração:",
+      "thinkAddition": "Pense:",
+      "correct": "Correto! {minuend} − {subtrahend} = {answer}",
+      "wrong": "Quase! {minuend} − {subtrahend} = {answer}",
+      "perfect": "Perfeito! Você é um especialista em subtração! 🎉",
+      "great": "Ótimo trabalho! Você realmente entende como usar a adição para subtrair!",
+      "good": "Bom trabalho! Continue praticando esta estratégia!",
+      "keepPracticing": "Continue praticando! Esta estratégia ficará mais fácil!"
+    },
+    "subtraction-stories": {
+      "title": "Histórias de Subtração",
+      "description": "Leia a história e subtraia!",
+      "stories": {
+        "stickers": "Emma tinha {a} adesivos. Ela deu {b} para a amiga. Quantos adesivos Emma tem agora?",
+        "balloons": "Jake tinha {a} balões. {b} balões voaram. Quantos balões Jake ainda tem?",
+        "cookies": "Havia {a} biscoitos em um prato. A mamãe comeu {b} biscoitos. Quantos biscoitos sobraram?",
+        "apples": "Sam colheu {a} maçãs. Ele deu {b} maçãs para a professora. Quantas maçãs Sam tem agora?",
+        "toyCars": "Ben tinha {a} carrinhos. Ele deu {b} carrinhos para o irmão. Quantos carrinhos Ben ainda tem?",
+        "flowers": "Havia {a} flores em um vaso. {b} flores murcharam. Quantas flores ainda estão frescas?",
+        "pencils": "Lily tinha {a} lápis. Ela perdeu {b} lápis. Quantos lápis Lily tem agora?",
+        "cupcakes": "O papai fez {a} cupcakes. A família comeu {b} cupcakes. Quantos cupcakes sobraram?"
+      },
+      "correct": "Correto! {a} − {b} = {answer}",
+      "wrong": "Quase! {a} − {b} = {answer}",
+      "perfect": "Perfeito! Você é incrível resolvendo histórias de subtração!",
+      "great": "Ótimo trabalho! Você é muito bom em problemas de subtração!",
+      "good": "Bom trabalho! Continue praticando histórias de subtração!",
+      "keepPracticing": "Continue praticando! Problemas de subtração ficam mais fáceis!"
+    },
+    "equal-sign": {
+      "title": "Explorador do Sinal de Igual",
+      "description": "O sinal de igual significa 'o mesmo que'!",
+      "question": "Esta equação é verdadeira?",
+      "true": "Verdadeiro",
+      "false": "Falso",
+      "correct": "Sim! Os dois lados são iguais!",
+      "correctFalse": "Correto! Os dois lados NÃO são iguais!",
+      "wrong": "Quase! Os dois lados SÃO iguais.",
+      "wrongFalse": "Quase! Os dois lados NÃO são iguais.",
+      "perfect": "Perfeito! Você entende o sinal de igual completamente! 🏆",
+      "great": "Ótimo trabalho! Você realmente entende o que = significa!",
+      "good": "Bom trabalho! Continue praticando!",
+      "keepPracticing": "Continue praticando! Entender = fica mais fácil!"
+    },
+    "balance-equation": {
+      "title": "Equilibrar a Equação",
+      "description": "Faça os dois lados serem iguais!",
+      "enterNumber": "Digite o número que falta:",
+      "pleaseEnter": "Por favor, digite um número!",
+      "correct": "Perfeito! O número que falta é {n}!",
+      "wrong": "Quase! A resposta correta é {n}.",
+      "perfect": "Perfeito! Você consegue equilibrar qualquer equação! 🏆",
+      "great": "Ótimo trabalho! Você entende como equilibrar equações!",
+      "good": "Bom trabalho! Continue praticando!",
+      "keepPracticing": "Continue praticando! Equilibrar equações fica mais fácil!"
+    },
+    "picture-problems": {
+      "title": "Problemas com Figuras",
+      "description": "Olhe para a figura e resolva!",
+      "addJoin": "{a} pássaros em um galho. {b} pássaros a mais chegam voando. Quantos pássaros agora?",
+      "addApples": "{a} maçãs na cesta. Adicione mais {b} maçãs. Quantas maçãs ao total?",
+      "addButterflies": "{a} borboletas no jardim. {b} borboletas a mais chegam. Quantas borboletas ao todo?",
+      "addFlowers": "{a} flores desabrocham. Depois mais {b} flores desabrocham. Quantas flores agora?",
+      "subBalloons": "{a} balões. {b} balões voam. Quantos balões sobraram?",
+      "subCookies": "{a} biscoitos no prato. Come {b} biscoitos. Quantos biscoitos restam?",
+      "subStars": "{a} estrelas no céu. {b} estrelas desaparecem. Quantas estrelas restaram?",
+      "subFish": "{a} peixes na lagoa. {b} peixes nadam para longe. Quantos peixes sobraram?",
+      "correct": "Sim! {a} {op} {b} = {answer}",
+      "tryAgain": "Quase! A resposta é {answer}.",
+      "perfect": "Perfeito! Você consegue resolver qualquer problema com figuras!",
+      "great": "Ótimo trabalho! Você entende problemas com figuras!",
+      "good": "Bom trabalho! Continue praticando!",
+      "keepPracticing": "Continue praticando! Problemas com figuras ficam mais fáceis!"
+    },
+    "word-problem-mix": {
+      "title": "Mistura de Problemas de História",
+      "description": "Leia, pense e resolva!",
+      "addCookies": "Sam tem {a} biscoitos. A mamãe dá mais {b} biscoitos para ele. Quantos biscoitos Sam tem agora?",
+      "addFlowers": "Há {a} flores no jardim. Mais {b} flores desabrocham. Quantas flores há agora?",
+      "addBalloons": "Anna tem {a} balões. O papai compra mais {b} balões para ela. Quantos balões Anna tem?",
+      "addBooks": "Há {a} livros azuis e {b} livros vermelhos na prateleira. Quantos livros ao total?",
+      "addCaterpillars": "{a} lagartas rastejam em uma folha. Mais {b} lagartas se juntam. Quantas lagartas agora?",
+      "subApples": "Tom tem {a} maçãs. Ele come {b} maçãs. Quantas maçãs sobraram?",
+      "subBirds": "{a} pássaros estão em uma cerca. {b} pássaros voam. Quantos pássaros sobraram?",
+      "subCrayons": "Emma tem {a} lápis de cor. Ela dá {b} lápis de cor para a amiga. Quantos lápis de cor Emma tem agora?",
+      "subStars": "Havia {a} estrelas. {b} estrelas desaparecem atrás das nuvens. Quantas estrelas você pode ver?",
+      "subStrawberries": "Ben colhe {a} morangos. Ele compartilha {b} morangos com amigos. Quantos morangos Ben fica?",
+      "correct": "Correto! {a} {op} {b} = {answer}",
+      "tryAgain": "Quase! A resposta é {answer}.",
+      "perfect": "Perfeito! Você consegue resolver qualquer problema de história!",
+      "great": "Ótimo trabalho! Você entende problemas de história!",
+      "good": "Bom trabalho! Continue praticando!",
+      "keepPracticing": "Continue praticando! Problemas de história ficam mais fáceis!"
+    },
+    "more-fewer-problems": {
+      "title": "Problemas de Mais e Menos",
+      "description": "Quem tem mais? Quantos a mais?",
+      "howManyMoreApples": "{person1} tem {a} maçãs. {person2} tem {b} maçãs. Quantas maçãs a mais {person2} tem?",
+      "howManyMoreBooks": "{person1} tem {a} livros. {person2} tem {b} livros. Quantos livros a mais {person2} tem?",
+      "howManyMoreStars": "{person1} tem {a} estrelas. {person2} tem {b} estrelas. Quantas estrelas a mais {person2} tem?",
+      "howManyMoreBalloons": "{person1} tem {a} balões. {person2} tem {b} balões. Quantos balões a mais {person2} tem?",
+      "fewerBooks": "{person1} tem {a} livros. {person2} tem {diff} livros a menos. Quantos livros {person2} tem?",
+      "fewerCrayons": "{person1} tem {a} lápis de cor. {person2} tem {diff} lápis de cor a menos. Quantos lápis de cor {person2} tem?",
+      "fewerCookies": "{person1} tem {a} biscoitos. {person2} tem {diff} biscoitos a menos. Quantos biscoitos {person2} tem?",
+      "fewerFlowers": "{person1} tem {a} flores. {person2} tem {diff} flores a menos. Quantas flores {person2} tem?",
+      "correct": "Correto! A resposta é {answer}.",
+      "tryAgain": "Quase! A resposta é {answer}.",
+      "explainMore": "{b} - {a} = {answer}",
+      "explainFewer": "{a} - {diff} = {answer}",
+      "perfect": "Perfeito! Você entende mais e menos!",
+      "great": "Ótimo trabalho! Você consegue comparar bem!",
+      "good": "Bom trabalho! Continue praticando comparações!",
+      "keepPracticing": "Continue praticando! Comparar fica mais fácil!"
+    },
+    "draw-to-solve": {
+      "title": "Desenhar para Resolver",
+      "description": "Desenhe círculos para ajudar a resolver!",
+      "drawHere": "Desenhe círculos aqui para ajudar:",
+      "clickToAdd": "Clique em qualquer lugar para adicionar um círculo",
+      "clickCircleToRemove": "Clique em um círculo para removê-lo",
+      "emptyCanvas": "Clique para adicionar círculos",
+      "tooManyCircles": "São muitos círculos! Tente contar ou apagar alguns primeiro.",
+      "clearDrawing": "Apagar Desenho",
+      "yourAnswer": "Sua resposta:",
+      "submit": "Enviar",
+      "pleaseEnter": "Por favor, digite um número!",
+      "toyCars": "Sam tem {a} carrinhos. Seu amigo dá mais {b}. Quantos carrinhos Sam tem ao todo?",
+      "birds": "Há {a} pássaros em uma árvore. Mais {b} pássaros pousam na árvore. Quantos pássaros há agora?",
+      "stickers": "Emma tem {a} adesivos. A mamãe dá mais {b} adesivos para ela. Quantos adesivos Emma tem agora?",
+      "cookies": "Jake tem {a} biscoitos. Ele come {b} biscoitos. Quantos biscoitos Jake ainda tem?",
+      "apples": "Há {a} maçãs em uma cesta. {b} maçãs são tiradas. Quantas maçãs restam na cesta?",
+      "balloons": "Ben tem {a} balões. {b} balões estouram. Quantos balões Ben tem agora?",
+      "correct": "Correto! {a} {op} {b} = {answer}",
+      "tryAgain": "Quase! A resposta é {answer}. ({a} {op} {b} = {answer})",
+      "perfect": "Perfeito! Você consegue resolver qualquer problema de história com desenho!",
+      "great": "Ótimo trabalho! Desenhar ajuda a resolver problemas!",
+      "good": "Bom trabalho! Continue usando desenhos para ajudar!",
+      "keepPracticing": "Continue praticando! Desenhar torna os problemas mais fáceis!"
+    },
+    "match-equation-story": {
+      "title": "Combinar Equação com História",
+      "description": "Qual equação combina com a história?",
+      "addToys": "Eu tinha {a} brinquedos. Ganhei mais {b} brinquedos.",
+      "addCookies": "A mamãe fez {a} biscoitos. Depois ela fez mais {b} biscoitos.",
+      "addBirds": "{a} pássaros estavam em uma árvore. Mais {b} pássaros chegaram voando.",
+      "addBooks": "Sam leu {a} livros semana passada e {b} livros esta semana.",
+      "addFlowers": "Havia {a} flores. Depois mais {b} flores desabrocham.",
+      "subBalloons": "Eu tinha {a} balões. {b} balões estouraram.",
+      "subApples": "Havia {a} maçãs na cesta. Tom comeu {b} maçãs.",
+      "subCrayons": "Emma tinha {a} lápis de cor. Ela deu {b} lápis de cor para a amiga.",
+      "subStars": "{a} estrelas brilhavam. Depois {b} estrelas desapareceram.",
+      "subFish": "{a} peixes estavam nadando. {b} peixes nadaram para longe.",
+      "correct": "Perfeito! {equation} combina com a história!",
+      "tryAgain": "Quase! A equação correta é {equation}.",
+      "perfect": "Perfeito! Você consegue combinar qualquer equação com sua história!",
+      "great": "Ótimo trabalho! Você entende como equações representam histórias!",
+      "good": "Bom trabalho! Continue praticando!",
+      "keepPracticing": "Continue praticando! Combinar equações fica mais fácil!"
+    },
+    "create-story": {
+      "title": "Criar uma História",
+      "description": "Que história esta equação poderia contar?",
+      "correct": "📖 Perfeito! Essa história combina com a equação!",
+      "tryAgain": "Quase! A história correta está destacada em verde.",
+      "perfect": "Perfeito! Você entende o que as equações significam!",
+      "great": "Ótimo trabalho! Você consegue interpretar equações como histórias!",
+      "good": "Bom trabalho! Continue praticando!",
+      "keepPracticing": "Continue praticando! Entender equações fica mais fácil!",
+      "addToys": "Eu tinha {a} brinquedos. Ganhei mais {b} brinquedos.",
+      "addCookies": "A mamãe fez {a} biscoitos. Depois ela fez mais {b} biscoitos.",
+      "addBirds": "{a} pássaros estavam em uma árvore. Mais {b} pássaros chegaram voando.",
+      "addBooks": "Sam leu {a} livros semana passada e {b} livros esta semana.",
+      "addFlowers": "Havia {a} flores. Depois mais {b} flores desabrocham.",
+      "addPresents": "Anna ganhou {a} presentes no aniversário e mais {b} da vovó.",
+      "subBalloons": "Eu tinha {a} balões. {b} balões estouraram.",
+      "subApples": "Havia {a} maçãs na cesta. Tom comeu {b} maçãs.",
+      "subCrayons": "Emma tinha {a} lápis de cor. Ela deu {b} lápis de cor para a amiga.",
+      "subStars": "{a} estrelas brilhavam. Depois {b} estrelas desapareceram.",
+      "subFish": "{a} peixes estavam nadando. {b} peixes nadaram para longe.",
+      "subCupcakes": "A padaria fez {a} cupcakes. Eles venderam {b} cupcakes."
+    },
+    "order-by-length": {
+      "title": "Ordenar por Comprimento",
+      "description": "Coloque os objetos em ordem do mais curto ao mais longo!",
+      "instruction": "Arraste os objetos para organizá-los do mais curto ao mais longo!",
+      "arrangeAll": "Por favor, organize todos os objetos nas zonas de soltar!",
+      "correct": "📏 Perfeito! Você os ordenou do mais curto ao mais longo!",
+      "wrong": "Quase! Olhe cuidadosamente os comprimentos e tente de novo.",
+      "checkButton": "Verificar Minha Resposta",
+      "statsPerfect": "Perfeito! Você consegue comparar comprimentos como um profissional!",
+      "statsGreat": "Ótimo trabalho! Você entende comparação de comprimentos!",
+      "statsGood": "Bom trabalho! Continue praticando!",
+      "statsKeepGoing": "Continue praticando! Comparar comprimentos fica mais fácil!"
+    },
+    "measure-with-cubes": {
+      "title": "Medir com Cubos",
+      "description": "Quantos cubos de comprimento tem?",
+      "instruction": "Conte os cubos para encontrar o comprimento!",
+      "correct": "🧊 Correto! O objeto tem {n} cubos de comprimento!",
+      "wrong": "Quase! O comprimento correto é {n} cubos.",
+      "statsPerfect": "Perfeito! Você é um especialista em medidas!",
+      "statsGreat": "Ótimo trabalho! Você consegue medir comprimentos com precisão!",
+      "statsGood": "Bom trabalho! Continue praticando medidas!",
+      "statsKeepGoing": "Continue praticando! Medir fica mais fácil!",
+      "objects": {
+        "crayon": "Lápis de cor",
+        "pencil": "Lápis",
+        "stick": "Palito",
+        "carrot": "Cenoura",
+        "brush": "Pincel",
+        "spoon": "Colher",
+        "ruler": "Régua",
+        "candy": "Bala"
+      }
+    },
+    "time-hour": {
+      "title": "Que Horas São? (Hora Exata)",
+      "description": "Diga as horas exatas!",
+      "instruction": "Que horas o relógio mostra?",
+      "correct": "⏰ Correto! São {time}!",
+      "wrong": "Quase! São {time}.",
+      "statsPerfect": "Perfeito! Você consegue dizer as horas exatas!",
+      "statsGreat": "Ótimo trabalho! Você está aprendendo a dizer as horas!",
+      "statsGood": "Bom trabalho! Continue praticando dizer as horas!",
+      "statsKeepGoing": "Continue praticando! Dizer as horas fica mais fácil!"
+    },
+    "time-half-hour": {
+      "title": "Que Horas São? (Meia Hora)",
+      "description": "Diga as horas à meia hora!",
+      "instruction": "Que horas o relógio mostra?",
+      "correct": "⏰ Correto! São {time}!",
+      "wrong": "Quase! São {time}.",
+      "statsPerfect": "Perfeito! Você consegue dizer as horas à meia hora!",
+      "statsGreat": "Ótimo trabalho! Você está aprendendo a dizer as horas!",
+      "statsGood": "Bom trabalho! Continue praticando dizer as horas!",
+      "statsKeepGoing": "Continue praticando! Dizer as horas fica mais fácil!"
+    },
+    "read-bar-graph": {
+      "title": "Ler o Gráfico de Barras",
+      "description": "Responda perguntas sobre o gráfico!",
+      "correct": "📊 Correto! Ótima leitura!",
+      "wrong": "Quase! Olhe o gráfico com atenção.",
+      "statsPerfect": "Perfeito! Você consegue ler gráficos de barras como um profissional!",
+      "statsGreat": "Ótimo trabalho! Você entende gráficos de barras!",
+      "statsGood": "Bom trabalho! Continue praticando!",
+      "statsKeepGoing": "Continue praticando! Ler gráficos fica mais fácil!",
+      "graphs": {
+        "fruits": {
+          "title": "Frutas Favoritas",
+          "apple": "Maçã",
+          "banana": "Banana",
+          "orange": "Laranja",
+          "q1": "Quantas crianças gostam de banana?",
+          "q2": "Qual fruta é mais popular?",
+          "q3": "Quantas crianças a mais gostam de banana do que de laranja?"
+        },
+        "pets": {
+          "title": "Animais de Estimação Favoritos",
+          "dog": "Cachorro",
+          "cat": "Gato",
+          "fish": "Peixe",
+          "q1": "Quantas crianças gostam de cachorro?",
+          "q2": "Qual animal de estimação é menos popular?",
+          "q3": "Quantas crianças a mais gostam de cachorro do que de gato?"
+        },
+        "colors": {
+          "title": "Cores Favoritas",
+          "red": "Vermelho",
+          "blue": "Azul",
+          "green": "Verde",
+          "q1": "Quantas crianças gostam de azul?",
+          "q2": "Qual cor é mais popular?",
+          "q3": "Quantas crianças a mais gostam de azul do que de verde?"
+        }
+      }
+    },
+    "name-shapes": {
+      "title": "Nomear a Forma!",
+      "description": "Que forma é essa?",
+      "shapes": {
+        "circle": "Círculo",
+        "square": "Quadrado",
+        "rectangle": "Retângulo",
+        "triangle": "Triângulo",
+        "hexagon": "Hexágono",
+        "trapezoid": "Trapézio"
+      },
+      "correct": "✅ Correto! Essa é a forma certa!",
+      "wrong": "Quase! Isso é um {shape}.",
+      "squareInfo": "💡 Você sabia? Um quadrado é um retângulo especial!",
+      "statsPerfect": "Perfeito! Você conhece todas as formas! 🏆",
+      "statsGreat": "Excelente conhecimento de formas! 🌟",
+      "statsGood": "Bom trabalho identificando formas! 👍",
+      "statsKeepGoing": "Continue praticando - você está aprendendo! 💪"
+    },
+    "shape-attributes": {
+      "title": "Atributos das Formas",
+      "description": "Conte os lados e cantos!",
+      "shapes": {
+        "triangle": "triângulo",
+        "square": "quadrado",
+        "rectangle": "retângulo",
+        "pentagon": "pentágono",
+        "hexagon": "hexágono"
+      },
+      "howManySides": "Quantos lados este {shape} tem?",
+      "howManyCorners": "Quantos cantos este {shape} tem?",
+      "correct": "✅ Isso mesmo! Ótima contagem!",
+      "wrong": "Quase! A resposta é {answer}.",
+      "statsPerfect": "Perfeito! Você conhece os atributos das formas! 🏆",
+      "statsGreat": "Excelente trabalho contando lados e cantos! 🌟",
+      "statsGood": "Bom trabalho aprendendo sobre formas! 👍",
+      "statsKeepGoing": "Continue praticando - você está aprendendo! 💪"
+    },
+    "halves-fourths": {
+      "title": "Metades e Quartos",
+      "description": "Divida formas em partes iguais!",
+      "isEqualHalves": "Esta forma está dividida em metades iguais?",
+      "isEqualFourths": "Esta forma está dividida em quartos iguais?",
+      "howManyHalves": "Quantas metades há nesta forma?",
+      "howManyFourths": "Quantos quartos há nesta forma?",
+      "yes": "Sim ✓",
+      "no": "Não ✗",
+      "correct": "🍕 Correto! Muito bem!",
+      "wrong": "Quase! Olhe cuidadosamente as partes.",
+      "statsPerfect": "Perfeito! Você entende metades e quartos! 🏆",
+      "statsGreat": "Ótimo trabalho! Você está aprendendo sobre frações! 🌟",
+      "statsGood": "Bom trabalho! Continue praticando! 👍",
+      "statsKeepGoing": "Continue praticando - frações ficam mais fáceis! 💪"
+    }
+  },
+  "learnMore": {
+    "visitResource": "Visitar recurso",
+    "numberblocks-count-20": {
+      "title": "Numberblocks - Aprender a Contar até 20",
+      "description": "Junte-se aos Numberblocks enquanto eles contam até 20!"
+    },
+    "khan-academy-grade1": {
+      "title": "Khan Academy - Matemática do 1º Ano",
+      "description": "Prática extra e explicações amigáveis para pais sobre habilidades do 1º Ano."
+    },
+    "place-value-song": {
+      "title": "Música do Valor Posicional - Dezenas e Unidades",
+      "description": "Uma música animada sobre valor posicional de dezenas e unidades"
+    },
+    "greater-than-less-than-song": {
+      "title": "Música de Maior Que e Menor Que",
+      "description": "Aprenda os símbolos > e < com uma música divertida!"
+    },
+    "count-to-100-numberblocks": {
+      "title": "Música de Contar até 100 | Numberblocks",
+      "description": "Conte até 100 com os Numberblocks!"
+    },
+    "addition-song": {
+      "title": "A Música da Adição | Músicas de Matemática",
+      "description": "Aprenda a somar com uma melodia animada!"
+    },
+    "numberblocks-addition": {
+      "title": "Numberblocks - Somando Números Juntos",
+      "description": "Veja como os Numberblocks se combinam e crescem!"
+    },
+    "make-ten-strategy": {
+      "title": "Completar o Dez para Somar | Estratégia de Matemática",
+      "description": "Aprenda a estratégia de 'completar o dez' para somar facilmente"
+    },
+    "number-line-adding": {
+      "title": "Como Usar uma Reta Numérica para Somar",
+      "description": "Salte pela reta numérica para encontrar as somas!"
+    },
+    "subtraction-song": {
+      "title": "A Música da Subtração | Tire!",
+      "description": "Aprenda a subtrair com uma música divertida!"
+    },
+    "numberblocks-subtraction": {
+      "title": "Numberblocks - Tirando",
+      "description": "Veja como os números ficam menores quando você tira!"
+    },
+    "fact-families": {
+      "title": "Famílias de Fatos | Adição e Subtração",
+      "description": "Aprenda como adição e subtração estão relacionadas!"
+    },
+    "counting-back-strategy": {
+      "title": "Subtração: Contagem Regressiva",
+      "description": "Aprenda a contar para trás para subtrair!"
+    },
+    "word-problems-song": {
+      "title": "Problemas de Matemática para Crianças",
+      "description": "Aprenda a resolver problemas de história passo a passo!"
+    },
+    "equal-sign-meaning": {
+      "title": "O que Significa o Sinal de Igual?",
+      "description": "O sinal de igual significa 'o mesmo que'!"
+    },
+    "comparison-word-problems": {
+      "title": "Comparando com Mais e Menos",
+      "description": "Aprenda a resolver problemas com 'mais' e 'menos'"
+    },
+    "drawing-math-pictures": {
+      "title": "Desenhar Figuras para Resolver Problemas de Matemática",
+      "description": "Use desenhos para ajudar a resolver problemas de história!"
+    },
+    "measuring-length": {
+      "title": "Medir com Unidades Não Padronizadas",
+      "description": "Aprenda a medir usando cubos, clipes de papel e mais!"
+    },
+    "telling-time": {
+      "title": "Dizer as Horas Exatas e à Meia Hora",
+      "description": "Aprenda a ler um relógio!"
+    },
+    "reading-bar-graphs": {
+      "title": "Como Ler um Gráfico de Barras para Crianças",
+      "description": "Aprenda o que os gráficos de barras podem nos dizer!"
+    },
+    "khan-academy-geometry": {
+      "title": "Khan Academy - Matemática do 1º Ano (Geometria e Formas)",
+      "description": "Prática extra para nomear formas, atributos e partes iguais."
+    },
+    "halves-fourths-fractions": {
+      "title": "Frações: Metades e Quartos",
+      "description": "Aprenda sobre partes iguais!"
+    }
+  }
+}

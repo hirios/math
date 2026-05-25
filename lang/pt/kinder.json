@@ -1,0 +1,983 @@
+{
+  "title": "Atividades do Jardim de Infância",
+  "description": "Desenvolvendo habilidades numéricas através da brincadeira e da descoberta",
+  "levels": {
+    "level1": {
+      "title": "Contagem & Nomes dos Números (0-20 até 100)",
+      "goal": "Desenvolver contagem confiável, reconhecimento de algarismos e rotinas de contagem que chegam até 100.",
+      "learnMore": {
+        "k-l1-big-idea": {
+          "title": "Grande ideia",
+          "content": "Contar é mais do que recitar: as crianças associam **um número a um objeto**, e o *último* número responde à pergunta 'quantos?'"
+        },
+        "k-l1-notice": {
+          "title": "O que observar",
+          "content": "* Toca cada objeto uma vez (sem pular, sem contar duas vezes)\n* Responde 'quantos?' sem recomeçar\n* Consegue começar a contar do 7 (não só do 1)\n* Começa a 'ver' grupos pequenos rapidamente (1-3; depois estrutura do quadro de cinco)"
+        },
+        "k-l1-home": {
+          "title": "Experimente em casa",
+          "content": "* **Jogo A: 'Conte & Diga'** Alinhe 15-25 itens; a criança conta e você pergunta 'Quantos?'\n* **Jogo B: 'Contagem a Partir de'** Comece no 13; se revezem contando até 20 (depois até 50)."
+        },
+        "k-l1-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube por:**\n* <a href='https://www.youtube.com/results?search_query=counting+to+100+for+kindergarten' target='_blank' rel='noopener noreferrer'>contar até 100 para jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=one+to+one+correspondence+counting' target='_blank' rel='noopener noreferrer'>correspondência um a um na contagem</a>\n* <a href='https://www.youtube.com/results?search_query=number+names+0+to+20' target='_blank' rel='noopener noreferrer'>nomes dos números de 0 a 20</a>\n* <a href='https://www.youtube.com/results?search_query=100+chart+patterns+kindergarten' target='_blank' rel='noopener noreferrer'>padrões da tabela de 100 para jardim de infância</a>"
+        }
+      }
+    },
+    "level2": {
+      "title": "Comparar, Ordenar, Quadros de Dez & Números de 11 a 19",
+      "goal": "Desenvolver linguagem de comparação e representações estruturadas (quadros de dez / reta numérica), incluindo números de 11-19 como 10 + unidades.",
+      "learnMore": {
+        "k-l2-big-idea": {
+          "title": "Grande ideia",
+          "content": "Comparar é sobre relações: as crianças podem decidir 'mais/menos/igual' por **pareamento** (nem sempre contando). Os números de 11-19 são uma ponte importante para o valor posicional: **dez-e-algumas-unidades**."
+        },
+        "k-l2-notice": {
+          "title": "O que observar",
+          "content": "* Faz pareamentos ('um para você, um para mim')\n* Reconhece padrões no quadro de dez sem contar cada ponto\n* Explica números de 11-19 ('São 10 e 4')\n* Posiciona números numa reta de 0-10 com confiança"
+        },
+        "k-l2-home": {
+          "title": "Experimente em casa",
+          "content": "* **Jogo A: 'Equilíbrio do Lanche'** Mova lanches um de cada vez até as tigelas ficarem iguais.\n* **Jogo B: 'Relâmpago do Quadro de Dez'** Mostre um quadro de dez (0-10). Diga o número; depois verifique contando."
+        },
+        "k-l2-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube por:**\n* <a href='https://www.youtube.com/results?search_query=ten+frame+kindergarten' target='_blank' rel='noopener noreferrer'>quadro de dez para jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=more+less+same+for+kids' target='_blank' rel='noopener noreferrer'>mais, menos, igual para crianças</a>\n* <a href='https://www.youtube.com/results?search_query=teen+numbers+ten+and+some+ones' target='_blank' rel='noopener noreferrer'>números de 11-19: dez e algumas unidades</a>\n* <a href='https://www.youtube.com/results?search_query=number+line+0+to+20' target='_blank' rel='noopener noreferrer'>reta numérica de 0 a 20</a>"
+        }
+      }
+    },
+    "level3": {
+      "title": "Formando o 10 & Pensamento Parte-Todo",
+      "goal": "Ajudar as crianças a ver os números como compostos de partes — especialmente combinações que formam 5 e 10.",
+      "learnMore": {
+        "k-l3-big-idea": {
+          "title": "Grande ideia",
+          "content": "Quando as crianças aprendem que os números são **compostos de partes**, adição e subtração se tornam 'rearranjar partes', não memorizar. 'Formar o 10' é uma ponte poderosa da contagem para o cálculo mental."
+        },
+        "k-l3-notice": {
+          "title": "O que observar",
+          "content": "* Nomeia mais de uma maneira de formar 6, 7, 8...\n* Usa a estrutura do quadro de cinco/dez ('5 e mais 2')\n* Encontra o par para 10 rapidamente (8 precisa de 2)\n* Reconhece dobros (4+4) como 'igual + igual'"
+        },
+        "k-l3-home": {
+          "title": "Experimente em casa",
+          "content": "* **Jogo A: 'Completando o Quadro de Dez'** Coloque 6 moedas no quadro de dez; pergunte 'Quantas mais para fazer 10?'\n* **Jogo B: 'Agite & Espalhe'** Espalhe fichas de duas cores; registre: '___ e ___ formam 10.'"
+        },
+        "k-l3-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube por:**\n* <a href='https://www.youtube.com/results?search_query=make+10+kindergarten' target='_blank' rel='noopener noreferrer'>formar o 10 no jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=number+bonds+to+10' target='_blank' rel='noopener noreferrer'>ligações numéricas até 10</a>\n* <a href='https://www.youtube.com/results?search_query=ten+frame+make+10' target='_blank' rel='noopener noreferrer'>quadro de dez — formar 10</a>\n* <a href='https://www.youtube.com/results?search_query=subitizing+to+10' target='_blank' rel='noopener noreferrer'>reconhecimento visual até 10</a>"
+        }
+      }
+    },
+    "level4": {
+      "title": "Somar & Subtrair até 10 (Histórias + Equações)",
+      "goal": "Resolver problemas de soma/subtração até 10 usando objetos, figuras e (de forma leve) equações.",
+      "learnMore": {
+        "k-l4-big-idea": {
+          "title": "Grande ideia",
+          "content": "Adição e subtração começam como **histórias reais** (juntar / separar). As equações são apenas uma maneira de *escrever o que aconteceu*."
+        },
+        "k-l4-notice": {
+          "title": "O que observar",
+          "content": "* Encena as histórias antes de resolver\n* Usa dedos/objetos naturalmente (isso está ótimo)\n* Consegue associar uma história a uma equação como 4 + 2 = 6\n* Resolve problemas de parte faltando com figuras"
+        },
+        "k-l4-home": {
+          "title": "Experimente em casa",
+          "content": "* **Jogo A: 'História com Brinquedos'** 'Você tem 4 carros, eu dou mais 2...' encene; depois escreva 4+2=__.\n* **Jogo B: 'Cubra a Parte'** Coloque 8 moedas; cubra algumas; pergunte 'Quantas estão escondidas?'"
+        },
+        "k-l4-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube por:**\n* <a href='https://www.youtube.com/results?search_query=kindergarten+addition+subtraction+within+10' target='_blank' rel='noopener noreferrer'>adição e subtração até 10 no jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=kindergarten+story+problems' target='_blank' rel='noopener noreferrer'>problemas com histórias no jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=missing+addend+within+10' target='_blank' rel='noopener noreferrer'>parcela faltando até 10</a>\n* <a href='https://www.youtube.com/results?search_query=number+bonds+to+10' target='_blank' rel='noopener noreferrer'>ligações numéricas até 10</a>"
+        }
+      }
+    },
+    "level5": {
+      "title": "Padrões, Lógica, Medição, Dados & Formas",
+      "goal": "Desenvolver 'ferramentas de pensamento matemático' (padrões, lógica, planejamento) enquanto explora a matemática no mundo real.",
+      "learnMore": {
+        "k-l5-big-idea": {
+          "title": "Grande ideia",
+          "content": "Esta é a 'matemática que você pode ver e tocar': padrões ajudam as crianças a perceber estrutura, e a linguagem de medição/formas ajuda a descrever o mundo. Conversas breves e brincalhonas durante as rotinas são a melhor prática."
+        },
+        "k-l5-notice": {
+          "title": "O que observar",
+          "content": "* Explica um padrão ('ele alterna')\n* Tenta de novo após o feedback (sem medo)\n* Compara alinhando objetos; usa mais longo/mais curto/mais pesado/mais leve\n* Classifica de forma consistente e lê um gráfico simples (mais/menos)\n* Nomeia formas por atributos (cantos/lados), não pela orientação"
+        },
+        "k-l5-home": {
+          "title": "Experimente em casa",
+          "content": "* **Jogo A: 'Padrões de Palmas'** Bata palmas-bata-bata; a criança continua ou inventa um novo padrão.\n* **Jogo B: 'Caça às Formas na Cozinha + Gráfico'** Encontre 3 círculos/3 retângulos; faça um pequeno gráfico de figuras e compare."
+        },
+        "k-l5-videos": {
+          "title": "Vídeos opcionais",
+          "content": "**Pesquise no YouTube por:**\n* <a href='https://www.youtube.com/results?search_query=patterns+for+kindergarten' target='_blank' rel='noopener noreferrer'>padrões para jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=coding+unplugged+robot+directions' target='_blank' rel='noopener noreferrer'>programação desplugada — direções do robô</a>\n* <a href='https://www.youtube.com/results?search_query=kindergarten+measurement+longer+shorter' target='_blank' rel='noopener noreferrer'>medição no jardim de infância: mais longo/mais curto</a>\n* <a href='https://www.youtube.com/results?search_query=2D+and+3D+shapes+for+kindergarten' target='_blank' rel='noopener noreferrer'>formas 2D e 3D para jardim de infância</a>\n* <a href='https://www.youtube.com/results?search_query=picture+graphs+for+kindergarten' target='_blank' rel='noopener noreferrer'>gráficos de figuras para jardim de infância</a>"
+        }
+      }
+    }
+  },
+  "activities": {
+    "tap-count-20": {
+      "title": "Toque & Conte até 20",
+      "description": "Toque cada item e conte em voz alta!",
+      "instruction": "Toque cada item para contar!",
+      "howMany": "Quantos você contou?",
+      "correct": "Sim! Você contou {{count}}!",
+      "incorrect": "Quase! Era {{count}}.",
+      "perfect": "Contagem incrível! Você é uma estrela!",
+      "great": "Muito bem na contagem!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "count-on": {
+      "title": "Continue Contando",
+      "description": "Comece em um número e continue contando!",
+      "instruction": "O que vem a seguir?",
+      "question": "O que vem a seguir?",
+      "correct": "Sim! {{prev}} → {{answer}}!",
+      "incorrect": "Quase! Depois do {{prev}} vem {{answer}}.",
+      "perfect": "Incrível! Você é um campeão de contagem!",
+      "great": "Muito bem continuando a contagem!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "missing-number-train": {
+      "title": "Trem do Número Faltando",
+      "description": "Encontre o número faltando no trem!",
+      "instruction": "Qual número caiu? Coloque de volta!",
+      "whichNumber": "Qual número está faltando?",
+      "correct": "Correto! O número faltando é {{number}}!",
+      "incorrect": "Quase! Era {{number}}.",
+      "perfect": "Incrível! Você é o condutor do trem dos números!",
+      "great": "Muito bem encontrando os números faltando!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "number-quantity-match-k": {
+      "title": "Pareamento de Números",
+      "description": "Associe o número ao grupo!",
+      "instruction": "Associe o número ao grupo!",
+      "question": "Qual grupo tem essa quantidade?",
+      "correct": "Sim! Isso é {{number}}!",
+      "incorrect": "Quase! Este é {{number}}.",
+      "perfect": "Incrível! Você é uma estrela no pareamento de números!",
+      "great": "Muito bem pareando números!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "counting-collections": {
+      "title": "Coleções para Contar",
+      "description": "Conte itens no pote!",
+      "instruction": "Toque cada item para contar!",
+      "howMany": "Quantos itens há no pote?",
+      "hint": "Dica: Tente contar em grupos de {{size}}!",
+      "correct": "Sim! Você contou {{count}}!",
+      "incorrect": "Quase! Era {{count}}.",
+      "perfect": "Contagem incrível!",
+      "great": "Muito bem contando coleções!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "count-by-tens-k": {
+      "title": "Foguete Contando de 10 em 10",
+      "description": "Ajude o foguete a voar contando de 10 em 10!",
+      "instruction": "Toque o próximo número para ajudar o foguete a voar!",
+      "countLabel": "Contagem:",
+      "correct": "Sim! {{count}}!",
+      "incorrect": "Quase! O próximo é {{next}}.",
+      "perfect": "Mestre dos Foguetes!",
+      "great": "Ótima contagem de 10 em 10!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "hundred-chart-k": {
+      "title": "Caça na Tabela dos 100",
+      "description": "Encontre números na tabela de 100!",
+      "instruction": "Encontre o número na tabela!",
+      "find": "Encontre:",
+      "correct": "Encontrou! {{number}}!",
+      "reveal": "Aqui está! O {{number}} está aqui.",
+      "hintRow": "Dica: Procure na linha {{row}} ({{start}}-{{end}})",
+      "hintClose": "Chegando mais perto! A unidade é {{ones}}.",
+      "perfect": "Campeão da Tabela!",
+      "great": "Ótima caça na tabela!",
+      "keepPracticing": "Continue explorando a tabela!"
+    },
+    "number-word-to-numeral": {
+      "title": "Palavra Numérica para Algarismo",
+      "description": "Associe palavras numéricas a algarismos!",
+      "instruction": "Associe a palavra ao número!",
+      "wordLabel": "Palavra:",
+      "question": "Qual número é este?",
+      "correct": "Sim! '{{word}}' é {{number}}!",
+      "incorrect": "Quase! '{{word}}' é {{number}}.",
+      "perfect": "Mago das Palavras!",
+      "great": "Ótimo pareamento de palavras!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "who-has-more-k": {
+      "title": "Quem Tem Mais?",
+      "description": "Compare grupos e descubra quem tem mais!",
+      "instruction": "Toque o grupo que tem mais!",
+      "question": "Qual grupo tem mais?",
+      "correct": "Sim! {{count}} é mais!",
+      "incorrect": "Quase! {{count}} é mais.",
+      "perfect": "Campeão das Comparações!",
+      "great": "Ótima comparação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "compare-numbers-k": {
+      "title": "Compare Números",
+      "description": "Use < = > para comparar números!",
+      "instruction": "Qual símbolo fica no meio?",
+      "crocHint": "O crocodilo come o número maior!",
+      "lessThan": "menor que",
+      "equals": "igual a",
+      "greaterThan": "maior que",
+      "correct": "Sim! {{left}} {{symbol}} {{right}}!",
+      "incorrect": "Quase! {{left}} {{symbol}} {{right}}.",
+      "perfect": "Profissional em Comparação de Números!",
+      "great": "Ótima comparação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "order-numbers-k": {
+      "title": "Coloque os Números em Ordem",
+      "description": "Ordene os números do menor ao maior!",
+      "instruction": "Toque os números do menor ao maior!",
+      "orderLabel": "Ordem:",
+      "correct": "Perfeito! {{order}}",
+      "incorrect": "A ordem é {{order}}",
+      "perfect": "Especialista em Ordenação!",
+      "great": "Ótima ordenação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "ten-frame-snap": {
+      "title": "Relâmpago do Quadro de Dez",
+      "description": "Rápido! Quantos pontos você vê?",
+      "instruction": "Olhe rápido! Quantos pontos?",
+      "question": "Quantos pontos?",
+      "correct": "Sim! {{count}} pontos!",
+      "incorrect": "Quase! Era {{count}}.",
+      "perfect": "Olhos Rápidos!",
+      "great": "Ótimo reconhecimento visual!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "number-line-place-k": {
+      "title": "Posição na Reta Numérica",
+      "description": "Posicione números na reta numérica!",
+      "instruction": "Toque onde o número vai!",
+      "place": "Coloque:",
+      "correct": "Sim! O {{number}} vai aqui!",
+      "incorrect": "O {{number}} vai aqui!",
+      "perfect": "Profissional da Reta Numérica!",
+      "great": "Ótimo posicionamento de números!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "enough-seats": {
+      "title": "Lugares Suficientes?",
+      "description": "Há lugares suficientes para todos?",
+      "instruction": "Há lugares suficientes para todos?",
+      "friends": "Amigos:",
+      "seats": "Lugares:",
+      "question": "Há lugares suficientes?",
+      "yes": "Sim!",
+      "no": "Não",
+      "correctYes": "Sim! {{seats}} lugares para {{animals}} amigos!",
+      "correctNo": "Certo! {{seats}} lugares não são suficientes para {{animals}} amigos.",
+      "incorrectYes": "Na verdade, {{seats}} lugares SÃO suficientes para {{animals}} amigos!",
+      "incorrectNo": "Na verdade, {{seats}} lugares NÃO são suficientes para {{animals}} amigos.",
+      "perfect": "Campeão do Contador de Lugares!",
+      "great": "Ótima comparação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "more-fewer-same": {
+      "title": "Mais, Menos ou Igual",
+      "description": "Compare grupos e decida!",
+      "instruction": "O grupo vermelho tem mais, menos ou igual?",
+      "question": "Vermelho tem...",
+      "more": "Mais",
+      "fewer": "Menos",
+      "same": "Igual",
+      "correctMore": "Correto! Vermelho tem mais!",
+      "correctFewer": "Correto! Vermelho tem menos!",
+      "correctSame": "Correto! Eles têm o mesmo!",
+      "incorrectMore": "Quase! Vermelho tem mais.",
+      "incorrectFewer": "Quase! Vermelho tem menos.",
+      "incorrectSame": "Quase! Eles têm o mesmo.",
+      "perfect": "Incrível! Você é um campeão das comparações!",
+      "great": "Muito bem comparando grupos!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "ten-frame-builder": {
+      "title": "Construtor do Quadro de Dez",
+      "description": "Construa números no quadro de dez!",
+      "instruction": "Toque para construir o número!",
+      "build": "Construa:",
+      "tapToAdd": "Toque para adicionar",
+      "correct": "Perfeito! Você construiu {{number}}!",
+      "perfect": "Incrível! Você é um mestre do quadro de dez!",
+      "great": "Muito bem construindo números!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "teen-stories": {
+      "title": "Histórias dos Números 11-19",
+      "description": "10 e mais alguma coisa — quantos ao todo?",
+      "instruction": "10 e mais alguma coisa — quantos ao todo?",
+      "question": "Quantos ao todo?",
+      "correct": "Sim! 10 + {{ones}} = {{total}}!",
+      "incorrect": "Quase! 10 + {{ones}} = {{total}}",
+      "perfect": "Incrível! Você é uma estrela dos números 11-19!",
+      "great": "Muito bem com os números 11-19!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "number-bonds-k": {
+      "title": "Construa uma Ligação Numérica",
+      "description": "Encontre a parte faltando!",
+      "instruction": "Encontre a parte faltando!",
+      "whole": "todo",
+      "part": "parte",
+      "correct": "{{left}} e {{right}} formam {{whole}}!",
+      "incorrect": "{{left}} + {{right}} = {{whole}}",
+      "perfect": "Construtor de Ligações Numéricas!",
+      "great": "Ótimas ligações numéricas!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "fill-five-frame": {
+      "title": "Complete o Quadro de Cinco",
+      "description": "Quantos mais para fazer 5?",
+      "instruction": "Quantos mais para fazer 5?",
+      "question": "Quantos mais para fazer 5?",
+      "fiveFingers": "5 dedos!",
+      "filledLabel": "preenchidos",
+      "correct": "Sim! {{filled}} + {{empty}} = 5!",
+      "incorrect": "{{filled}} precisa de {{empty}} mais para fazer 5.",
+      "perfect": "Mestre do Quadro de Cinco!",
+      "great": "Muito bem com o 5!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "fill-ten-frame": {
+      "title": "Complete o Quadro de Dez",
+      "description": "Quantos mais para fazer 10?",
+      "instruction": "Quantos mais para fazer 10?",
+      "question": "Quantos mais para fazer 10?",
+      "filledLabel": "preenchidos",
+      "correct": "Sim! {{filled}} + {{empty}} = 10!",
+      "incorrect": "Quase! {{filled}} precisa de {{empty}} mais para fazer 10.",
+      "perfect": "Incrível! Você é um mestre do Fazer 10!",
+      "great": "Muito bem encontrando pares para 10!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "shake-spill": {
+      "title": "Agite & Espalhe",
+      "description": "Agite fichas e conte cada cor!",
+      "instruction": "Toque para agitar e espalhar as fichas!",
+      "total": "Total:",
+      "counters": "fichas",
+      "tapToShake": "Toque para agitar!",
+      "howMany": "Quantas de cada cor?",
+      "correct": "{{red}} e {{yellow}} formam {{total}}!",
+      "incorrect": "Olhe! {{red}} vermelhas + {{yellow}} amarelas = {{total}}",
+      "perfect": "Estrela do Agite & Espalhe!",
+      "great": "Ótima contagem!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "partners-to-10": {
+      "title": "Pares para 10",
+      "description": "Associe pares que formam 10!",
+      "instruction": "Associe números que formam 10!",
+      "targetText": "Encontre pares que formam",
+      "correct": "{{num1}} + {{num2}} = 10!",
+      "incorrect": "Quase! {{num1}} + {{num2}} = {{sum}}, não 10.",
+      "perfect": "Incrível! Você conhece seus pares para 10!",
+      "great": "Muito bem associando pares!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "make-10-two-groups": {
+      "title": "Forme 10 com Dois Grupos",
+      "description": "Some dois grupos e descubra quantos mais para fazer 10!",
+      "instruction": "Quantos mais para fazer 10?",
+      "total": "Total:",
+      "question": "Quantos mais para fazer 10?",
+      "correct": "{{total}} + {{needed}} = 10!",
+      "incorrect": "{{total}} precisa de {{needed}} mais para fazer 10.",
+      "perfect": "Mestre do Fazer 10!",
+      "great": "Ótimo formando 10!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "doubles-within-10": {
+      "title": "Duplos Problemáticos",
+      "description": "Igual + Igual = Quantos?",
+      "instruction": "Igual + Igual = Quantos?",
+      "question": "Quantos ao todo?",
+      "correct": "{{num}} + {{num}} = {{total}}!",
+      "incorrect": "{{num}} + {{num}} = {{total}}",
+      "perfect": "Campeão dos Duplos!",
+      "great": "Ótimo com duplos!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "quick-look-10": {
+      "title": "Olhada Rápida até 10",
+      "description": "Olhe rápido! Quantos você vê?",
+      "instruction": "Olhe rápido! Quantos você vê?",
+      "ready": "Pronto? Toque!",
+      "question": "Quantos você viu?",
+      "correct": "Sim! {{count}} pontos!",
+      "incorrect": "Havia {{count}} pontos.",
+      "perfect": "Campeão dos Olhos Rápidos!",
+      "great": "Ótima olhada rápida!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "add-with-pictures-k": {
+      "title": "Some com Figuras",
+      "description": "Conte as figuras para encontrar o total!",
+      "instruction": "Conte os dois grupos para encontrar o total!",
+      "question": "Quantos ao todo?",
+      "correct": "Sim! {{a}} + {{b}} = {{total}}!",
+      "incorrect": "Quase! {{a}} + {{b}} = {{total}}",
+      "perfect": "Incrível! Você é uma estrela da adição!",
+      "great": "Muito bem somando!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "subtract-with-pictures-k": {
+      "title": "Subtraia com Figuras",
+      "description": "Alguns voaram! Conte o que sobrou!",
+      "instruction": "Alguns voaram! Quantos restaram?",
+      "storyTemplate": "{{start}} {{name}}. {{take}} {{action}}. Quantos restaram?",
+      "question": "Quantos restaram?",
+      "correct": "Sim! {{start}} - {{take}} = {{left}}!",
+      "incorrect": "{{start}} - {{take}} = {{left}}",
+      "perfect": "Estrela da Subtração!",
+      "great": "Ótima subtração!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "number-line-hops-k": {
+      "title": "Saltos na Reta Numérica",
+      "description": "Ajude o sapo a pular na reta numérica!",
+      "instruction": "Ajude o sapo a pular na reta numérica!",
+      "question": "Onde o sapo pousa?",
+      "correct": "Sim! {{start}} {{op}} {{hop}} = {{end}}!",
+      "incorrect": "{{start}} {{op}} {{hop}} = {{end}}",
+      "perfect": "Campeão dos Saltos!",
+      "great": "Ótimos saltos!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "story-problems-k": {
+      "title": "Problemas com Histórias",
+      "description": "Leia histórias e resolva problemas matemáticos!",
+      "instruction": "Leia a história e resolva!",
+      "question": "Quantos ao todo?",
+      "correct": "Sim! {{a}} {{op}} {{b}} = {{answer}}!",
+      "incorrect": "{{a}} {{op}} {{b}} = {{answer}}",
+      "perfect": "Resolvedor de Histórias!",
+      "great": "Ótima resolução de problemas!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "missing-part-k": {
+      "title": "Mistério da Parte Faltando",
+      "description": "Encontre o número faltando na equação!",
+      "instruction": "Que número vai na caixa?",
+      "question": "Qual é o número faltando?",
+      "correct": "Sim! {{a}} + {{missing}} = {{total}}!",
+      "incorrect": "Quase! A parte faltando é {{missing}}.",
+      "perfect": "Incrível! Você é um resolvedor de mistérios!",
+      "great": "Muito bem encontrando as partes faltando!",
+      "keepPracticing": "Bom esforço! Continue praticando!"
+    },
+    "true-or-not-k": {
+      "title": "Verdadeiro ou Não?",
+      "description": "Verifique se a equação é verdadeira!",
+      "instruction": "Esta equação é verdadeira?",
+      "question": "Isso é verdadeiro ou não é verdadeiro?",
+      "true": "Verdadeiro",
+      "false": "Não é Verdadeiro",
+      "correctTrue": "Sim! {{a}} {{op}} {{b}} = {{result}} é VERDADEIRO!",
+      "correctFalse": "Certo! NÃO é verdadeiro.",
+      "incorrectTrue": "Quase! Não é verdadeiro.",
+      "incorrectFalse": "Na verdade, É verdadeiro!",
+      "perfect": "Especialista em Equações!",
+      "great": "Ótima verificação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "make-10-to-add": {
+      "title": "Forme 10 para Somar",
+      "description": "Encontre pares que formam 10!",
+      "instruction": "Encontre o número que forma 10!",
+      "target": "Forme",
+      "question": "Que número vai com {{num}} para formar 10?",
+      "correct": "Sim! {{known}} + {{missing}} = 10!",
+      "incorrect": "{{known}} + {{missing}} = 10",
+      "perfect": "Mestre do Fazer 10!",
+      "great": "Ótimo formando 10!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "fluency-within-5": {
+      "title": "Fluência até 5",
+      "description": "Pratique somar e subtrair até 5!",
+      "instruction": "Sem pressa! Qual é a resposta?",
+      "correct": "Sim! {{a}} {{op}} {{b}} = {{answer}}",
+      "incorrect": "{{a}} {{op}} {{b}} = {{answer}}",
+      "perfect": "Estrela da Matemática!",
+      "great": "Ótima prática!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "join-the-picnic": {
+      "title": "Venha para o Piquenique",
+      "description": "Adicione guloseimas ao piquenique!",
+      "instruction": "Quantas guloseimas no piquenique?",
+      "question": "Quantas ao todo?",
+      "basket1": "Cesta 1",
+      "basket2": "Cesta 2",
+      "correct": "Eba! {{a}} + {{b}} = {{total}} guloseimas!",
+      "incorrect": "{{a}} + {{b}} = {{total}}",
+      "perfect": "Campeão do Piquenique!",
+      "great": "Ótima matemática do piquenique!",
+      "keepPracticing": "Continue contando guloseimas!"
+    },
+    "take-away-bunnies": {
+      "title": "Os Coelhinhos Fugiram",
+      "description": "Coelhinhos pularam fora! Quantos ficam?",
+      "instruction": "Alguns coelhinhos pularam fora! Quantos ficam?",
+      "question": "Quantos coelhinhos ficam?",
+      "story": "{{start}} coelhinhos no prado. {{take}} pularam fora. Quantos ficam?",
+      "correct": "{{start}} - {{take}} = {{left}} coelhinhos!",
+      "incorrect": "{{start}} - {{take}} = {{left}}",
+      "perfect": "Estrela da Matemática dos Coelhinhos!",
+      "great": "Ótima contagem de coelhinhos!",
+      "keepPracticing": "Continue contando coelhinhos!"
+    },
+    "k-dice-add": {
+      "title": "Soma com Dados",
+      "description": "Role os dados e some os pontos!",
+      "instruction": "Role os dados e some os pontos!",
+      "roll": "Role os Dados!",
+      "question": "Quantos pontos ao todo?",
+      "correct": "{{a}} + {{b}} = {{answer}}!",
+      "incorrect": "{{a}} + {{b}} = {{answer}}",
+      "perfect": "Mestre dos Dados!",
+      "great": "Ótima soma com dados!",
+      "keepPracticing": "Continue rolando!"
+    },
+    "balance-builder": {
+      "title": "Construtor do Equilíbrio",
+      "description": "Equilibre a balança!",
+      "instruction": "Equilibre a balança!",
+      "question": "Quantos precisamos à direita?",
+      "correct": "Equilibrada! {{left}} = {{right}}",
+      "incorrect": "Não equilibrada! Precisa de {{answer}} para igualar {{left}}",
+      "perfect": "Mestre do Equilíbrio!",
+      "great": "Ótimo equilíbrio!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "name-shapes-2d-k": {
+      "title": "Diga o Nome da Forma",
+      "description": "Identifique formas 2D!",
+      "instruction": "Que forma é essa?",
+      "question": "Que forma é essa?",
+      "correct": "Sim! Isso é um {{shape}}!",
+      "incorrect": "Quase! Isso é um {{shape}}.",
+      "perfect": "Incrível! Você é um especialista em formas!",
+      "great": "Muito bem nomeando formas!",
+      "keepPracticing": "Bom esforço! Continue praticando!",
+      "shapes": {
+        "circle": "Círculo",
+        "triangle": "Triângulo",
+        "square": "Quadrado",
+        "rectangle": "Retângulo",
+        "hexagon": "Hexágono",
+        "oval": "Oval"
+      }
+    },
+    "find-the-pattern": {
+      "title": "Encontre o Padrão",
+      "description": "O que vem a seguir no padrão?",
+      "instruction": "O que vem a seguir?",
+      "correct": "Sim! O padrão continua!",
+      "incorrect": "Quase! O próximo é {{answer}}.",
+      "pattern-ab": "Padrão AB (alterna)",
+      "pattern-aab": "Padrão AAB",
+      "pattern-abb": "Padrão ABB",
+      "pattern-abc": "Padrão ABC",
+      "pattern-aba": "Padrão ABA",
+      "perfect": "Mestre dos Padrões!",
+      "great": "Ótimo encontrando padrões!",
+      "keepPracticing": "Continue explorando padrões!",
+      "patternsFound": "padrões encontrados"
+    },
+    "longer-shorter": {
+      "title": "Mais Longo ou Mais Curto?",
+      "description": "Qual objeto é mais longo?",
+      "instruction": "Toque o que é mais longo!",
+      "questionLonger": "Qual é mais longo?",
+      "questionShorter": "Qual é mais curto?",
+      "correctLonger": "Sim! Este é mais longo!",
+      "correctShorter": "Sim! Este é mais curto!",
+      "incorrectLonger": "Quase! Este é mais longo.",
+      "incorrectShorter": "Quase! Este é mais curto.",
+      "perfect": "Mestre das Medidas!",
+      "great": "Ótima medição!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "heavier-lighter": {
+      "title": "Mais Pesado ou Mais Leve?",
+      "description": "Qual lado da balança é mais pesado?",
+      "instruction": "Toque o lado que é mais pesado!",
+      "questionHeavier": "Qual lado é mais pesado?",
+      "questionLighter": "Qual lado é mais leve?",
+      "correctHeavier": "Sim! Este lado é mais pesado!",
+      "correctLighter": "Sim! Este lado é mais leve!",
+      "incorrectHeavier": "Quase! Este lado é mais pesado.",
+      "incorrectLighter": "Quase! Este lado é mais leve.",
+      "perfect": "Mago das Medidas!",
+      "great": "Ótima pesagem!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "holds-more-less": {
+      "title": "Cabe Mais ou Menos?",
+      "description": "Qual recipiente cabe mais?",
+      "instruction": "Toque o recipiente que cabe mais!",
+      "questionMore": "Qual recipiente cabe mais?",
+      "questionLess": "Qual recipiente cabe menos?",
+      "correctMore": "Sim! Este cabe mais!",
+      "correctLess": "Sim! Este cabe menos!",
+      "incorrectMore": "Quase! Este cabe mais.",
+      "incorrectLess": "Quase! Este cabe menos.",
+      "perfect": "Campeão da Capacidade!",
+      "great": "Ótima comparação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "sort-and-count": {
+      "title": "Classifique & Conte",
+      "description": "Classifique objetos em grupos e depois conte!",
+      "instruction": "Coloque os itens nas cestas e depois conte!",
+      "sortPhase": "Toque cada item para classificá-lo!",
+      "countPhase": "Agora conte! Quantos em cada cesta?",
+      "question": "Quantos {{emoji}}?",
+      "correct": "Sim! Há {{count}}!",
+      "incorrect": "Quase! Há {{count}}.",
+      "perfect": "Estrela da Classificação!",
+      "great": "Ótima classificação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "picture-graph-k": {
+      "title": "Construa um Gráfico de Figuras",
+      "description": "Leia gráficos de figuras e responda perguntas!",
+      "instruction": "Olhe para o gráfico e responda!",
+      "howMany": "Quantos {{emoji}}?",
+      "whichMost": "Qual tem mais?",
+      "whichLeast": "Qual tem menos?",
+      "correct": "Sim! Ótima leitura do gráfico!",
+      "incorrect": "Quase! A resposta é {{answer}}.",
+      "perfect": "Mestre dos Gráficos!",
+      "great": "Ótimo trabalho com gráficos!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "name-shapes-3d-k": {
+      "title": "Buscador de Formas Sólidas",
+      "description": "Identifique formas sólidas 3D!",
+      "instruction": "Que forma sólida é essa?",
+      "question": "Que forma é essa?",
+      "realWorld": "Como um:",
+      "correct": "Sim! Isso é um {{shape}}!",
+      "incorrect": "Quase! Isso é um {{shape}}.",
+      "perfect": "Mestre das Formas 3D!",
+      "great": "Ótima identificação de formas!",
+      "keepPracticing": "Continue praticando!",
+      "shapes": {
+        "cube": "Cubo",
+        "sphere": "Esfera",
+        "cylinder": "Cilindro",
+        "cone": "Cone"
+      }
+    },
+    "compose-shapes-k": {
+      "title": "Crie uma Nova Forma",
+      "description": "Junte formas para criar formas maiores!",
+      "instruction": "Toque as peças para construir a forma!",
+      "makeThis": "Crie esta forma:",
+      "usePieces": "Use estas peças:",
+      "placePiece": "Coloque uma peça aqui",
+      "selectFirst": "Toque uma peça primeiro!",
+      "correct": "Você criou um {{shape}}!",
+      "perfect": "Mestre Construtor de Formas!",
+      "great": "Ótima construção!",
+      "keepPracticing": "Continue praticando!",
+      "shapes": {
+        "square": "quadrado",
+        "rectangle": "retângulo",
+        "house": "casa",
+        "big-triangle": "triângulo grande",
+        "hexagon": "hexágono",
+        "diamond": "losango"
+      }
+    },
+    "dot-flash": {
+      "title": "Relâmpago de Pontos",
+      "description": "Rápido! Quantos pontos você vê?",
+      "instruction": "Quantos pontos você vê?",
+      "ready": "Pronto? Toque!",
+      "question": "Quantos pontos?",
+      "correct": "Sim! {{count}} pontos!",
+      "incorrect": "Havia {{count}} pontos.",
+      "perfect": "Olhos Relâmpago!",
+      "great": "Ótima identificação de pontos!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "garden-tap-count": {
+      "title": "Contagem do Jardim",
+      "description": "Conte flores e amigos do jardim!",
+      "instruction": "Conte os amigos do jardim!",
+      "howMany": "Quantos amigos do jardim?",
+      "correct": "Sim! Você contou {{count}} amigos do jardim!",
+      "incorrect": "Quase! Havia {{count}} amigos do jardim.",
+      "perfect": "Estrela da Contagem do Jardim!",
+      "great": "Ótima contagem no jardim!",
+      "keepPracticing": "Continue crescendo!"
+    },
+    "k-number-match": {
+      "title": "Pareamento de Números",
+      "description": "Associe números a grupos!",
+      "instruction": "Encontre o grupo que combina!",
+      "question": "Qual grupo tem essa quantidade?",
+      "correct": "Sim! São {{number}}!",
+      "incorrect": "Quase! Este grupo tem {{number}}.",
+      "perfect": "Pareamento Perfeito!",
+      "great": "Ótimo pareamento!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "find-the-number": {
+      "title": "Encontre o Número",
+      "description": "Conte os itens e encontre o número correspondente!",
+      "instruction": "Conte e encontre o número correspondente!",
+      "question": "Quantos há na cesta? Encontre o número!",
+      "correct": "Sim! Há {{count}}!",
+      "incorrect": "Quase! Há {{count}}.",
+      "perfect": "Profissional em Encontrar Números!",
+      "great": "Ótimo encontrando números!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "ten-train": {
+      "title": "Trem do Dez",
+      "description": "Ajude o trem a se mover contando de 10 em 10!",
+      "instruction": "Toque o próximo número para ajudar o trem a seguir!",
+      "countLabel": "Estação:",
+      "correct": "Tchum tchum! Estação {{count}}!",
+      "incorrect": "Quase! A próxima estação é {{next}}.",
+      "perfect": "Condutor de Trem!",
+      "great": "Ótima viagem de trem!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "more-less-same": {
+      "title": "Mais, Menos, Igual",
+      "description": "Compare grupos — um tem mais, menos ou igual?",
+      "instruction": "O grupo verde tem mais, menos ou igual?",
+      "greenGroup": "Grupo Verde",
+      "orangeGroup": "Grupo Laranja",
+      "question": "Verde tem...",
+      "more": "Mais",
+      "less": "Menos",
+      "same": "Igual",
+      "correctMore": "Correto! Verde tem mais! ({{green}} > {{orange}})",
+      "correctLess": "Correto! Verde tem menos! ({{green}} < {{orange}})",
+      "correctSame": "Correto! Têm o mesmo! ({{green}} = {{orange}})",
+      "incorrectMore": "Quase! Verde tem mais ({{green}} > {{orange}})",
+      "incorrectLess": "Quase! Verde tem menos ({{green}} < {{orange}})",
+      "incorrectSame": "Quase! Têm o mesmo ({{green}} = {{orange}})",
+      "perfect": "Campeão do Crocodilo!",
+      "great": "Ótima comparação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "number-order-path": {
+      "title": "Caminho da Ordem Numérica",
+      "description": "Caminhe pela trilha ordenando números do menor ao maior!",
+      "instruction": "Ajude o caminhante a percorrer a trilha! Toque as pedras do menor ao maior.",
+      "hint": "Toque o menor número primeiro!",
+      "correct": "Ótima caminhada! {{order}}",
+      "incorrect": "O caminho é {{order}}",
+      "perfect": "Mestre da Trilha!",
+      "great": "Ótima caminhada!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "make-10-pairs": {
+      "title": "Pares para Fazer 10",
+      "description": "Associe frutas que somam 10!",
+      "instruction": "Escolha duas frutas que juntas formam 10!",
+      "targetText": "Escolha frutas que somem",
+      "correct": "Delicioso! {{num1}} + {{num2}} = 10!",
+      "incorrect": "Quase! {{num1}} + {{num2}} = {{sum}}, não 10.",
+      "perfect": "Profissional em Pareamento de Frutas!",
+      "great": "Ótima escolha de frutas!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "counting-rule": {
+      "title": "Regra de Contagem",
+      "description": "Encontre o padrão de contagem e complete a sequência!",
+      "instruction": "Encontre o padrão de contagem e escolha o próximo número!",
+      "ruleHint": "Qual é o padrão?",
+      "rule1": "Conte de 1 em 1",
+      "rule2": "Conte de 2 em 2",
+      "rule5": "Conte de 5 em 5",
+      "rule10": "Conte de 10 em 10",
+      "correct": "Sim! O padrão é +{{by}}!",
+      "incorrect": "Quase! A resposta é {{answer}} (contando de {{by}} em {{by}}).",
+      "perfect": "Profissional dos Padrões!",
+      "great": "Ótimos padrões de contagem!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "robot-steps": {
+      "title": "Passos do Robô",
+      "description": "Planeje um caminho para ajudar o robô a encontrar o tesouro!",
+      "instruction": "Ajude o robô a alcançar o tesouro!",
+      "yourPlan": "Seu Plano:",
+      "tapArrows": "Toque nas setas para planejar!",
+      "clear": "Limpar",
+      "go": "VÁ!",
+      "tries": "Tentativas",
+      "success": "Você encontrou o tesouro!",
+      "tryAgain": "Quase! Tente um caminho diferente!",
+      "perfect": "Mestre do Robô!",
+      "great": "Ótimo planejamento!",
+      "keepPracticing": "Continue explorando!"
+    },
+    "shape-detective": {
+      "title": "Detetive das Formas",
+      "description": "Encontre a forma que não pertence ao grupo!",
+      "instruction": "Encontre a que não pertence!",
+      "question": "Qual é diferente?",
+      "correct": "Ótimo trabalho de detetive!",
+      "incorrect": "Quase!",
+      "reasonShape": "Tem uma forma diferente!",
+      "reasonColor": "Tem uma cor diferente!",
+      "reasonSize": "Tem um tamanho diferente!",
+      "perfect": "Super Detetive!",
+      "great": "Ótima observação!",
+      "keepPracticing": "Continue olhando!"
+    },
+    "timo-logic-tiles": {
+      "title": "Peças Lógicas TIMO",
+      "description": "Encontre a peça faltando no padrão!",
+      "instruction": "Encontre a peça faltando!",
+      "question": "O que vai aqui?",
+      "correct": "Ótimo raciocínio!",
+      "incorrect": "Quase! Observe o padrão.",
+      "perfect": "Mestre da Lógica!",
+      "great": "Ótimo raciocínio!",
+      "keepPracticing": "Continue desafiando-se!"
+    },
+    "shape-builder": {
+      "title": "Construtor de Formas",
+      "description": "Construa figuras usando formas!",
+      "instruction": "Construa uma figura usando formas!",
+      "prompt": "O que você vai criar?",
+      "shapes": "Formas:",
+      "colors": "Cores:",
+      "undo": "Desfazer",
+      "clear": "Limpar",
+      "done": "Pronto!",
+      "amazing": "Criação Incrível!",
+      "shapesUsed": "formas usadas",
+      "newCreation": "Nova Criação",
+      "nice": "Legal!",
+      "great": "Ótimo!",
+      "cool": "Que bacana!",
+      "wow": "Uau!",
+      "artist": "Você é um ótimo artista!",
+      "beautiful": "Que figura bonita!",
+      "creative": "Muito criativo!"
+    },
+    "block-counter": {
+      "title": "Contador de Blocos",
+      "description": "Conte todos os blocos empilhados!",
+      "instruction": "Conte todos os blocos!",
+      "question": "Quantos blocos?",
+      "correct": "Sim! Há {{count}} blocos!",
+      "incorrect": "Quase! Há {{count}} blocos.",
+      "perfect": "Campeão da Contagem de Blocos!",
+      "great": "Ótima contagem!",
+      "keepPracticing": "Continue construindo!"
+    },
+    "draw-the-map": {
+      "title": "Desenhe o Mapa",
+      "description": "Posicione objetos usando palavras de posição!",
+      "instruction": "Coloque o objeto no lugar certo!",
+      "place": "Coloque:",
+      "prompt": "Coloque o {{object}} {{direction}} o {{landmark}}!",
+      "above": "ACIMA",
+      "below": "ABAIXO",
+      "left": "à ESQUERDA de",
+      "right": "à DIREITA de",
+      "nextTo": "AO LADO DE",
+      "correct": "Posicionamento perfeito!",
+      "incorrect": "Quase! Veja onde fica.",
+      "perfect": "Mestre dos Mapas!",
+      "great": "Ótimas direções!",
+      "keepPracticing": "Continue explorando!"
+    },
+    "calendar-helper": {
+      "title": "Ajudante do Calendário",
+      "description": "Aprenda sobre os dias da semana!",
+      "instruction": "Aprenda sobre os dias!",
+      "yesterday": "Ontem",
+      "today": "Hoje",
+      "tomorrow": "Amanhã",
+      "whatIsToday": "Qual é o dia de HOJE?",
+      "whatWasYesterday": "Qual foi o dia de ONTEM?",
+      "whatIsTomorrow": "Qual será o dia de AMANHÃ?",
+      "dayBefore": "Que dia vem ANTES de {{day}}?",
+      "dayAfter": "Que dia vem DEPOIS de {{day}}?",
+      "days": {
+        "sunday": "Domingo",
+        "monday": "Segunda-feira",
+        "tuesday": "Terça-feira",
+        "wednesday": "Quarta-feira",
+        "thursday": "Quinta-feira",
+        "friday": "Sexta-feira",
+        "saturday": "Sábado"
+      },
+      "correct": "Sim! Correto!",
+      "incorrect": "Quase! É {{answer}}.",
+      "perfect": "Especialista em Calendário!",
+      "great": "Ótimo com os dias!",
+      "keepPracticing": "Continue aprendendo os dias!"
+    },
+    "measure-and-compare": {
+      "title": "Meça & Compare",
+      "description": "Compare comprimento, peso e tamanho!",
+      "instruction": "Compare e encontre a resposta!",
+      "whichLonger": "Qual é mais longo?",
+      "whichShorter": "Qual é mais curto?",
+      "whichHeavier": "Qual é mais pesado?",
+      "whichLighter": "Qual é mais leve?",
+      "whichHoldsMore": "Qual cabe mais?",
+      "whichHoldsLess": "Qual cabe menos?",
+      "correctLonger": "Sim! Este é mais longo!",
+      "correctShorter": "Sim! Este é mais curto!",
+      "correctHeavier": "Sim! Este é mais pesado!",
+      "correctLighter": "Sim! Este é mais leve!",
+      "correctMore": "Sim! Este cabe mais!",
+      "correctLess": "Sim! Este cabe menos!",
+      "incorrectLonger": "Quase! O outro é mais longo.",
+      "incorrectShorter": "Quase! O outro é mais curto.",
+      "incorrectHeavier": "Quase! O outro é mais pesado.",
+      "incorrectLighter": "Quase! O outro é mais leve.",
+      "incorrectMore": "Quase! O outro cabe mais.",
+      "incorrectLess": "Quase! O outro cabe menos.",
+      "perfect": "Especialista em Medidas!",
+      "great": "Ótima comparação!",
+      "keepPracticing": "Continue praticando!"
+    },
+    "timo-mixed-quest": {
+      "title": "Missão Mista TIMO",
+      "description": "Aventura com enigmas variados!",
+      "instruction": "Colecione emblemas resolvendo enigmas!",
+      "questComplete": "Missão Concluída!",
+      "findMissing": "Encontre a peça faltando!",
+      "completePattern": "O que vem a seguir?",
+      "howMany": "Quantos há?",
+      "nameShape": "Que forma é essa?",
+      "whichBigger": "Qual número é maior?",
+      "shapes": {
+        "triangle": "Triângulo",
+        "square": "Quadrado",
+        "circle": "Círculo",
+        "diamond": "Losango",
+        "rectangle": "Retângulo"
+      },
+      "correct": "Você ganhou um emblema!",
+      "tryAgain": "Continue tentando!",
+      "champion": "Campeão da Missão!",
+      "great": "Ótimo aventureiro!",
+      "keepGoing": "Continue explorando!"
+    }
+  }
+}

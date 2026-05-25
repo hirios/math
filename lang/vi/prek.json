@@ -1,0 +1,486 @@
+{
+  "title": "Hoạt động Mầm non",
+  "description": "Nơi ấm áp để bắt đầu khám phá số và hình",
+  "tabs": {
+    "activities": "Hoạt động",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "learnMoreCards": {
+    "bigIdea": {
+      "title": "Ý tưởng chính"
+    },
+    "whatToNotice": {
+      "title": "Điều cần quan sát"
+    },
+    "tryAtHome": {
+      "title": "Thử tại nhà"
+    },
+    "optionalVideos": {
+      "title": "Video tham khảo",
+      "intro": "Tìm kiếm trên YouTube:"
+    }
+  },
+  "levels": {
+    "level1": {
+      "title": "Nhận biết số & Đếm",
+      "goal": "Trẻ hiểu rằng số có tên gọi và đại diện cho 'bao nhiêu'.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Mức độ này giúp trẻ học rằng các số có tên và nghĩa là \"bao nhiêu\". Đếm là kỹ năng chạm-và-nói: chạm từng vật một lần, nói một số một lần, rồi dừng lại và nhận biết tổng số."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Con bạn chạm từng vật một (không bỏ qua, không đếm hai lần).",
+            "Sau khi đếm, con có thể trả lời \"Bao nhiêu?\" mà không cần đếm lại.",
+            "Con nhận ra một số chữ số (0–5) trong cuộc sống hàng ngày (biển báo, sách, nút bấm).",
+            "Con hiểu số không như là \"không có gì\" (một giỏ rỗng vẫn là một số lượng thực)."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Trò A (ý tưởng chính): \"Chạm & Đếm\"",
+              "description": "Đặt 5–10 vật nhỏ thành hàng (nút, nho, khối). Cho con chạm từng vật trong khi đếm to. Cuối cùng hỏi: \"Có bao nhiêu?\" Rồi xáo trộn và đếm lại."
+            },
+            {
+              "name": "Trò B (phiên bản hàng ngày): \"Đi săn số\"",
+              "description": "Chọn một số mục tiêu (như 3). Đi quanh nhà và tìm nó trong sách, đồng hồ, điều khiển, hoặc nhãn. Mỗi khi tìm thấy, đếm 3 bước hoặc 3 tiếng vỗ tay cùng nhau."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks One to Five",
+            "Numberblocks Zero",
+            "Numberblocks Ten",
+            "counting objects one to one correspondence for preschool"
+          ]
+        }
+      }
+    },
+    "level2": {
+      "title": "Nhận diện nhanh & Số lượng",
+      "goal": "Trẻ có thể nhìn thấy 'bao nhiêu' mà không cần đếm từng cái.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Nhận diện nhanh nghĩa là nhìn thấy \"bao nhiêu\" trong nháy mắt (đặc biệt 1–3), không cần đếm. Điều này phát triển từ các mẫu (chấm xúc xắc, thẻ chấm, hộp trứng) và những lần nhìn nhanh, vui vẻ."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Con bạn có thể nói \"2!\" hoặc \"3!\" nhanh chóng khi nhìn thấy một nhóm nhỏ.",
+            "Con có thể kết nối mẫu chấm với từ số (như mặt xúc xắc).",
+            "Con hiểu số lượng không đổi khi các vật di chuyển xung quanh.",
+            "Con sử dụng từ toán tự nhiên: nhiều hơn, bằng nhau, ít hơn."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Trò A (ý tưởng chính): \"Nhìn nhanh\"",
+              "description": "Cho xem 1–3 vật trong 1 giây (che bằng cốc hoặc tay). Hỏi: \"Con thấy bao nhiêu?\" Mở ra và đếm cùng nhau để kiểm tra."
+            },
+            {
+              "name": "Trò B (biểu diễn thứ hai): \"Cùng số, hình mới\"",
+              "description": "Đặt 3 đồng xu thành hàng. Hỏi \"Bao nhiêu?\" Rồi xếp lại thành hình tam giác. Hỏi \"Bây giờ bao nhiêu?\" Cho con chứng minh bằng cách đếm (cùng số, cách bày khác)."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks What's My Number",
+            "Numberblocks Stampolines",
+            "subitizing for preschool dot patterns",
+            "dice dot patterns for kids"
+          ]
+        }
+      }
+    },
+    "level3": {
+      "title": "Mối quan hệ giữa các số",
+      "goal": "Trẻ thấy rằng số được tạo thành từ các phần nhỏ hơn.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Các số được tạo thành từ các phần nhỏ hơn. Ở mẫu giáo, chúng ta không cần phép cộng chính thức - chỉ cần \"chia\" vui như 3 có thể là 2 và 1, hoặc 1 và 2. Cảm giác phần-toàn này trở thành nền tảng cho số học sau này."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Con bạn có thể chia một nhóm nhỏ thành hai đống theo nhiều cách.",
+            "Con có thể biểu diễn một số trên hai tay (như 4 là 2 và 2, hoặc 3 và 1).",
+            "Con có thể suy luận về phần bị giấu (\"Một số đang ở dưới cốc…\").",
+            "Con bắt đầu dùng ngôn ngữ như \"các phần\" và \"tất cả cùng nhau.\""
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Trò A (ý tưởng chính): \"Giấu & Tìm\"",
+              "description": "Đặt 5 vật nhỏ trên bàn. Che một số bằng cốc. Cho xem phần còn lại và hỏi: \"Bao nhiêu đang bị giấu?\" Mở ra và đếm để kiểm tra."
+            },
+            {
+              "name": "Trò B (biểu diễn thứ hai): \"Chia hai tay\"",
+              "description": "Gọi một số 1–5. Con biểu diễn bằng hai tay theo bất kỳ cách nào (với 5: 5+0, 4+1, 3+2…). Đổi vai và bắt chước cách chia của nhau."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks The Whole of Me",
+            "Numberblocks Hide and Seek",
+            "Numberblocks Fruit Salad",
+            "part part whole for preschool"
+          ]
+        }
+      }
+    },
+    "level4": {
+      "title": "So sánh & Thay đổi",
+      "goal": "Trẻ hiểu nhiều hơn, ít hơn, bằng nhau, thêm một, bớt một.",
+      "learnMore": {
+        "bigIdea": {
+          "text": "Mức độ này xây dựng cảm giác về nhiều hơn / ít hơn / bằng nhau, và cách một nhóm thay đổi khi bạn thêm một hoặc bớt một. Mục tiêu là ngôn ngữ toán tự tin và nhận biết sự thay đổi, không phải tốc độ."
+        },
+        "whatToNotice": {
+          "bullets": [
+            "Con bạn có thể nói nhóm nào có nhiều hơn (đôi khi không cần đếm).",
+            "Nếu các nhóm gần nhau, con so sánh bằng cách ghép cặp (\"một cho bạn, một cho tôi\").",
+            "Con hiểu \"thêm một\" và \"bớt một\" như một thay đổi nhỏ.",
+            "Con có thể làm hai nhóm bằng nhau bằng cách thêm hoặc bớt vật."
+          ]
+        },
+        "tryAtHome": {
+          "games": [
+            {
+              "name": "Trò A (ý tưởng chính): \"Tháp thêm một / bớt một\"",
+              "description": "Xây một tháp nhỏ (3–6 khối). Hỏi: \"Thêm một là bao nhiêu?\" Thêm một khối và đếm. Rồi: \"Bớt một là bao nhiêu?\" Bỏ một khối và đếm."
+            },
+            {
+              "name": "Trò B (phiên bản hàng ngày): \"Làm cho công bằng\"",
+              "description": "Đặt đồ ăn vặt vào hai bát (một bát có nhiều hơn). Yêu cầu con làm chúng bằng nhau bằng cách di chuyển từng món một. Đếm cả hai bát để ăn mừng khi chúng khớp."
+            }
+          ]
+        },
+        "optionalVideos": {
+          "searches": [
+            "Numberblocks Another One",
+            "Numberblocks Holes",
+            "Numberblocks Blockzilla",
+            "more and fewer for preschool"
+          ]
+        }
+      }
+    }
+  },
+  "activities": {
+    "finger-counting": {
+      "title": "Hát đếm ngón tay",
+      "description": "Đếm ngón tay với các bài hát vui"
+    },
+    "snack-counting": {
+      "title": "Đếm đồ ăn nhẹ",
+      "description": "Đếm đồ ăn trước khi ăn",
+      "yummy": "Ngon quá! Bạn đã đếm {n} món!",
+      "complete": "Bạn đã đếm đồ ăn trong tất cả {n} lượt! Giỏi lắm!"
+    },
+    "toy-lineup": {
+      "title": "Xếp hàng đồ chơi",
+      "description": "Xếp 1-5 đồ chơi và đếm cùng nhau"
+    },
+    "number-hunt": {
+      "title": "Săn tìm số",
+      "description": "Tìm các số ẩn xung quanh",
+      "findNumber": "Tìm số:",
+      "found": "đã tìm",
+      "findInstruction": "Tìm tất cả các số {n}!",
+      "success": "🎉 Giỏi lắm! Bạn đã tìm thấy tất cả các số {n}!",
+      "complete": "Bạn đã hoàn thành tất cả {n} lượt săn số! Tuyệt vời!"
+    },
+    "roll-and-count": {
+      "title": "Tung & Đếm",
+      "description": "Tung xúc xắc và đặt số khối tương ứng",
+      "howMany": "Có bao nhiêu chấm trên xúc xắc?",
+      "rollInstruction": "Tung xúc xắc để xem cần thêm bao nhiêu khối!",
+      "tapToAdd": "Chạm vào đây để thêm khối",
+      "tapToAddNow": "Chạm để thêm khối!",
+      "rolled": "Bạn tung được {n}! Chạm để thêm {n} khối.",
+      "tooMany": "Úi! Quá nhiều rồi. Thử lại nhé!",
+      "perfect": "🎉 Tuyệt vời! Bạn đã thêm {n} khối!",
+      "complete": "Bạn đã hoàn thành tất cả {n} lượt! Đếm giỏi lắm!"
+    },
+    "zero-basket": {
+      "title": "Giỏ số không",
+      "description": "Học về số không với giỏ rỗng",
+      "empty": "Trống!",
+      "howMany": "Có bao nhiêu {fruit} trong giỏ?",
+      "howManyEmpty": "Giỏ trống rỗi! Có bao nhiêu vật?",
+      "zeroCorrect": "🎉 Đúng rồi! Số không nghĩa là không có gì!",
+      "zeroWrong": "Giỏ trống - đó là số không!",
+      "correct": "🎉 Đúng rồi! Có {n}!",
+      "wrong": "Chưa đúng! Có {n} trong giỏ.",
+      "complete": "Bạn đã học về số không và đếm số!"
+    },
+    "jump-and-count": {
+      "title": "Nhảy & Đếm",
+      "description": "Nhảy trong khi đếm to",
+      "jumpTo": "Nhảy đến:",
+      "jumps": "lần nhảy",
+      "tapToJump": "🦘 Chạm để nhảy nào!",
+      "jumpToN": "Nhảy {n} lần!",
+      "success": "🎉 Giỏi lắm! Bạn đã nhảy {n} lần!",
+      "complete": "Bạn đã hoàn thành tất cả {n} lượt nhảy! Đếm giỏi lắm!"
+    },
+    "bath-toy-count": {
+      "title": "Đếm đồ chơi tắm",
+      "description": "Đếm đồ chơi vào và ra",
+      "outside": "Bên ngoài",
+      "noToys": "Không có",
+      "howManyIn": "Có bao nhiêu đồ chơi trong bồn?",
+      "howManyTotal": "Tổng cộng có bao nhiêu đồ chơi?",
+      "correct": "🎉 Tòe! Đúng rồi - {n} đồ chơi!",
+      "wrong": "Chưa đúng! Có {n} đồ chơi.",
+      "complete": "Giỏi đếm lắm! Bạn đã đếm {n} lượt!"
+    },
+    "flash-dot-cards": {
+      "title": "Thẻ chấm nhanh",
+      "description": "Nhanh! Bạn thấy bao nhiêu chấm?",
+      "lookAtDots": "Nhìn các chấm...",
+      "howMany": "Bạn thấy bao nhiêu chấm?",
+      "correctMsg": "Đúng rồi! Có {n} chấm!",
+      "wrongMsg": "Chưa đúng! Có {n} chấm."
+    },
+    "dice-play": {
+      "title": "Chơi xúc xắc",
+      "description": "Nói số mà không đếm chấm",
+      "howMany": "Bạn thấy bao nhiêu chấm?",
+      "correct": "🎲 Đúng rồi! Bạn tung được {n}!",
+      "showsN": "Xúc xắc hiện {n} chấm."
+    },
+    "egg-carton-dots": {
+      "title": "Chấm khay trứng",
+      "description": "Nhận biết mẫu chấm trong khay trứng!",
+      "howMany": "Bạn thấy bao nhiêu chấm?",
+      "correct": "🥚 Giỏi lắm! Có {n} chấm!",
+      "wrong": "Chưa đúng! Có {n} chấm."
+    },
+    "snack-guess": {
+      "title": "Đoán & Kiểm tra",
+      "description": "Đoán bao nhiêu, rồi đếm kiểm tra!",
+      "lookQuick": "Nhìn nhanh!",
+      "howManyGuess": "Có bao nhiêu đồ ăn?",
+      "nowCheck": "Giờ đếm để kiểm tra nhé!",
+      "reveal": "👀 Đếm để kiểm tra!",
+      "correct": "🎉 Đoán giỏi lắm! Có {n} đồ ăn!",
+      "wrong": "Gần đúng rồi! Có {n} đồ ăn."
+    },
+    "cup-reveal": {
+      "title": "Trò chơi lật cốc",
+      "description": "Nhìn dưới cốc - có bao nhiêu?",
+      "peek": "👆 Chạm để xem!",
+      "peekInstruction": "Có gì dưới cốc?",
+      "lookQuick": "Nhìn nhanh!",
+      "howMany": "Có bao nhiêu dưới cốc?",
+      "correct": "🎉 Đúng rồi! Có {n}!",
+      "wrong": "Chưa đúng! Có {n}."
+    },
+    "clap-and-guess": {
+      "title": "Vỗ tay & Đoán",
+      "description": "Nghe tiếng vỗ tay và đoán số!",
+      "listen": "Lắng nghe cẩn thận...",
+      "howMany": "Bạn nghe bao nhiêu tiếng vỗ tay?",
+      "correct": "👏 Giỏi lắm! Có {n} tiếng vỗ tay!",
+      "wrong": "Chưa đúng! Có {n} tiếng vỗ tay."
+    },
+    "button-toss": {
+      "title": "Tung nút",
+      "description": "Tung nút và nói số lượng!",
+      "toss": "🔘 Tung nút nào!",
+      "tossing": "Xem các nút rơi!",
+      "howMany": "Có bao nhiêu nút?",
+      "correct": "🔘 Giỏi lắm! Có {n} nút!",
+      "wrong": "Chưa đúng! Có {n} nút."
+    },
+    "same-or-different": {
+      "title": "Giống hay khác?",
+      "description": "So sánh hai nhóm - chúng giống nhau không?",
+      "groupA": "Nhóm A",
+      "groupB": "Nhóm B",
+      "same": "Giống",
+      "different": "Khác",
+      "question": "Hai nhóm có số lượng bằng nhau không?",
+      "correctSame": "🎉 Đúng rồi! Cả hai đều có {n}!",
+      "correctDiff": "🎉 Đúng rồi! {a} không giống {b}!",
+      "wrongSame": "Nhìn lại nhé! Cả hai đều có {n}.",
+      "wrongDiff": "Nhìn lại nhé! {a} và {b} khác nhau."
+    },
+    "split-the-toys": {
+      "title": "Chia đồ chơi",
+      "description": "Chia đồ chơi thành hai đống theo nhiều cách",
+      "start": "🧸 Nhấn vào đây để bắt đầu!",
+      "makeSplit": "Chia {total} đồ chơi thành {left} và {right}",
+      "clickHint": "👆 Nhấn Thêm để thêm đồ chơi, hoặc nhấn đống để trả lại!",
+      "total": "Tổng cộng",
+      "toys": "đồ chơi",
+      "pileA": "Đống A",
+      "pileB": "Đống B",
+      "correct": "🎉 Tuyệt vời! {left} + {right} = {total}",
+      "wrong": "Chưa đúng! Đó là {left} + {right}, không phải {targetLeft} + {targetRight}"
+    },
+    "playdough-break": {
+      "title": "Bẻ đất nặn",
+      "description": "Nặn một quả bóng, bẻ thành các phần",
+      "start": "🟤 Nhấn vào đây để bắt đầu!",
+      "breakBall": "Quả bóng bẻ ra thành hai mảnh!",
+      "whichSplit": "Quả bóng bẻ ra như thế nào?",
+      "correct": "🎉 Đúng rồi! {left} + {right} = {total}",
+      "wrong": "Nhìn lại nhé! Quả bóng bẻ thành {left} và {right}"
+    },
+    "hand-splits": {
+      "title": "Chia bằng tay",
+      "description": "Biểu diễn số bằng hai bàn tay",
+      "start": "✋ Nhấn vào đây để bắt đầu!",
+      "showNumber": "Biểu diễn {n} bằng hai bàn tay!",
+      "leftHand": "Tay trái",
+      "rightHand": "Tay phải",
+      "check": "Kiểm tra!",
+      "correct": "🎉 Giỏi lắm! {left} + {right} = {total}",
+      "wrong": "Đó là {left} + {right} = {sum}, nhưng cần {total}!"
+    },
+    "snack-sharing": {
+      "title": "Chia đồ ăn",
+      "description": "Chia đồ ăn cho hai người bạn",
+      "start": "🍪 Nhấn vào đây để bắt đầu!",
+      "makeSplit": "Chia {total} đồ ăn thành {left} và {right}",
+      "clickHint": "👆 Nhấn Thêm để thêm đồ ăn, hoặc nhấn đĩa để trả lại!",
+      "bowl": "Tô",
+      "friend1": "Bạn 1",
+      "friend2": "Bạn 2",
+      "correct": "🎉 Ngon quá! {left} + {right} = {total}",
+      "wrong": "Chưa đúng! Đó là {left} + {right}, thử lại nhé!"
+    },
+    "box-and-lid": {
+      "title": "Trò hộp & nắp",
+      "description": "Giấu một số vật, cho xem phần còn lại",
+      "start": "📦 Nhấn vào đây để bắt đầu!",
+      "totalIn": "Tổng trong hộp:",
+      "canSee": "Bạn thấy {visible}...",
+      "howManyHidden": "Bao nhiêu đang bị giấu dưới nắp?",
+      "correct": "🎉 Đúng rồi! {visible} thấy + {hidden} giấu = {total}",
+      "wrong": "Chưa đúng! {visible} + {hidden} = {total}"
+    },
+    "build-and-break": {
+      "title": "Xây & Bẻ tháp",
+      "description": "Xếp khối, rồi chia chúng ra",
+      "start": "🧱 Nhấn vào đây để bắt đầu!",
+      "tapToAdd": "Chạm để thêm khối!",
+      "buildTower": "Xây tháp với {n} khối",
+      "towerComplete": "🎉 Tháp hoàn thành! Giờ chia nó ra!",
+      "splitInto": "Chia tháp thành {left} và {right}",
+      "clickHint": "👆 Nhấn Thêm để thêm khối, hoặc nhấn tháp để trả lại!",
+      "whichSplit": "Tháp tách ra như thế nào?",
+      "correct": "🎉 Đúng rồi! {left} + {right} = {total}",
+      "wrong": "Nhìn lại nhé! Tháp tách thành {left} và {right}"
+    },
+    "two-color-counters": {
+      "title": "Quân hai màu",
+      "description": "Cùng số, nhóm màu khác nhau",
+      "start": "🔴 Nhấn vào đây để bắt đầu!",
+      "shake": "Lắc các quân!",
+      "howManyRed": "Có bao nhiêu quân đỏ?",
+      "howManyYellow": "Có bao nhiêu quân vàng?",
+      "red": "đỏ",
+      "yellow": "vàng",
+      "correct": "🎉 Đúng rồi! {red} đỏ + {yellow} vàng = {total}",
+      "wrong": "Có {answer} quân {color}!"
+    },
+    "story-mats": {
+      "title": "Thảm kể chuyện",
+      "description": "Kể chuyện với các phần: ao và đất",
+      "start": "🎭 Nhấn vào đây để bắt đầu!",
+      "correct": "🎉 Đúng rồi! {left} + {right} = {total}",
+      "wrong": "Đáp án là {answer}!"
+    },
+    "who-has-more": {
+      "title": "Ai có nhiều hơn?",
+      "description": "So sánh các đống và tìm ai có nhiều hơn"
+    },
+    "feed-the-monster": {
+      "title": "Cho quái vật ăn",
+      "description": "Quái vật muốn nhiều hơn hay ít hơn",
+      "monsterWants": "Quái vật muốn",
+      "blocks": "khối",
+      "more": "NHIỀU HƠN",
+      "fewer": "ÍT HƠN",
+      "addBlock": "Thêm khối",
+      "removeBlock": "Bớt khối",
+      "checkAnswer": "Kiểm tra!",
+      "correct": "🎉 Ngon! Quái vật vui với {n} khối!",
+      "wrongMore": "Quái vật muốn NHIỀU HƠN! Thêm khối!",
+      "wrongFewer": "Quái vật muốn ÍT HƠN! Bớt khối!"
+    },
+    "take-one-away": {
+      "title": "Bớt đi một",
+      "description": "Bỏ đi một và xem còn lại gì",
+      "items": "vật",
+      "takeOneAway": "Chúng ta bỏ đi MỘT...",
+      "howManyLeft": "Còn lại bao nhiêu?",
+      "correct": "🎉 Đúng rồi! {before} - 1 = {after}",
+      "wrong": "Chưa đúng! {before} bớt 1 là {after}"
+    },
+    "add-one-game": {
+      "title": "Trò thêm một",
+      "description": "Thêm một khối vào tháp",
+      "addOneMore": "Chúng ta thêm MỘT khối nữa...",
+      "howManyNow": "Bây giờ có bao nhiêu khối?",
+      "correct": "🎉 Đúng rồi! {before} + 1 = {after}",
+      "wrong": "Chưa đúng! {before} cộng 1 là {after}"
+    },
+    "one-more-cookie": {
+      "title": "Thêm một bánh",
+      "description": "Nếu bạn có thêm một bánh, bạn sẽ có bao nhiêu?"
+    },
+    "balance-plates": {
+      "title": "Cân bằng đĩa",
+      "description": "Thêm hoặc bớt để cân bằng",
+      "plateA": "Đĩa A",
+      "plateB": "Đĩa B",
+      "makeEqual": "Làm hai đĩa bằng nhau!",
+      "add": "Thêm",
+      "remove": "Bớt",
+      "correct": "🎉 Cân bằng! Cả hai có {n}!",
+      "wrongNotEqual": "Chưa bằng nhau! Thử lại!"
+    },
+    "toy-shop": {
+      "title": "Đóng vai cửa hàng",
+      "description": "Mua bán đồ chơi - nhiều hay ít?",
+      "yourToys": "Đồ chơi của bạn",
+      "shop": "Cửa hàng",
+      "buy": "Mua",
+      "sell": "Bán",
+      "howManyAfterBuy": "Nếu bạn mua thêm {n}, bạn sẽ có bao nhiêu?",
+      "howManyAfterSell": "Nếu bạn bán {n}, bạn sẽ có bao nhiêu?",
+      "correct": "🎉 Đúng rồi! Bạn có {n} đồ chơi!",
+      "wrong": "Chưa đúng! Bạn có {answer} đồ chơi."
+    },
+    "musical-counting": {
+      "title": "Đếm theo nhạc",
+      "description": "Thêm và bớt khỏi vòng tròn",
+      "dancers": "người nhảy",
+      "join": "tham gia",
+      "leave": "rời đi",
+      "howManyDancing": "Bây giờ có bao nhiêu bạn đang nhảy?",
+      "correct": "🎉 Đúng rồi! Có {n} người nhảy!",
+      "wrong": "Chưa đúng! Có {n} người nhảy."
+    },
+    "cleanup-math": {
+      "title": "Toán dọn dẹp",
+      "description": "Chúng ta dọn nhiều hơn hay ít hơn?",
+      "before": "Trước",
+      "after": "Sau",
+      "more": "Nhiều hơn",
+      "fewer": "Ít hơn",
+      "same": "Bằng nhau",
+      "correctMore": "🎉 Đúng rồi! Bây giờ có ÍT HƠN đồ chơi!",
+      "correctFewer": "🎉 Đúng rồi! Bây giờ có NHIỀU HƠN đồ chơi!",
+      "correctSame": "🎉 Đúng rồi! Số lượng BẰNG NHAU!"
+    }
+  }
+}
