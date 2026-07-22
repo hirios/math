@@ -193,7 +193,9 @@ function initGlobalZoomControls() {
   const zoomStep = 0.1;
 
   function readSavedZoom() {
-    const saved = Number(localStorage.getItem(storageKey));
+    const raw = localStorage.getItem(storageKey);
+    if (raw === null) return 1;
+    const saved = Number(raw);
     if (!Number.isFinite(saved)) return 1;
     return Math.min(maxZoom, Math.max(minZoom, saved));
   }
