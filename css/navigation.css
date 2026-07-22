@@ -456,9 +456,9 @@
 /* ========== TABLET RESPONSIVE ========== */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .app-container {
-    grid-template-columns: 180px 1fr;
-  }
+  /* The spacer column is NOT hardcoded here - it inherits the
+     --sidebar-width override in sidebar.css so it can't drift out of sync
+     with the fixed sidebar's real width (used to be 180 vs 220 = overlap). */
 
   .main-content {
     padding: var(--space-6);
@@ -470,5 +470,75 @@
 
   .utilities-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ========== SHORT LAPTOP: home page density pass ========== */
+
+@media (min-width: 768px) and (max-height: 860px) {
+  .main-content {
+    padding: var(--space-5) var(--space-8);
+  }
+
+  .world-map-title {
+    font-size: var(--text-4xl);
+    margin-bottom: var(--space-2);
+  }
+
+  .world-map-subtitle {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-5);
+  }
+
+  .regions-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-4);
+    margin-bottom: var(--space-6);
+  }
+
+  .region-card {
+    min-height: 200px;
+    padding: var(--space-4);
+  }
+
+  .region-icon {
+    font-size: 48px;
+    margin-bottom: 0;
+  }
+
+  .region-title {
+    font-size: var(--text-xl);
+  }
+
+  .region-description {
+    font-size: var(--text-sm);
+  }
+
+  .region-link {
+    margin-top: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+  }
+
+  .utilities-section {
+    margin-top: var(--space-6);
+    padding-top: var(--space-5);
+  }
+
+  .utilities-title {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-4);
+  }
+
+  .utility-card {
+    padding: var(--space-4);
+  }
+
+  .utility-icon {
+    font-size: 36px;
+  }
+
+  .site-footer {
+    margin-top: var(--space-6);
+    padding: var(--space-5) 0;
   }
 }

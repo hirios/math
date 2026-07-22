@@ -495,3 +495,45 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ========== SHORT LAPTOP: grade/level page density pass ========== */
+/* Scoped under .main-content so it beats the per-grade files (grade1.css
+   ... prek.css) on specificity - those load AFTER activities.css, so a
+   bare selector here would lose on source order. */
+
+@media (min-width: 768px) and (max-height: 860px) {
+  .main-content .page-header {
+    margin-bottom: var(--space-5);
+  }
+
+  .main-content .level-section {
+    padding: var(--space-5);
+    margin-bottom: var(--space-6);
+  }
+
+  .main-content .level-header {
+    margin-bottom: var(--space-4);
+  }
+
+  .main-content .tabs-list {
+    margin-bottom: var(--space-4);
+  }
+
+  .main-content .activities-grid {
+    gap: var(--space-4);
+  }
+
+  .main-content .activity-card {
+    min-height: 150px;
+    padding: var(--space-4);
+  }
+
+  .main-content .activity-icon {
+    font-size: 40px;
+    margin-bottom: var(--space-2);
+  }
+
+  .main-content .activity-title {
+    font-size: var(--text-base);
+  }
+}

@@ -24,6 +24,20 @@
  *       grade1.json - grade5.json
  */
 
+/* Resolve the lang/ folder from this script's own URL.
+   i18n.js always lives in js/, so lang/ is always its sibling - this works at
+   any page depth (/, /grade1/, /tools/clock/, /grade1/activities/) and under
+   any deploy root (domain root or a GitHub Pages /repo/ subpath), with no
+   depth counting. document.currentScript is valid here because this file runs
+   at parse time. */
+const LANG_BASE = (() => {
+  const el = document.currentScript || document.querySelector('script[src$="js/i18n.js"]');
+  if (el && el.src) {
+    return new URL('../lang', el.src).href;
+  }
+  return './lang'; // last-resort fallback
+})();
+
 const i18n = {
   // Current language
   currentLang: 'en',
@@ -54,28 +68,11 @@ const i18n = {
   _initPromise: null,
 
   /**
-   * Get the base path for language files
-   * Always relative to current page, so it works from file://, from a
-   * domain root, or from a GitHub Pages subpath (username.github.io/repo/)
+   * Get the base path for language files.
+   * Derived once from this script's own URL - see LANG_BASE above.
    */
   getBasePath() {
-    const path = window.location.pathname;
-
-    // Check if we're in a subdirectory (like /prek/, /grade1/, etc.)
-    const pathParts = path.split('/').filter(p => p && !p.includes('.html'));
-    const isInSubfolder = this.sections.some(s => pathParts.includes(s)) ||
-                         pathParts.includes('kindergarten');
-
-    // Check if we're in an activities subfolder
-    const isInActivities = pathParts.includes('activities');
-
-    if (isInActivities) {
-      return '../../lang';
-    }
-    if (isInSubfolder) {
-      return '../lang';
-    }
-    return './lang';
+    return LANG_BASE;
   },
 
   /**
