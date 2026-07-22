@@ -38,6 +38,44 @@ const LANG_BASE = (() => {
   return './lang'; // last-resort fallback
 })();
 
+/* Persistent translation cache (localStorage), stale-while-revalidate.
+   The pages ship hardcoded English, so a returning visitor who picked pt/vi
+   used to watch English for ~1.1s while four sequential fetches completed.
+   Caching lets us apply the right language synchronously, before first paint;
+   the network copy is fetched anyway and re-applied only if it differs, so a
+   deploy that changes the JSON still lands on the next visit. */
+const LangCache = {
+  prefix: 'meadowmath-i18n:',
+
+  key(lang, name) {
+    return `${this.prefix}${lang}:${name}`;
+  },
+
+  get(lang, name) {
+    try {
+      const raw = localStorage.getItem(this.key(lang, name));
+      return raw ? JSON.parse(raw) : null;
+    } catch (e) {
+      return null; // storage blocked, quota, or corrupt entry
+    }
+  },
+
+  set(lang, name, data) {
+    try {
+      localStorage.setItem(this.key(lang, name), JSON.stringify(data));
+    } catch (e) {
+      // Quota exceeded: drop our own entries and retry once. The section
+      // files run ~50KB each, so a few languages can fill a tight quota.
+      try {
+        Object.keys(localStorage)
+          .filter(k => k.startsWith(this.prefix))
+          .forEach(k => localStorage.removeItem(k));
+        localStorage.setItem(this.key(lang, name), JSON.stringify(data));
+      } catch (e2) { /* give up - memory cache still works */ }
+    }
+  }
+};
+
 const i18n = {
   // Current language
   currentLang: 'en',
@@ -54,8 +92,16 @@ const i18n = {
   // Available sections (for lazy loading)
   sections: ['prek', 'kinder', 'kindergarten', 'grade1', 'grade2', 'grade3', 'grade4', 'grade5', 'tools', 'about'],
 
-  // Cache for loaded translations
+  // In-memory translations, seeded from localStorage then refreshed
   cache: {
+    en: {},
+    vi: {},
+    pt: {}
+  },
+
+  // Which files have been revalidated over the network this session.
+  // Separate from `cache` so a localStorage-seeded value still gets refetched.
+  fetched: {
     en: {},
     vi: {},
     pt: {}
@@ -76,40 +122,96 @@ const i18n = {
   },
 
   /**
-   * Initialize the i18n system
+   * Read the saved language preference into currentLang.
    */
-  async init() {
-    // Load saved language preference
-    const savedLang = localStorage.getItem('meadowmath-lang');
+  resolveLanguage() {
+    let savedLang = null;
+    try {
+      savedLang = localStorage.getItem('meadowmath-lang');
+    } catch (e) { /* storage blocked */ }
     if (savedLang && this.supportedLanguages.includes(savedLang)) {
       this.currentLang = savedLang;
     }
+    document.documentElement.lang = this.currentLang;
+  },
 
-    // Load common translations for current language
-    await this.loadCommon(this.currentLang);
+  /**
+   * Seed the in-memory cache from localStorage and apply straight away.
+   * Runs synchronously at script parse time, so for a returning visitor the
+   * correct language is in the DOM before the browser paints - no flicker.
+   * Returns true if the current language was fully served from cache.
+   */
+  primeFromCache(section) {
+    const lang = this.currentLang;
+    let complete = true;
 
-    // Also load fallback language common translations
-    if (this.currentLang !== this.fallbackLang) {
-      await this.loadCommon(this.fallbackLang);
+    const common = LangCache.get(lang, 'common');
+    if (common) {
+      this.cache[lang].common = common;
+      this.translations[lang] = { ...common };
+    } else {
+      complete = false;
     }
 
-    // Detect current section and load section-specific translations
-    const currentSection = this.detectCurrentSection();
-    if (currentSection) {
-      await this.loadSection(this.currentLang, currentSection);
-      if (this.currentLang !== this.fallbackLang) {
-        await this.loadSection(this.fallbackLang, currentSection);
+    if (section) {
+      const data = LangCache.get(lang, section);
+      if (data) {
+        this.cache[lang][section] = data;
+        this.translations[lang] = { ...this.translations[lang], section: data };
+      } else {
+        complete = false;
       }
     }
 
-    // Apply translations to page
+    if (this.translations[lang]) {
+      this.applyTranslations();
+    }
+    return complete;
+  },
+
+  /**
+   * Initialize the i18n system.
+   *
+   * Ordering matters here:
+   *  - the current language's common + section are fetched in PARALLEL and
+   *    are the only things the first paint waits on;
+   *  - the English fallback only supplies keys missing from the current
+   *    language, so it loads in the background and re-applies when it lands
+   *    rather than blocking (it used to double the critical path).
+   */
+  async init() {
+    const section = this.detectCurrentSection();
+
+    // Network fetches for the current language, in parallel.
+    const wanted = [this.loadCommon(this.currentLang)];
+    if (section) wanted.push(this.loadSection(this.currentLang, section));
+
+    // Fallback loads off the critical path.
+    let fallbackDone = Promise.resolve();
+    if (this.currentLang !== this.fallbackLang) {
+      const fb = [this.loadCommon(this.fallbackLang)];
+      if (section) fb.push(this.loadSection(this.fallbackLang, section));
+      fallbackDone = Promise.all(fb).then(() => this.applyTranslations());
+    }
+
+    await Promise.all(wanted);
     this.applyTranslations();
 
-    // Set up language button listeners
-    this.setupLanguageButtons();
+    // Elements parsed after this script (a couple of activity pages) and any
+    // markup added between parse time and DOM ready still need a pass.
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => {
+        this.applyTranslations();
+        this.setupLanguageButtons();
+      }, { once: true });
+    } else {
+      this.setupLanguageButtons();
+    }
 
-    // Update HTML lang attribute
-    document.documentElement.lang = this.currentLang;
+    // ready() must not resolve until the fallback is merged too, otherwise the
+    // 306 activity pages that `await i18n.ready()` could read a key that only
+    // exists in English and get the raw key string back.
+    await fallbackDone;
   },
 
   /**
@@ -136,11 +238,23 @@ const i18n = {
   },
 
   /**
-   * Load common translations for a language
+   * Merge common translations without clobbering an already-merged section.
+   * (This used to assign `{ ...data }` outright, which was safe only because
+   * common was always awaited before section. Now that they load in parallel,
+   * assignment would drop whichever landed first.)
+   */
+  mergeCommon(lang, data) {
+    this.translations[lang] = { ...this.translations[lang], ...data };
+  },
+
+  /**
+   * Load common translations for a language.
+   * Guarded by `fetched`, not by the in-memory cache: a value seeded from
+   * localStorage must still be revalidated over the network once per session.
    */
   async loadCommon(lang) {
-    if (this.cache[lang].common) {
-      this.translations[lang] = { ...this.cache[lang].common };
+    if (this.fetched[lang].common) {
+      this.mergeCommon(lang, this.cache[lang].common);
       return;
     }
 
@@ -154,11 +268,15 @@ const i18n = {
 
       const data = await response.json();
       this.cache[lang].common = data;
-      this.translations[lang] = { ...data };
+      this.fetched[lang].common = true;
+      LangCache.set(lang, 'common', data);
+      this.mergeCommon(lang, data);
     } catch (error) {
       console.warn(`Could not load common translations for ${lang}:`, error);
-      // Initialize empty object if loading fails
-      if (!this.translations[lang]) {
+      if (this.cache[lang].common) {
+        // Offline or 404: the cached copy is better than falling back to keys.
+        this.mergeCommon(lang, this.cache[lang].common);
+      } else if (!this.translations[lang]) {
         this.translations[lang] = {};
       }
     }
@@ -168,12 +286,13 @@ const i18n = {
    * Load section-specific translations for a language
    */
   async loadSection(lang, section) {
-    if (this.cache[lang][section]) {
+    const merge = data => {
       // Wrap section translations under 'section' key for data-i18n attributes
-      this.translations[lang] = {
-        ...this.translations[lang],
-        section: this.cache[lang][section]
-      };
+      this.translations[lang] = { ...this.translations[lang], section: data };
+    };
+
+    if (this.fetched[lang][section]) {
+      merge(this.cache[lang][section]);
       return;
     }
 
@@ -187,14 +306,14 @@ const i18n = {
 
       const data = await response.json();
       this.cache[lang][section] = data;
-
-      // Wrap section translations under 'section' key for data-i18n attributes
-      this.translations[lang] = {
-        ...this.translations[lang],
-        section: data
-      };
+      this.fetched[lang][section] = true;
+      LangCache.set(lang, section, data);
+      merge(data);
     } catch (error) {
       console.warn(`Could not load ${section} translations for ${lang}:`, error);
+      if (this.cache[lang][section]) {
+        merge(this.cache[lang][section]); // keep the cached copy
+      }
     }
   },
 
@@ -366,18 +485,23 @@ const i18n = {
     this.currentLang = lang;
 
     // Save preference
-    localStorage.setItem('meadowmath-lang', lang);
+    try {
+      localStorage.setItem('meadowmath-lang', lang);
+    } catch (e) { /* storage blocked */ }
 
     // Update HTML lang attribute
     document.documentElement.lang = lang;
 
-    // Load translations if not already cached
-    await this.loadCommon(lang);
-
     const currentSection = this.detectCurrentSection();
-    if (currentSection) {
-      await this.loadSection(lang, currentSection);
-    }
+
+    // Show the cached copy immediately so the switch feels instant, then
+    // refresh from network below.
+    this.primeFromCache(currentSection);
+
+    // Load in parallel rather than one after the other
+    const pending = [this.loadCommon(lang)];
+    if (currentSection) pending.push(this.loadSection(lang, currentSection));
+    await Promise.all(pending);
 
     // Apply new translations
     this.applyTranslations();
@@ -415,10 +539,19 @@ const i18n = {
   }
 };
 
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
-  i18n._initPromise = i18n.init();
-});
+/* Bootstrap at parse time, not on DOMContentLoaded.
+   This script tag sits after the translatable markup on every page, so the
+   [data-i18n] elements already exist here. Applying the cached language now
+   lands it before first paint - waiting for DOMContentLoaded and then four
+   sequential fetches is what made English sit on screen for ~1.1s.
+
+   Assigning _initPromise synchronously also closes a latent race: the 306
+   activity pages that `await i18n.ready()` from an inline script used to get
+   Promise.resolve() whenever they ran before DOMContentLoaded, and rendered
+   with untranslated strings. */
+i18n.resolveLanguage();
+i18n.primeFromCache(i18n.detectCurrentSection());
+i18n._initPromise = i18n.init();
 
 // Export for use in other modules
 window.i18n = i18n;
