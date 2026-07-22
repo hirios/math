@@ -187,13 +187,26 @@ function initGlobalZoomControls() {
   }
 
   const zoomButtons = controls.querySelectorAll('[data-zoom-action]');
-  const storageKey = 'meadow-math-global-zoom';
+  /* v2: the original key was poisoned by a bug that wrote the clamped 0.8
+     floor into storage on every first visit, leaving returning visitors
+     stuck at 80% forever. The old key is discarded rather than read - the
+     new key name doubles as the migration marker, so a deliberate 0.8 set
+     under v2 still persists normally. */
+  const storageKey = 'meadow-math-global-zoom-v2';
+  const legacyStorageKey = 'meadow-math-global-zoom';
   const minZoom = 0.8;
   const maxZoom = 1.4;
   const zoomStep = 0.1;
 
+  try {
+    localStorage.removeItem(legacyStorageKey);
+  } catch (e) { /* storage blocked */ }
+
   function readSavedZoom() {
-    const raw = localStorage.getItem(storageKey);
+    let raw = null;
+    try {
+      raw = localStorage.getItem(storageKey);
+    } catch (e) { /* storage blocked */ }
     if (raw === null) return 1;
     const saved = Number(raw);
     if (!Number.isFinite(saved)) return 1;
@@ -202,6 +215,8 @@ function initGlobalZoomControls() {
 
   let currentZoom = readSavedZoom();
 
+  // Render only. Persisting here would write a value for visitors who never
+  // touched the control - that is what poisoned storage in the first place.
   function applyZoom() {
     document.body.style.zoom = String(currentZoom);
 
@@ -210,16 +225,20 @@ function initGlobalZoomControls() {
       button.disabled = (action === 'out' && currentZoom <= minZoom) ||
         (action === 'in' && currentZoom >= maxZoom);
     });
+  }
 
-    localStorage.setItem(storageKey, String(currentZoom));
+  function setZoom(next) {
+    currentZoom = Math.min(maxZoom, Math.max(minZoom, next));
+    applyZoom();
+    try {
+      localStorage.setItem(storageKey, String(currentZoom));
+    } catch (e) { /* storage blocked */ }
   }
 
   zoomButtons.forEach(button => {
     button.addEventListener('click', () => {
       const direction = button.getAttribute('data-zoom-action') === 'in' ? 1 : -1;
-      currentZoom = Math.round((currentZoom + direction * zoomStep) * 10) / 10;
-      currentZoom = Math.min(maxZoom, Math.max(minZoom, currentZoom));
-      applyZoom();
+      setZoom(Math.round((currentZoom + direction * zoomStep) * 10) / 10);
     });
   });
 
