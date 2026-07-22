@@ -55,30 +55,27 @@ const i18n = {
 
   /**
    * Get the base path for language files
-   * Handles both development (file://) and production (http://) environments
+   * Always relative to current page, so it works from file://, from a
+   * domain root, or from a GitHub Pages subpath (username.github.io/repo/)
    */
   getBasePath() {
-    if (this.isFileProtocol) {
-      // For file:// protocol, calculate relative path from current page
-      const path = window.location.pathname;
+    const path = window.location.pathname;
 
-      // Check if we're in a subdirectory (like /prek/, /grade1/, etc.)
-      const pathParts = path.split('/').filter(p => p && !p.includes('.html'));
-      const isInSubfolder = this.sections.some(s => pathParts.includes(s)) || 
-                           pathParts.includes('kindergarten');
+    // Check if we're in a subdirectory (like /prek/, /grade1/, etc.)
+    const pathParts = path.split('/').filter(p => p && !p.includes('.html'));
+    const isInSubfolder = this.sections.some(s => pathParts.includes(s)) ||
+                         pathParts.includes('kindergarten');
 
-      // Check if we're in an activities subfolder
-      const isInActivities = pathParts.includes('activities');
+    // Check if we're in an activities subfolder
+    const isInActivities = pathParts.includes('activities');
 
-      if (isInActivities) {
-        return '../../lang';
-      }
-      if (isInSubfolder) {
-        return '../lang';
-      }
-      return './lang';
+    if (isInActivities) {
+      return '../../lang';
     }
-    return '/lang';
+    if (isInSubfolder) {
+      return '../lang';
+    }
+    return './lang';
   },
 
   /**
