@@ -794,3 +794,219 @@
     font-size: var(--text-xl);
   }
 }
+
+/* ========================================================================
+   VIEWPORT-LOCKED ACTIVITY SHELL (desktop / laptop only)
+
+   Activity pages used to need scrolling on every laptop: the header is a
+   constant 283px (back-link, title, instruction and the JS-injected audio
+   button, each on its own row) and .activity-area carries min-height:400px,
+   so the fixed chrome alone came to ~838px before any content existed.
+
+   The fix has two halves. This block locks the shell to the viewport so the
+   header and the action button never move and any residual overflow is
+   absorbed inside the play area; the height tiers below shrink the chrome so
+   there is room to absorb it into.
+
+   :has(> .activity-wrapper) scopes this to activity pages - the home and
+   grade index pages share .main-content and must not be affected. Browsers
+   without :has() simply drop the block and get the previous behaviour.
+   ======================================================================== */
+
+@media (min-width: 768px) {
+  /* Height chain. body and .app-container carry min-height:100vh
+     (global.css, navigation.css); those must be neutralised here or they win
+     whenever they resolve larger. Percentages rather than vh on purpose - see
+     the note above the zoom controls in js/navigation.js: body carries a
+     zoom, and vh resolves against the unzoomed viewport, so vh-based sizing
+     drifts as the user zooms. html sits outside the zoomed subtree, so this
+     chain stays correct at every zoom level. */
+  html:has(.activity-wrapper),
+  html:has(.activity-wrapper) > body {
+    height: 100%;
+    min-height: 0;
+  }
+
+  html:has(.activity-wrapper) > body > .app-container {
+    height: 100%;
+    min-height: 0;
+  }
+
+  .main-content:has(> .activity-wrapper) {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .main-content:has(> .activity-wrapper) > .activity-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+
+  /* Chrome keeps its intrinsic height and never moves. */
+  .main-content .activity-wrapper > .activity-header,
+  .main-content .activity-wrapper > .activity-actions {
+    flex: 0 0 auto;
+  }
+
+  /* The play surface takes whatever height is left and owns its own scroll.
+
+     min-height is 200px rather than 0 as a safety valve: if a page's content
+     really is taller than the viewport, the area clamps here, the wrapper
+     outgrows .main-content, and that element's existing overflow-y:auto takes
+     over - i.e. it degrades to ordinary page scrolling instead of squashing
+     the activity into an unusable sliver.
+
+     'safe center' matters: plain centring puts the top of overflowing content
+     out of reach, and it cannot be scrolled back to. 'safe' falls back to
+     start alignment exactly when free space goes negative. Plain 'center' is
+     declared first so parsers that do not understand 'safe' keep the old
+     behaviour rather than dropping the alignment entirely. */
+  .main-content .activity-wrapper > .activity-area {
+    flex: 1 1 auto;
+    min-height: 200px;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scroll-behavior: smooth;
+    justify-content: center;
+    justify-content: safe center;
+  }
+
+  /* One feedback behaviour across all activity pages. Most of them position
+     this absolutely and reserve ~92px of permanently empty space at the
+     bottom of the play area for it; going back into flow reclaims that space
+     and also drops a latent conflict with the shared feedbackSlideIn
+     animation, whose transform overrides the translateX(-50%) those pages
+     rely on for centring. */
+  .main-content .activity-wrapper .feedback-message {
+    position: static;
+    transform: none;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin-top: var(--space-3);
+    max-width: 100%;
+  }
+}
+
+/* ========== SHORT VIEWPORT: compact header bar ==========
+   The header becomes a single toolbar row - back-link left, title centred,
+   audio button right - with the instruction underneath. 283px -> ~86px.
+
+   Specificity note: the per-page inline <style> blocks (and
+   grade3/activities/activity.css) set .activity-area at 0,1,0. Scoping under
+   .main-content .activity-wrapper > gives 0,3,0 and wins without !important.
+   padding-bottom MUST be repeated as a longhand after the padding shorthand,
+   because a later longhand still beats an earlier shorthand and those pages
+   set padding-bottom directly. */
+
+@media (min-width: 768px) and (max-height: 860px) {
+  .main-content:has(> .activity-wrapper) {
+    padding: var(--space-4) var(--space-6);
+  }
+
+  .main-content .activity-wrapper {
+    padding: 0 var(--space-2);
+  }
+
+  .main-content .activity-wrapper > .activity-header {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    column-gap: var(--space-3);
+    row-gap: var(--space-1);
+    padding: var(--space-3) var(--space-4);
+    margin-bottom: var(--space-4);
+  }
+
+  .main-content .activity-header .back-link {
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 0;
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-xs);
+  }
+
+  .main-content .activity-wrapper .activity-title {
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center;
+    font-size: var(--text-2xl);
+    margin-bottom: 0;
+    line-height: var(--leading-tight);
+    gap: var(--space-2);
+  }
+
+  .main-content .activity-wrapper .activity-title-icon {
+    font-size: 1.1em;
+  }
+
+  /* Injected by initActivityNarration() in js/animations.js. Explicit grid
+     placement makes DOM order irrelevant, and the row simply collapses to two
+     columns when speechSynthesis is unavailable and nothing is injected. */
+  .main-content .activity-wrapper .activity-audio-controls {
+    grid-column: 3;
+    grid-row: 1;
+    margin-top: 0;
+  }
+
+  .main-content .activity-wrapper .activity-audio-btn {
+    min-height: 36px;
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-xs);
+  }
+
+  .main-content .activity-wrapper .activity-instruction {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    font-size: var(--text-base);
+    line-height: var(--leading-snug);
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .main-content .activity-wrapper > .activity-area {
+    padding: var(--space-4) var(--space-5);
+    padding-bottom: var(--space-4);
+  }
+
+  .main-content .activity-wrapper > .activity-actions {
+    margin-top: var(--space-4);
+  }
+
+  .main-content .activity-wrapper .btn-activity {
+    padding: var(--space-2) var(--space-6);
+  }
+}
+
+/* ========== VERY SHORT VIEWPORT ==========
+   Mirrors the deepest sidebar tier, for netbooks or heavy browser chrome. */
+
+@media (min-width: 768px) and (max-height: 680px) {
+  .main-content:has(> .activity-wrapper) {
+    padding: var(--space-2) var(--space-5);
+  }
+
+  .main-content .activity-wrapper > .activity-header {
+    padding: var(--space-2) var(--space-3);
+    margin-bottom: var(--space-3);
+  }
+
+  .main-content .activity-wrapper .activity-title {
+    font-size: var(--text-xl);
+  }
+
+  .main-content .activity-wrapper .activity-instruction {
+    font-size: var(--text-sm);
+  }
+
+  .main-content .activity-wrapper > .activity-actions {
+    margin-top: var(--space-3);
+  }
+}
